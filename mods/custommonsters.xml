@@ -4,7 +4,4 @@
 	<monster name="Bad Bug" file="Custom/bad bug.xml"/>
 	<monster name="Bad Rabbit" file="Custom/bad rabbit.xml"/>
 	<monster name="Hero Hacker" file="Custom/hero hacker.xml"/>
-
-	<!-- Training Monk -->
-	<monster name="Training Monk" file="Custom/training monk.xml"/>
 </mod>
