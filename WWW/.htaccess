@@ -1,0 +1,3 @@
+Options -Indexes
+ErrorDocument 403 /index.php?subtopic=error&id=403
+ErrorDocument 404 /index.php?subtopic=error&id=404

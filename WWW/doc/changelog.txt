@@ -1,0 +1,58 @@
+[ CHANGELOG
+	Project Name
+		Gesior-AAC
+
+	Version
+		0.2
+
+	Codenamed
+		Unnamed
+
+	License
+		GNU GPLv3
+
+	Forum
+		http://tibia.info.pl/
+]
+
+[ File changes:
+	D = Deleted,
+	M = Modified,
+	A = Added.
+
+	[ 0.1
+		[ A...
+			Clear code AAC
+		]
+	]
+
+	[ 0.2
+		[ A...
+			data/
+				actions/
+		]
+		[ M...
+			createaccount.php
+				* actions
+			ajax/
+				check_account.php
+					* 
+		]
+		[ D...
+			data/
+				* global.lua
+		]
+	]
+]
+
+[ Milestones
+	[ 0.1.2
+		Clear Code
+	]
+]
+
+[ Fixed issues with...
+	[ 0.1.2
+		Fixed Archive
+	]
+]
