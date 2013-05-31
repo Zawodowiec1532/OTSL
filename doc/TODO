@@ -1,0 +1,26 @@
+[ TODO
+	Project Name
+		The Forgotten Server
+
+	Version
+		0.4.0_DEV
+
+	Codenamed
+		Crying Damson
+
+	License
+		GNU GPLv3
+
+	Forum
+		http://otland.net/
+]
+
+[ BUGS
+	Ghost causing debugs with creature stacks as of 8.53
+		Assigned to: Elf
+]
+
+[ TASKS
+	Finish documentation as its incomplete
+		Assigned to: KaczooH
+]

@@ -1,0 +1,29 @@
+[
+	0.4
+
+	Pozwolę sobie napisac po polsku, bo z angielskim u mnie słabo, a i tak prawie sami tu jesteśmy...
+	Piszcie swoje propozycje co do 0.4- (1302098974) narazie wypiszę wszystko co przyszło mi do glowy, albo ustaliliśmy z Elfem.
+
+	TODO:
+	* Multilang (szczególnie RET_* i możliwie wszystko pozostałe)
+	* Stabilność :D!
+	* Nowy podział plików:
+		* configs/
+			* database/main.lua
+			* config.lua/.xml
+			* Przeniesione data/XML/
+		* langs/
+			Tłumaczenia: polish.lua, english.lua, etc
+		* data/
+			Po staremu prócz XML/
+]
+
+
+	Patch IndexedTile changes from revscriptsys2
+		Assigned to: Elf
+
+	Deprecate several hardcoded systems (guild management, etc) and rescript them in Lua
+		Assigned to: slawkens
+
+	Add mysql++ support as default DB driver (more object oriented, fits better into C++ projects)
+		Assigned to: stian
