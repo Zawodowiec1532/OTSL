@@ -112,7 +112,7 @@
 	sqlHost = "localhost"
 	sqlPort = 3306
 	sqlUser = "root"
-	sqlPass = ""
+	sqlPass = "polak12"
 	sqlDatabase = "otsl"
 	sqlFile = "theforgottenserver.s3db"
 	sqlKeepAlive = 0
