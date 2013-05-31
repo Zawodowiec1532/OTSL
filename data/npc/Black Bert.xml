@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Black Bert" script="data/npc/scripts/Black Bert.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="151" head="0" body="38" legs="19" feet="76" addons="0"/>
+<parameters>
+<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="almanac of magic,10941,600;baby rotworm,10942,600;golem head,10173,25000;headache pill,10454,350" />
+</parameters>
+</npc>

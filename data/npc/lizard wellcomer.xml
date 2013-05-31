@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Lizard Wellcomer" script="data/npc/scripts/lizard wellcomer.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="57" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<voices>
+		<voice text="Welcome on Revolution OTS! Have Fun!!" interval2="3000" margin="1" nyell="no"/> 
+		<voice text="Exp hard or die.."  interval2="5000" margin="1" yell="yes"/> 
+		<voice text="www.Revolutions.pl"  interval2="5000" margin="1" yell="no"/> 
+		<voice text="NEVER GIVE UP! ;)"  interval2="5000" margin="1" yell="yes"/> 
+	</voices> 
+	<parameters>
+     	<parameter key="message_greet" value="Hello |PLAYERNAME|. I can give you a {newspaper} for newcomers."/>
+      	<parameter key="message_farewell" value="It was a pleasure to help you, |PLAYERNAME|."/>
+		<parameter key="message_walkaway" value="Good bye |PLAYERNAME|." />
+    </parameters>
+</npc>

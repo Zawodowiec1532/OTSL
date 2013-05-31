@@ -1,0 +1,17 @@
+<raid>
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="Primitives are attacking Thais!" />
+  <announce delay="20000" type="Event" message="Primitives are everywhere in Thais trying a take over!"  />
+  <announce delay="50000" type="Event" message="Stop the primitives in Thais!"  />
+  <!--Single Spawns-->
+  <!--Area Spawns-->
+  <areaspawn delay="60000" fromx="32311" fromy="32181" fromz="7" tox="32428" toy="32266" toz="7">
+    <monster name="Tibia Bug" amount="80" />
+  </areaspawn>
+  <areaspawn delay="60000" fromx="32311" fromy="32181" fromz="7" tox="32428" toy="32266" toz="7">
+    <monster name="Hacker" amount="80" />
+  </areaspawn>
+  <areaspawn delay="60000" fromx="32311" fromy="32181" fromz="7" tox="32428" toy="32266" toz="7">
+    <monster name="Primitive" amount="80" />
+  </areaspawn>
+</raid>

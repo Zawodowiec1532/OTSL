@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Harlow" script="data/npc/scripts/Harlow.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="151" head="116" body="77" legs="113" feet="0" addons="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Write {vengoth}." />
+		<parameter key="message_farewell" value="Yeah, bye." />
+		<parameter key="message_walkaway" value="Yeah, bye." />
+		<parameter key="message_needmoremoney" value="You don't have enough money!"/>
+		<parameter key="message_decline" value="Alright then!"/>
+	</parameters>
+</npc>

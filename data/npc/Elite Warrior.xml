@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Elite Warrior" script="data/npc/scripts/noobquesty/night.lua" lookdir="3" walkinterval="0">
+    <mana now="252" max="800"/>
+    <health now="52" max="200"/>
+	<look type="134" head="0" body="114" legs="114" feet="79" addons="2" corpse="6324"/>
+
+	<voices>
+		<voice text="HELP!, HELP!!." interval2="15000" margin="1" yell="yes"/>
+		<voice text="I lost my cock ;(" interval2="50000" margin="1" yell="no"/>
+	</voices>
+	<parameters>
+		<parameter key="message_greet" value="{HELP} ME !"/>
+	</parameters>
+</npc>

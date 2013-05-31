@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Cyclops Drone Illusion" nameDescription="a cyclops drone illusion" race="blood" experience="400" speed="200" manacost="525">
+	<health now="400" max="400"/>
+	<look type="280" corpse="7847"/>
+	<targetchange interval="2000" chance="5"/>
+	<strategy attack="70" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="60" attack="30"/>
+		<attack name="physical" interval="2000" chance="10" range="7" min="-0" max="-85">
+			<attribute key="shootEffect" value="largerock"/>
+		</attack>
+	</attacks>
+	<defenses armor="17" defense="24"/>
+	<elements>
+		<element energyPercent="10"/>
+		<element icePercent="20"/>
+		<element holyPercent="20"/>
+		<element earthPercent="-10"/>
+		<element deathPercent="-5"/>
+	</elements>
+	<voices interval="4000" chance="15">
+		<voice sentence="HA! HE! HI! HA!"/>
+		<voice sentence="Ganja rulez !"/>
+		<voice sentence="HAHAHAHAHA!"/>
+		<voice sentence="Humy ganja! Hum hum!"/>
+	</voices>
+	<loot>
+		<item id="2152" countmax="30" chance="27800" /><!-- gold coin -->
+		<item id="2666" chance="50075" /><!-- meat -->
+	</loot>
+</monster>

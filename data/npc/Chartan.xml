@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Chartan" script="data/npc/scripts/Chartan.lua" walkinterval="0" floorchange="0">
+<health now="100" max="100"/>
+<look type="338" head="0" body="0" legs="0" feet="0" />
+<parameters>
+<parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="goods;" />
+		<parameter key="keyword_reply1" value="My inventory of general goods and paperware is large, ask me for a {trade} to take a look."/>
+        <parameter key="message_farewell" value="Good bye, |PLAYERNAME|."/>
+		<parameter key="message_walkaway" value="Good bye." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_sendtrade" value="Of course, just browse through my wares." />
+		<parameter key="message_greet" value="Oh, please come in, |PLAYERNAME|. What sort of {goods} do you need?" />
+		<parameter key="shop_buyable" value="avalanche rune,2274,45;blank rune,2260,10;firebomb rune,2305,117;destroy field,2261,15;ham,2671,10;dragonfruit,12599,5;egg,2695,3;energy field,2277,38;energy wall,2279,85;explosion rune,2313,31;sudden death rune,2268,108;great mana potion,7590,120;strong mana potion,7589,80;great spirit potion,8472,190;fire wall rune,2303,61;great fireball rune,2304,45;chameleon rune,2291,210;mana potion,7620,50;ultimate health potion,8473,310;poison wall rune,2289,52;great health potion,7591,190;convince creature rune,2290,80;health potion,7618,45;stalagmite rune,2292,12;ultimate healing rune,2273,175;heavy magic missile rune,2311,12;light magic missile rune,2287,4;intense healing rune,2265,95;" />
+	</parameters>
+</npc>

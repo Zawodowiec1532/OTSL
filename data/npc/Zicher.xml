@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<npc name="Zicher" script="data/npc/scripts/noobquesty/boggery.lua" lookdir="2" walkinterval="2000">
+    <mana now="800" max="800"/>
+    <health now="200" max="200"/>
+<look type="130" head="38" body="88" legs="114" feet="114" addons="3" corpse="6080"/>
+ <parameters>
+<parameter key="message_greet" value="Hello |PLAYERNAME| ! What about my {mission} ?"/>
+    </parameters>
+</npc>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+<!-- Announcements -->
+	<announce delay="1000" type="Event" message="Something sinister is going on in the desert north of Darashia"/>
+	<announce delay="40000" type="Event" message="An evil force sends his minions into the desert north of Darashia"/>
+	<announce delay="70000" type="Event" message="The forces of evil are preparing for something evil to invade our plane of existence. Defend the desert north of Darashia from their intrusion."/>
+	<announce delay="120000" type="Event" message="The fabric of our world is weakened. It's coming ..."/>
+	<announce delay="160000" type="Event" message="A demonic entity has found a way into our plane. Fight it north of Darashia."/>
+
+<!-- Area Spawns -->
+	<areaspawn delay="160000" fromx="33207" fromy="32310" fromz="7" tox="33295" toy="32280" toz="7">
+		<monster name="Undead Minion" amount="100"/>
+	</areaspawn>
+
+	<areaspawn delay="160000" fromx="33207" fromy="32310" fromz="7" tox="33295" toy="32280" toz="7">
+		<monster name="Minishabaal" amount="2"/>
+	</areaspawn>
+
+	<areaspawn delay="200000" fromx="33207" fromy="32310" fromz="7" tox="33295" toy="32280" toz="7">
+		<monster name="Bones" amount="1"/>
+	</areaspawn>
+
+	<areaspawn delay="240000" fromx="33207" fromy="32310" fromz="7" tox="33295" toy="32280" toz="7">
+		<monster name="Fluffy" amount="1"/>
+	</areaspawn>
+</raid>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servers>
+	<server id="0" name="OTSL" versionMin="86" versionMax="86" address="192.166.219.85" port="7171"/>
+</servers>

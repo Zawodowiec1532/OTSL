@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Oldrak" script="data/npc/scripts/Oldrak.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="57" head="0" body="0" legs="0" feet="0" addons="0"/>
+<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="holy tible,1970,1000;" />
+		 <parameter key="message_greet" value="Welcome |PLAYERNAME|! Rarely I can welcome visitors in these days."/>
+    </parameters>
+</npc>

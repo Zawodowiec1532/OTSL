@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Prisoner" script="data/npc/scripts/Prisoner.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="131" head="95" body="86" legs="10" feet="114" addons="1"/>
+<voices>
+<voice text="Have mercy!" interval2="300" margin="1" yell="yes"/>
+<voice text="Noooooo!" interval2="200" margin="1" yell="yes"/>
+<voice text="I admit! I admit!" interval2="150" margin="1" yell="yes"/>
+<voice text="Take it away! Please!" interval2="130" margin="1" yell="yes"/>
+<voice text="Please! I beg you to stop!" interval2="400" margin="1" yell="yes"/>
+</voices>
+ <parameters>
+        <parameter key="message_greet" value="Sorry, I'm busy!"/>
+        <parameter key="message_farewell" value="Bye."/>
+		<parameter key="message_walkaway" value="Bye." />
+        <parameter key="module_keywords" value="1" />
+    </parameters>
+</npc>

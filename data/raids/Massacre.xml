@@ -1,0 +1,5 @@
+<raid>
+  <!--Announcements-->
+  <!--Single Spawns-->
+  <singlespawn delay="1000" name="Massacre" x="32872" y="32282" z="15" />
+</raid>

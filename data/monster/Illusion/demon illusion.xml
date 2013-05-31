@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Demon Illusion" nameDescription="a demon illusion" race="fire" experience="9000" speed="230" manacost="0">
+	<health now="9000" max="9000"/>
+	<look type="35" corpse="5995"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="70" attack="100"/>
+		<attack name="manadrain" interval="2000" chance="15" range="7" min="-0" max="-100"/>
+		<attack name="fire" interval="2000" chance="15" range="7" radius="7" target="1" min="-150" max="-220">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="energy" interval="2000" chance="15" length="8" spread="0" min="-250" max="-400">
+			<attribute key="areaEffect" value="purpleenergy"/>
+		</attack>
+		<attack name="energy" interval="2000" chance="20" range="3" radius="1" target="1" min="-210" max="-250">
+			<attribute key="shootEffect" value="energy"/>
+			<attribute key="areaEffect" value="energy"/>
+		</attack>		
+		<attack name="firefield" interval="2000" chance="10" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="fire"/>
+		</attack>
+		<attack name="speed" interval="2000" chance="10" range="7" speedchange="-120" duration="5000">
+		<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+	</attacks>
+	<defenses armor="30" defense="30">
+		<defense name="healing" interval="2000" chance="10" min="120" max="280">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="speed" interval="2000" chance="5" speedchange="360" duration="20000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="15"/>
+		<element earthpercent="20"/>
+		<element energyPercent="30"/>
+		<element deathPercent="10"/>
+		<element icePercent="-20"/>
+		<element holyPercent="-20"/>
+	</elements>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+		<immunity fire="1"/>
+	</immunities>
+	<summons maxSummons="1">
+		<summon name="fire elemental" interval="2000" chance="10" max="1"/>
+	</summons>
+	<voices interval="4000" chance="15">
+		<voice sentence="MUHAHAHAHA!" yell="1"/>
+		<voice sentence="HEHEHEHEEHHE!" yell="1"/>
+		<voice sentence="GOOD GANJA ?" yell="1"/>
+		<voice sentence="hehe."/>
+		<voice sentence="Your ganja will be mine!" yell="0"/>
+	</voices>
+	<loot>
+		<item id="2152" countmax="90" chance="70450" /><!-- platinum coin -->
+		<item id="2795" countmax="6" chance="11875" /><!-- fire mushroom -->
+	</loot>
+</monster>

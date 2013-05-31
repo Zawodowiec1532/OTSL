@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Partos" script="data/npc/scripts/Partos.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="128" head="116" body="56" legs="95" feet="122" addons="0"/>
+<parameters>
+<parameter key="module_shop" value="1" />
+		<parameter key="shop_sellable" value="broken key ring,12569,8000" />
+</parameters>
+</npc>

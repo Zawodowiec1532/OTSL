@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Amuler" script="data/npc/scripts/haroun.lua" walkinterval="0" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="103" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Be greeted, human |PLAYERNAME|. How can a humble djinn be of service?"/>
+		<parameter key="message_farewell" value="Farewell, human."/>		
+		<parameter key="message_walkaway" value="Farewell, human."/>
+		
+		<parameter key="module_keywords" value="1"/>
+		<parameter key="keywords" value="job"/>
+		<parameter key="keyword_reply1" value="I'm an old djinn, I buy several items, and sell a few myself." />
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_buyable" value="Dwarven ring,2213,2000;Energy ring,2167,2000;Life ring,2168,900;Might ring,2164,5000,20;Ring of healing,2214,2000;Time ring,2169,2000;Dragon necklace,2201,1000,200;Protection amulet,2200,700,250;Strange talisman,2161,100,200;Silver amulet,2170,100,200;Sword ring,2207,200;Stealth ring,2165,400;Ankh,2327,500;Axe ring,2208,2000;Club ring,2209,2000;Power ring,2166,2000;Bronze amulet,2172,50,200;Garlic necklace,2199,5000,150;elven amulet,2198,1000,5;Stone skin amulet,2197,5000,5"/>
+		
+		<parameter key="shop_sellable" value="Dwarven ring,2213,100;Energy ring,2167,100;Life ring,2168,50;Might ring,2164,250;Ring of healing,2214,100;Time ring,2169,100;Dragon necklace,2201,100;Protection amulet,2200,100;Strange talisman,2161,30;Silver amulet,2170,50;Ankh,2327,100;Axe ring,2208,100;Club ring,2209,100;Power ring,2166,50;Stealth ring,2165,200;Sword ring,2207,100;Bronze amulet,2172,50;Garlic necklace,2199,50;elven amulet,2198,100;Stone skin amulet,2197,500"/>
+	</parameters>
+</npc>

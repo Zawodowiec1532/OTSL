@@ -1,0 +1,7 @@
+<npc name="Sofeten" script="data/npc/scripts/soft.lua" floorchange="0" walkinterval="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+        <look type="146" head="114" body="88" legs="88" feet="0" addons="3" corpse="2212"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I am specialised in {soft boots} and {firewalker boots}." />		
+	</parameters>
+</npc>

@@ -1,0 +1,5 @@
+<raid>
+  <!--Announcements-->
+  <!--Single Spawns-->
+  <singlespawn delay="1000" name="Necropharus" x="33044" y="32401" z="10" />
+</raid>
