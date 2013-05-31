@@ -7,7 +7,7 @@ AM_CONFIG_HEADER([config.h])
 AC_PROG_CXX
 AC_LANG(C++)
 
-OPTIONAL_FLAGS=""
+OPTIONAL_FLAGS="-D__WAR_SYSTEM__ -D__GROUND_CACHE__"
 DEBUG_FLAGS="-O2 -fomit-frame-pointer"
 
 # check if we want server diag enabled
