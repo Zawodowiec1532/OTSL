@@ -13,4 +13,4 @@ function onKill(cid, target, deathList)
         addEvent(remove_exp, 100, cid, getPlayerExperience(cid))
     end
     return true
-end 
+end

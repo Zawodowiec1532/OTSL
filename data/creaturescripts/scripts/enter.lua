@@ -1,4 +1,4 @@
-  local str1 = " has just logged in."
+local str1 = " has just logged in."
 local str2 = "Staff Position: "
 local groups = {
     [2] = "Tutor",
@@ -18,4 +18,4 @@ function onLogin(cid)
         break
     end
     return true
-end 
+end

@@ -29,6 +29,5 @@ function onThink(cid, interval)
 
 		doPlayerSendTextMessage(cid, MESSAGE_STATUS_WARNING, message .. ".")
 	end
-
-	return true
+return true
 end

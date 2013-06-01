@@ -1,5 +1,4 @@
 local monsters = {
-	--name = storage
 	["frost dragon"] = 5615,
 }
 
@@ -18,5 +17,5 @@ function onKill(cid, target)
 			setPlayerStorageValue(cid, 9014, 3)
 		end
 	end
-	return TRUE
+return true
 end

@@ -1,6 +1,5 @@
-local monsters = {
-	--name = storage
-	["nightmare"] = 5616,
+local monsters =	{
+	["nightmare"] = 5616
 }
 
 function onKill(cid, target)
@@ -8,8 +7,8 @@ function onKill(cid, target)
 	if(isPlayer(target) == FALSE and monster and getPlayerStorageValue(cid, 9015) == 2) then
 		if getPlayerStorageValue(cid, monster) < 333 then 
 			local killedMonsters = getPlayerStorageValue(cid, monster)
-            if(killedMonsters == -1) then
-                killedMonsters = 1
+			if(killedMonsters == -1) then
+				killedMonsters = 1
 			end
 			setPlayerStorageValue(cid, monster, killedMonsters + 1)
 			doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "You have killed " .. killedMonsters .. " of 333 Nightmares.")
@@ -18,5 +17,5 @@ function onKill(cid, target)
 			setPlayerStorageValue(cid, 9015, 3)
 		end
 	end
-	return TRUE
+return true
 end

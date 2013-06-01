@@ -8,6 +8,5 @@ function onJoinChannel(cid, channelId, users)
 			end
 		end
 	end
-
-	return true
+return true
 end

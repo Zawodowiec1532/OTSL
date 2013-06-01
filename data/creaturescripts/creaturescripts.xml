@@ -1,37 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <creaturescripts>
 	<event type="login" name="PlayerLogin" event="script" value="login.lua"/>
+	<event type="logout" name="demonOakLogout" event="script" value="demonOakLogout.lua"/>
 
-	<event type="advance" name="reward40" event="script" value="reward40.lua"/>
-	<event type="advance" name="reward70" event="script" value="reward70.lua"/>
-	<event type="advance" name="reward120" event="script" value="reward120.lua"/>
-	<event type="advance" name="reward190" event="script" value="reward190.lua"/>
+	<event type="advance" name="AdvanceSave" event="script" value="advancesave.lua"/>
+    <event type="advance" name="lvlup" event="script" value="lvlup.lua"/>
 
 	<event type="kill" name="creaturenight" script="night.lua"/>
 	<event type="kill" name="creaturefrost" script="frosty.lua"/>
-
-	<event type="joinchannel" name="GuildMotd" event="script" value="guildmotd.lua"/>
-	<event type="receivemail" name="Mail" event="script" value="mail.lua"/>
-	<event type="reportbug" name="SaveReportBug" script="reportbug.lua"/>
-	<event type="advance" name="AdvanceSave" event="script" value="advancesave.lua"/>
-	<event type="logout" name="demonOakLogout" event="script" value="demonOakLogout.lua"/>
-    <event type="preparedeath" name="chargeamulet" event="script" value="charges.lua"/>
-	<event type="death" name="demonOakDeath" event="script" value="demonOakDeath.lua"/>
 	<event type="kill" name="ArenaKill" event="script" value="arenakill.lua"/>
-    <event type="death" name="Aol" event="script" value="aol.lua"/>
-    <event type="death" name="PythiusTheRotten" event="script" value="PythiusTheRotten.lua"/>
-    <event type="kill" name="no-exp" event="script" value="enforced.lua"/>
-    <event type="advance" name="lvlup" event="script" value="lvlup.lua"/>
-	
-	<event type="death" name="zzz" event="script" value="zzz.lua"/>
-
 	<event type="kill" name="BountyHunter" event="script" value="kill.lua"/>
 	<event type="kill" name="guruyan" event="script" value="guruyanc.lua"/>
 	<event type="kill" name="Greg" event="script" value="gregc.lua"/>
-
-	<!-- Inquisition Full Quest -->
-	<event type="kill" name="inquisitionPortals" script="Inquisition.lua"/>
+	<event type="kill" name="inquisitionPortals" script="Inquisition.lua"/> <!-- Inquisition Full Quest -->
+    <event type="kill" name="no-exp" event="script" value="enforced.lua"/>
+	
+	<event type="death" name="demonOakDeath" event="script" value="demonOakDeath.lua"/>
+    <event type="death" name="Aol" event="script" value="aol.lua"/>
+    <event type="death" name="PythiusTheRotten" event="script" value="PythiusTheRotten.lua"/>
+	<event type="death" name="zzz" event="script" value="zzz.lua"/>
 
 	<event type="think" name="Idle" event="script" value="idle.lua"/>
 	<event type="think" name="SkullCheck" event="script" value="skullcheck.lua"/>
+	
+	<event type="joinchannel" name="GuildMotd" event="script" value="guildmotd.lua"/>
+	<event type="receivemail" name="Mail" event="script" value="mail.lua"/>
+	<event type="reportbug" name="SaveReportBug" script="reportbug.lua"/>
+    <event type="preparedeath" name="chargeamulet" event="script" value="charges.lua"/>
 </creaturescripts>

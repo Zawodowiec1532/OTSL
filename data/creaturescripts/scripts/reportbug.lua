@@ -9,6 +9,5 @@ function onReportBug(cid, comment)
 	else
 		doPlayerSendTextMessage(cid, MESSAGE_EVENT_DEFAULT, getConfigValue('serverName') .. " couldn't save your report, please contact with gamemaster.")
 	end
-
-	return true
+return true
 end
