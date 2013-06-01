@@ -12340,6 +12340,10 @@
 		<attribute key="weight" value="200" />
 		<attribute key="description" value="Drinking this potion increases temporarily your fighting skill while decreasing your defense." />
 	</item>
+	<item id="12544" article="a" name="Sweet Mangonaise Elixir">
+		<attribute key="weight" value="300" />
+		<attribute key="description" value="It's said to have incredible effects if you drink it while wearing a magical ring with time limit." />
+	</item>
 	<item id="7440" article="a" name="mastermind potion">
 		<attribute key="weight" value="200" />
 		<attribute key="description" value="Drinking this is said to increase your magical skills for a while, but to decrease your defense." />

@@ -30,7 +30,7 @@ function doPlayerGiveItemContainer(cid, containerid, itemid, amount, subType)
 			doAddContainerItem(container, itemid, subType)
 		end
 
-		if(doPlayerAddItemEx(cid, container, true) ~= RETURNVALUE_NOERROR) then
+		if(doPlayerAddItemEx(cid, container, false) ~= RETURNVALUE_NOERROR) then
 			return false
 		end
 	end

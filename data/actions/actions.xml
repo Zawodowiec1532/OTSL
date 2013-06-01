@@ -285,11 +285,12 @@
 	<action itemid="5553" event="script" value="liquids/containers.lua"/>
 	<action itemid="10150" event="script" value="liquids/containers.lua"/>
 	<action itemid="6558" event="script" value="liquids/demonic_blood.lua"/>
-	<action itemid="7588-7591;8472-8473;7618;7620;8704" event="script" value="liquids/potions.lua"/>
 	<action itemid="7439" event="script" value="liquids/berserk_potion.lua"/>
 	<action itemid="7440" event="script" value="liquids/mastermind_potion.lua"/>
 	<action itemid="7443" event="script" value="liquids/bullseye_potion.lua"/>
 	<action itemid="8474" event="script" value="liquids/antidote_potion.lua"/>
+	<action itemid="12544" event="script" value="liquids/sweet_mangonaise_elixir.lua"/>
+	<action itemid="7588-7591;8472-8473;7618;7620;8704" event="script" value="liquids/potions.lua"/>
 
 	<!-- Food -->
 	<action itemid="12416" event="script" value="foods/food.lua"/>
