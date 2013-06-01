@@ -267,7 +267,7 @@
 	teleportPlayerSummons = false
 
 	statusPort = 7171
-	ownerName = "God Leonidas"
+	ownerName = "Leon Zawodowiec"
 	ownerEmail = ""
 	url = "http://127.0.0.1/"
 	location = "Poland"

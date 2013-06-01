@@ -16,6 +16,7 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
 		doCreatureAddMana(cid, mana)
 		doPlayerSendTextMessage(cid, MESSAGE_EVENT_ADVANCE, "Your mana was refilled completely.")
 		doCreatureSay(cid, food, TALKTYPE_MONSTER)
+		doRemoveItem(item.uid, 1)
 	else
 		doSendMagicEffect(toPosition, CONST_ME_POFF)
 	end
