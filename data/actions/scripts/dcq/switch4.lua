@@ -5,7 +5,6 @@ local function createWall(p)
 	doCreateItem(1025, 1, {x=32764, y=32291, z=14})
 end
 
-
 function onUse(cid, item, frompos, item2, topos)
 	wall1 = {x=32764, y=32289, z=14, stackpos=1}
 	wall2 = {x=32764, y=32290, z=14, stackpos=1}

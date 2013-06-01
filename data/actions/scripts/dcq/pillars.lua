@@ -17,14 +17,12 @@ function onUse(cid, item, frompos, item2, topos)
 		doRemoveItem(tile2.uid, 1515)
 		doRemoveItem(tile3.uid, 1515)
 		doRemoveItem(tile4.uid, 1515)
-
 		doTransformItem(lever1.uid, 1946)
 	elseif item.itemid == 1946 then
 		doCreateItem(1515, 1, tile1pos)
 		doCreateItem(1515, 1, tile2pos)
 		doCreateItem(1515, 1, tile3pos)
 		doCreateItem(1515, 1, tile4pos)
-
 		doTransformItem(lever1.uid,1945)
 	else
 		doPlayerSendCancel(cid, "Sorry, not possible.")
