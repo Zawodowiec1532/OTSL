@@ -81,7 +81,7 @@
 	fistBaseAttack = 7
 
 	worldId = 0
-	ip = "192.166.219.85"
+	ip = "127.0.0.1"
 	bindOnlyGlobalAddress = false
 	loginPort = 7171
 	gamePort = 7172
@@ -269,7 +269,7 @@
 	statusPort = 7171
 	ownerName = "God Leonidas"
 	ownerEmail = ""
-	url = "http://192.166.219.85/"
+	url = "http://127.0.0.1/"
 	location = "Poland"
 	displayGamemastersWithOnlineCommand = false
 
