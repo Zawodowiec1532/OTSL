@@ -32,10 +32,6 @@
 
 	<!-- Frag Remover -->
 		<action itemid="9969" script="skull.lua" /> <!-- Frag Remover -->
-		
-	<!-- Maria Scripts -->
-		<action itemid="2093;2099" script="maria/fajka.lua"/>
-		<action itemid="5953" script="maria/kruszenie.lua"/> 
 
 	<!-- Pacc Runes -->
 		<action itemid="2280" script="pacc_rune_5.lua" /> <!-- Pacc Runka - Daje 5 Dni -->
