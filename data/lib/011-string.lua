@@ -1,6 +1,6 @@
 string.split = function (str)
 	local t = {}
-	return not str:gsub("%w+", function(s) table.insert(t, s) return "" end):find("%S") and t or {}
+return not str:gsub("%w+", function(s) table.insert(t, s) return "" end):find("%S") and t or {}
 end
 
 string.trim = function (str)
@@ -26,7 +26,7 @@ string.explode = function (str, sep, limit)
 
 	tmp = str:sub(pos):trim()
 	table.insert(t, tmp)
-	return t
+return t
 end
 
 string.expand = function (str)
@@ -50,6 +50,5 @@ string.timediff = function (diff)
 			table.insert(t, tmp)
 		end
 	end
-
-	return t
+return t
 end

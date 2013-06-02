@@ -1,6 +1,6 @@
 if(result == nil) then
 	print("> WARNING: Couldn't load database lib.")
-	return
+return
 end
 
 Result = createClass(nil)
@@ -31,8 +31,7 @@ function Result:create(_query)
 	if(_id) then
 		self:setID(_id)
 	end
-
-	return self:getID()
+return self:getID()
 end
 
 function Result:getRows(free)
@@ -51,48 +50,42 @@ function Result:getRows(free)
 	if(not free) then
 		self:create(_query)
 	end
-
-	return c
+return c
 end
 
 function Result:getDataInt(s)
 	if(self:getID() == -1) then
 		error("[Result:getDataInt] Result not set!")
 	end
-
-	return result.getDataInt(self:getID(), s)
+return result.getDataInt(self:getID(), s)
 end
 
 function Result:getDataLong(s)
 	if(self:getID() == -1) then
 		error("[Result:getDataLong] Result not set!")
 	end
-
-	return result.getDataLong(self:getID(), s)
+return result.getDataLong(self:getID(), s)
 end
 
 function Result:getDataString(s)
 	if(self:getID() == -1) then
 		error("[Result:getDataString] Result not set!")
 	end
-
-	return result.getDataString(self:getID(), s)
+return result.getDataString(self:getID(), s)
 end
 
 function Result:getDataStream(s)
 	if(self:getID() == -1) then
 		error("[Result:getDataStream] Result not set!")
 	end
-
-	return result.getDataStream(self:getID(), s)
+return result.getDataStream(self:getID(), s)
 end
 
 function Result:next()
 	if(self:getID() == -1) then
 		error("[Result:next] Result not set!")
 	end
-
-	return result.next(self:getID())
+return result.next(self:getID())
 end
 
 function Result:free()
@@ -103,7 +96,7 @@ function Result:free()
 	self:setQuery("")
 	local ret = result.free(self:getID())
 	self:setID(-1)
-	return ret
+return ret
 end
 
 Result.numRows = Result.getRows
@@ -114,5 +107,5 @@ function db.getResult(query)
 
 	local ret = Result:new()
 	ret:create(query)
-	return ret
+return ret
 end

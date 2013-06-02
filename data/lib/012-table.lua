@@ -17,7 +17,6 @@ table.find = function (table, value, sensitive)
 				end
 			end
 		end
-
 		return nil
 	end
 
@@ -26,8 +25,7 @@ table.find = function (table, value, sensitive)
 			return i
 		end
 	end
-
-	return nil
+return nil
 end
 
 table.contains = function (txt, str)
@@ -36,8 +34,7 @@ table.contains = function (txt, str)
 			return true
 		end
 	end
-
-	return false
+return false
 end
 table.isStrIn = table.contains
 
@@ -48,8 +45,7 @@ table.count = function (table, item)
 			count = count + 1
 		end
 	end
-
-	return count
+return count
 end
 table.countElements = table.count
 
@@ -81,8 +77,7 @@ table.getCombinations = function (table, num)
 			a[j] = a[i] + j - i
 		end
 	end
-
-	return newlist
+return newlist
 end
 
 function table.serialize(x, recur)
@@ -112,8 +107,7 @@ function table.serialize(x, recur)
 
 		return s:sub(0, s:len() - 2) .. "}"
 	end
-
-	error("Can not serialize value of type '" .. t .. "'.")
+error("Can not serialize value of type '" .. t .. "'.")
 end
 
 function table.unserialize(str)

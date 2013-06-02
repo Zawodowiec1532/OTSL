@@ -1,11 +1,9 @@
-exhaustion =
-{
+exhaustion =	{
 	check = function (cid, storage)
 		if(getPlayerFlagValue(cid, PLAYERFLAG_HASNOEXHAUSTION)) then
 			return false
 		end
-
-		return getPlayerStorageValue(cid, storage) >= os.time()
+	return getPlayerStorageValue(cid, storage) >= os.time()
 	end,
 
 	get = function (cid, storage)
@@ -20,8 +18,7 @@ exhaustion =
 				return left
 			end
 		end
-
-		return false
+	return false
 	end,
 
 	set = function (cid, storage, time)
@@ -34,7 +31,6 @@ exhaustion =
 			exhaustion.set(cid, storage, time)
 			return true
 		end
-
-		return false
+	return false
 	end
 }

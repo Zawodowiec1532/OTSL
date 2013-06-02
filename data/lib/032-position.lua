@@ -1,6 +1,5 @@
 function isInRange(position, fromPosition, toPosition)
-	return (position.x >= fromPosition.x and position.y >= fromPosition.y and position.z >= fromPosition.z
-		and position.x <= toPosition.x and position.y <= toPosition.y and position.z <= toPosition.z)
+	return (position.x >= fromPosition.x and position.y >= fromPosition.y and position.z >= fromPosition.z and position.x <= toPosition.x and position.y <= toPosition.y and position.z <= toPosition.z)
 end
 
 function getDistanceBetween(fromPosition, toPosition)
@@ -9,8 +8,7 @@ function getDistanceBetween(fromPosition, toPosition)
 	if(fromPosition.z ~= toPosition.z) then
 		diff = diff + 9 + 6
 	end
-
-	return diff
+return diff
 end
 
 function getDirectionTo(pos1, pos2)
@@ -34,8 +32,7 @@ function getDirectionTo(pos1, pos2)
 	elseif(pos1.y < pos2.y) then
 		dir = SOUTH
 	end
-
-	return dir
+return dir
 end
 
 function getCreatureLookPosition(cid)
@@ -65,8 +62,7 @@ function getPositionByDirection(position, direction, size)
 		position.y = position.y + n
 		position.x = position.x + n
 	end
-
-	return position
+return position
 end
 
 function doComparePositions(position, positionEx)
@@ -80,8 +76,7 @@ function getArea(position, x, y)
 			table.insert(t, {x = i, y = j, z = position.z})
 		end
 	end
-
-	return t
+return t
 end
 
 function Position(x, y, z, stackpos)
@@ -92,11 +87,9 @@ function Position(x, y, z, stackpos)
 			position.stackpos = stackpos
 		end
 	end
-
-	return position
+return position
 end
 
 function isValidPosition(position)
-	return (isNumeric(position.x .. position.y .. position.z) and position.x > 0
-		and position.y > 0 and position.z >= 0 and position.z <= 15)
+	return (isNumeric(position.x .. position.y .. position.z) and position.x > 0 and position.y > 0 and position.z >= 0 and position.z <= 15)
 end

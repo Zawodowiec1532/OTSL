@@ -22,8 +22,7 @@ function doConvertIntegerToIp(int, mask)
 			return b[4] .. "." .. b[3] .. "." .. b[2] .. "." .. b[1] .. ":" .. m[4] .. "." .. m[3] .. "." .. m[2] .. "." .. m[1]
 		end
 	end
-
-	return b[4] .. "." .. b[3] .. "." .. b[2] .. "." .. b[1]
+return b[4] .. "." .. b[3] .. "." .. b[2] .. "." .. b[1]
 end
 
 function doConvertIpToInteger(str)
@@ -54,7 +53,6 @@ function doConvertIpToInteger(str)
 		if(index ~= -8) then
 			return 0, 0
 		end
-
 		return ip, mask
 	end
 
@@ -97,8 +95,7 @@ function doConvertIpToInteger(str)
 	if(index ~= 32) then
 		return 0, 0
 	end
-
-	return ip, mask
+return ip, mask
 end
 
 function doRevertIp(str)
@@ -111,6 +108,5 @@ function doRevertIp(str)
 	if(not ip[1] or not ip[2] or not ip[3] or not ip[4]) then
 		return nil
 	end
-
-	return table.concat(ip, ".")
+return table.concat(ip, ".")
 end

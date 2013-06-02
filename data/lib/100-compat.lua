@@ -1,8 +1,3 @@
---[[
- * File containing deprecated functions and constants used by alot of scripts and other engines
-]]--
---bit = require("bit")
-
 TRUE = true
 FALSE = false
 LUA_ERROR = false
@@ -214,13 +209,13 @@ PlayerFlag_IgnoreWeaponCheck = 35
 PlayerFlag_CannotBeMuted = 36
 PlayerFlag_IsAlwaysPremium = 37
 PlayerFlag_CanAnswerRuleViolations = 38
-PlayerFlag_39 = 39 -- ignore
+PlayerFlag_39 = 39
 PlayerFlag_ShowGroupNameInsteadOfVocation = 40
 PlayerFlag_HasInfiniteStamina = 41
 PlayerFlag_CannotMoveItems = 42
 PlayerFlag_CannotMoveCreatures = 43
 PlayerFlag_CanReportBugs = 44
-PlayerFlag_45 = 45 -- ignore
+PlayerFlag_45 = 45
 PlayerFlag_CannotBeSeen = 46
 PlayerFlag_HideHealth = 47
 

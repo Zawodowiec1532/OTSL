@@ -813,8 +813,7 @@ Config_meta =
 				return "Config"
 			end
 		end
-
-		return getConfigValue(k)
+	return getConfigValue(k)
 	end,
 
 	__newindex = function(t, k, v)
@@ -833,8 +832,7 @@ Storage_meta =
 				return "Storage"
 			end
 		end
-
-		return getStorage(k)
+	return getStorage(k)
 	end,
 
 	__newindex = function(t, k, v)

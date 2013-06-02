@@ -3,7 +3,7 @@ function createClass(parent)
 	function newClass:new(instance)
 		local instance = instance or {}
 		setmetatable(instance, {__index = newClass})
-		return instance
+	return instance
 	end
 
 	if(parent ~= nil) then
@@ -27,8 +27,7 @@ function createClass(parent)
 
 			tmp = tmp:getParent()
 		end
-
-		return false
+	return false
 	end
 	
 	function newClass:setAttributes(attributes)
@@ -36,6 +35,5 @@ function createClass(parent)
 			newClass[k] = v
 		end
 	end
-
-	return newClass
+return newClass
 end
