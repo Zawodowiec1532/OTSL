@@ -34,6 +34,6 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
 		end
 		return true
 	else
-	doPlayerSendCancel(cid, "Sorry, you must wait 2 sec.")
+		doPlayerSendCancel(cid, "Sorry, you must wait 2 sec.")
 	end
 end

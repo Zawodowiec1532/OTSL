@@ -6,7 +6,6 @@ local PeekPosition = {
     {x=33385, y=31118, z=8}
 }
 
-
 function ClosetoOpen()
 	for _, v in ipairs(PeekPosition) do
 		doRemoveItem(getTileItemById(v, 12214).uid)

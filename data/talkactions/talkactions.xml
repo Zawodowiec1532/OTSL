@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talkactions>
-
-<!-- Gods [Access: 5]-->
+	<!-- Gods [Access: 5]-->
 	<talkaction log="yes" words="/skill;/addskill" access="5" event="script" value="skill.lua"/>
 	<talkaction log="yes" words="/itemadd" access="5" event="script" value="itemadd.lua"/>
 	<talkaction log="yes" words="/attr" access="5" event="function" value="thingProporties"/>
@@ -21,7 +20,7 @@
 	<talkaction log="yes" words="/bc" access="5" event="script" value="broadcastclass.lua"/>
 	<talkaction log="yes" words="/ban" access="5" event="script" value="ban.lua"/>
 
-<!-- Community Managers [Access: 4]-->
+	<!-- Community Managers [Access: 4]-->
 	<talkaction log="yes" words="/s" access="4" event="script" value="summon.lua"/>
 	<talkaction log="yes" words="/raid" access="4" event="script" value="raid.lua"/>
 	<talkaction log="yes" words="/newtype" access="4" event="script" value="newtype.lua"/>
@@ -34,7 +33,7 @@
 	<talkaction log="yes" words="/clean" access="4" event="script" value="clean.lua"/>
 	<talkaction log="yes" words="/save" access="4" event="script" value="save.lua"/>
 
-<!-- Gamemasters [Access: 3]-->
+	<!-- Gamemasters [Access: 3]-->
 	<talkaction log="yes" words="/b" access="3" event="script" value="broadcast.lua"/>
 	<talkaction log="yes" words="/ghost" access="3" event="function" value="ghost"/>
 	<talkaction log="yes" words="/squelch" access="3" event="script" value="gamemaster.lua"/>
@@ -50,20 +49,17 @@
 	<talkaction log="yes" words="/reports" access="3" event="script" value="reports.lua"/>
 	<talkaction log="yes" words="/mc" access="3" event="script" value="multicheck.lua"/>
 	<talkaction log="yes" words="/wp" access="3" event="script" value="waypoints.lua"/>
-	<talkaction words="!savepos" access="3" event="script" value="advtp.lua"/> 
-	<talkaction words="!deletepos" access="3" event="script" value="advtp.lua"/> 
-	<talkaction words="!pos" access="3" event="script" value="advtp.lua"/>  
 
-<!-- Senior Tutors [Access: 2]-->
+	<!-- Senior Tutors [Access: 2]-->
 	<talkaction log="yes" words="/notations" access="2" event="script" value="notations.lua"/>
 	<talkaction log="yes" words="/info" access="2" event="script" value="playerinfo.lua"/>
 	<talkaction log="yes" words="/gethouse" access="2" event="script" value="gethouse.lua"/>
 
-<!-- Tutors [Access: 1]-->
+	<!-- Tutors [Access: 1]-->
 	<talkaction log="yes" words="/baninfo" access="1" event="function" value="banishmentInfo"/>
 	<talkaction log="yes" words="/pos" access="1" event="script" value="position.lua"/>
 
-<!-- Players -->
+	<!-- Players -->
 	<talkaction words="!frags" event="script" value="frags.lua"/>
 	<talkaction words="!aol" event="script" value="aol.lua"/>
 	<talkaction words="!bless" event="script" value="bless.lua"/>
@@ -75,8 +71,8 @@
 	<talkaction words="!serverinfo" event="script" value="serverinfo.lua"/>
 	<talkaction words="/commands" event="script" value="commands.lua"/>
 	<talkaction words="!addon" event="script" value="addondoll.lua"/>
-	<talkaction words="!tak" event="script" value="vote_system.lua"/> <!-- Komendy do Vote Systemu -->
-	<talkaction words="!nie" event="script" value="vote_system.lua"/> <!-- Komendy do Vote Systemu -->
+	<talkaction words="!tak" event="script" value="vote_system.lua"/>
+	<talkaction words="!nie" event="script" value="vote_system.lua"/>
 	<talkaction words="!color" event="script" value="partyoutfit.lua"/>
 	<talkaction words="!hunt" event="script" value="bh-add.lua"/>
 	<talkaction words="!iplol" event="script" value="iplol.lua"/>
@@ -85,7 +81,7 @@
 	<!-- <talkaction words="!removesellchar" event="script" value="removesellchar.lua"/> -->
 	<talkaction words="!outfit" event="script" value="outfit.lua"/>
 
-<!-- Houses -->
+	<!-- Houses -->
 	<talkaction words="!buyhouse" filter="word-spaced" event="function" value="houseBuy"/>
 	<talkaction words="!sellhouse" filter="word-spaced" event="function" value="houseSell"/>
 	<talkaction words="alana sio" filter="word-spaced" event="function" value="houseKick"/>
@@ -94,11 +90,11 @@
 	<talkaction words="aleta som" filter="word-spaced" event="function" value="houseSubOwnerList"/> 
 	<talkaction words="!leavehouse" filter="word-spaced" event="script" value="leavehouse.lua"/>
 
-<!-- Guilds -->
+	<!-- Guilds -->
 	<talkaction words="/war" channel="0" event="script" value="war.lua" desc="(Guild channel command) War management."/>
 	<talkaction words="/balance" channel="0" event="script" value="balance.lua" desc="(Guild channel command) Balance management."/>
 
-<!-- (Deprecated) Redirect old '/' to '!' -->
+	<!-- (Deprecated) Redirect old '/' to '!' -->
 	<talkaction words="/online" hide="yes" event="script" value="online.lua"/>
 	<talkaction words="/uptime" hide="yes" event="script" value="uptime.lua"/>
 	<talkaction words="/deathlist" hide="yes" event="script" value="deathlist.lua"/>

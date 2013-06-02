@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <globalevents>
-	<globalevent name="init" type="startup" event="script" value="init.lua"/> <!-- Skrypt inicjujący -->
-	<globalevent name="globalsave" type="globalsave" event="script" value="init.lua"/> <!-- Event inicjujący server podczas zapisu i startu -->
-	<globalevent name="save" interval="3600000" event="script" value="save.lua"/> <!-- Skrypt zapisujący server co -->
-	<globalevent name="clean" interval="7200000" event="script" value="clean.lua"/> <!-- Skrypt czyszczący mapę co -->
-	<globalevent name="shop" interval="30000" script="shop.lua"/> <!-- Skrypt odpowiadający za dostarczanie itemów z SHS SHOP'a co 30 sekund-->
-	<globalevent name="record" type="record" event="script" value="record.lua"/> <!-- Skrypt powiadamiający o nowym rekordzie graczy online -->
-	<globalevent name="raids" interval="15000" event="script" value="raid.lua"/> <!-- Losowy raid o ustalonej godzinie i dniu -->
-	<globalevent name="serverstart" type="start" event="script" value="start.lua"/> <!-- Skrypt uruchamiający się wraz ze startem servera [Elf War System] -->
+	<globalevent name="init" type="startup" event="script" value="init.lua"/>
+	<globalevent name="globalsave" type="globalsave" event="script" value="init.lua"/>
+	<globalevent name="save" interval="3600000" event="script" value="save.lua"/>
+	<globalevent name="clean" interval="7200000" event="script" value="clean.lua"/>
+	<globalevent name="shop" interval="30000" script="shop.lua"/>
+	<globalevent name="record" type="record" event="script" value="record.lua"/>
+	<!-- <globalevent name="raids" interval="15000" event="script" value="raid.lua"/> -->
 	<!-- <globalevent name="peekhole" type="start" event="script" value="peekhole.lua"/> Skrypt do Questa na ZAO. [Poprawić itemID] -->
 </globalevents>
