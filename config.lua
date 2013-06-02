@@ -7,8 +7,8 @@
 	accountManager = false
 	namelockManager = false
 	newPlayerChooseVoc = false
-	newPlayerSpawnPosX = 31975
-	newPlayerSpawnPosY = 32277
+	newPlayerSpawnPosX = 31976
+	newPlayerSpawnPosY = 32276
 	newPlayerSpawnPosZ = 7
 	newPlayerTownId = 6
 	newPlayerLevel = 1

@@ -1,6 +1,7 @@
 local config = {
 	loginMessage = getConfigValue('loginMessage'),
-	useFragHandler = getBooleanFromString(getConfigValue('useFragHandler'))
+	useFragHandler = getBooleanFromString(getConfigValue('useFragHandler')),
+	startPosition = {x = getConfigValue('newPlayerSpawnPosX'), y = getConfigValue('newPlayerSpawnPosY'), z = getConfigValue('newPlayerSpawnPosZ')}
 }
 
 function onLogin(cid)
@@ -16,8 +17,10 @@ function onLogin(cid)
 			doPlayerSendTextMessage(cid, MESSAGE_STATUS_DEFAULT, str)
 			str = "Your last visit was on " .. os.date("%a %b %d %X %Y", lastLogin) .. "."
 		else
+			doTeleportThing(cid, config.startPosition, true)
 			str = str .. " Please choose your outfit."
 			doPlayerSendOutfitWindow(cid)
+			doPlayerSendTutorial(cid, 1)
 		end
 
 		doPlayerSendTextMessage(cid, MESSAGE_STATUS_DEFAULT, str)

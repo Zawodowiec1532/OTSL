@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<npc name="Santiago" script="data/npc/scripts/Santiago.lua" walkinterval="2000" floorchange="0">
-<health now="100" max="100"/>
-<look type="151" head="19" body="115" legs="87" feet="114" addons="0"/>
+<npc name="Santiago" script="data/npc/scripts/Santiago.lua" walkinterval="0" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="151" head="19" body="115" legs="87" feet="114" addons="0"/>
+
+	<voices>
+		<voice text="Nasty creepy crawlies!" interval2="4000" margin="1" yell="no"/>
+		<voice text="Don't be shy, can't hurt to greet me with 'hello' or 'hi'!" interval2="5000" margin="1" yell="no"/>
+		<voice text="Evil little beasts... I hope someone helps me fight them." interval2="10000" margin="1" yell="no"/>
+		<voice text="Hey! You over there, could you help me with a little quest? Just say 'hi' or 'hello' to talk to me!" interval2="1500" margin="1" yell="no"/>
+	</voices>
+
+	<parameters>
+		<parameter key="message_walkaway" value="Good bye traveller, and enjoy your stay on Rookgaard."/>
+	</parameters>
 </npc>

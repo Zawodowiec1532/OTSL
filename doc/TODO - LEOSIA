@@ -1,0 +1,98 @@
+20:29 Your questlog has been updated.
+20:29 Santiago: Hello Zekir Baara, nice to see you on Rookgaard! I saw you walking by and wondered if you could help me. Could you? Please, say {yes}!
+20:29 Zekir Baara [1]: no
+20:29 Santiago: That's quite sad. You won't have to do it for free though. You'll get a nice reward and even a weapon. Come on, say yes!
+20:30 Zekir Baara [1]: bye (byle co)
+20:30 Santiago: I'll give you a hint. Those highlighted words are keywords that will always keep a conversation going. Usually you can also answer with yes or no.
+20:31 Zekir Baara [1]: yes
+20:31 Santiago: Ah, thank you so much. To keep talking to me, either use the highlighted keywords or answer with 'yes' or 'no'. Listen, I have a little cockroach problem, but I think you need some proper equipment first, right?
+20:31 Zekir Baara [1]: no
+20:31 Santiago: Oh, but look at yourself. You can't fight like that! Go to my house. Upstairs, you'll find a chest. You can keep what you find inside of it! Come back after you got it. {Yes}?
+20:32 Zekir Baara [1]: no
+20:32 Santiago: Psst. This is the part where you say '{yes}'! Never refuse free items!
+(walkaway xD)
+20:33 Zekir Baara [1]: hi
+20:33 Santiago: Oh, Zekir Baara, it's you again! It's probably impolite to disturb a busy adventurer like you, but I really need help. Please, say {yes}!
+20:34 Zekir Baara [1]: yes
+20:34 Santiago: Ah, thank you so much. To keep talking to me, either use the {highlighted} keywords or answer with '{yes}' or '{no}'. Listen, I have a little cockroach problem, but I think you need some proper equipment first, {right}?
+20:34 Zekir Baara [1]: highlighted
+20:34 Santiago: Yes, you got it. So, about that equipment - we need to get you dressed, {right}?
+20:36 Zekir Baara [1]: right
+20:36 Santiago: Great, please go to my house, just a few steps south of here. Upstairs in my room, you'll find a chest. You can keep what you find inside of it! Come back after you got it and greet me to talk to me again. {Yes}?
+(strzalka na schody)
+20:37 Zekir Baara [1]: yes
+20:37 Santiago: Alright! Do you see the button called 'Quest Log'? There you can check the status of quests, like this one. Bye for now!
+20:37 Your questlog has been updated.
+(swieci sie guzik Quest Log na pomaranczowo)
+20:38 Zekir Baara [1]: hi
+20:38 Santiago: Oh, what's wrong? As I said, simply go to my house south of here and go upstairs. Then come back and we'll continue our chat.
+
+schody:
+tutorial hint - 20:41 Do you see a chest like this in this room? Right-click on it and select 'Open' from the context menu to take what's inside. 
+strzalka ns krzynie
+
+skrzynia:
+20:45 You have found a bag.
+20:45 You now have a bag to carry items. There is also a coat inside. Drag and drop it from the bag to your armor slot to wear it after you closed this window. - hint
+20:46 The chest is empty.
+
+
+hi:
+20:47 Santiago: Welcome back, Zekir Baara! Ahh, you found my chest. Let me take a look at you. You put on that coat, {yes}?
+20:47 Zekir Baara [1]: no
+20:47 Santiago: Oh, you don't wear it properly yet. You need to drag and drop it from your bag to your armor slot. Here, let me show you again. Is it a little clearer now?
+(hint + ramki na bag i item)
+20:48 Zekir Baara [1]: no
+20:48 Santiago: Oh no, did you lose my coat? Well, lucky you, I have a spare one here. Don't lose it again! Now we're getting to the fun part, let's get you armed! Are you ready for some action?
+20:49 Zekir Baara [1]: no
+20:49 Santiago: Please, I have no choice. I need a strong fighter like you. I'm simply too afraid to go down there. Please say 'yes'!
+
+20:50 Santiago: Oh, there you are again! Now, where were we... ah yes, your weapon! Are you ready for some action?
+20:50 Santiago: Please, I have no choice. I need a strong fighter like you. I'm simply too afraid to go down there. Please say 'yes'!
+20:50 Zekir Baara [1]: yes
+20:50 Santiago: Great! You see, I have a huge cockroach plague in my cellar. I need someone to go down there and help me fight them. You are that courageous person, yes?
+(walkaway)
+20:50 Santiago: Oh, there you are again! Now, where were we... ah yes, your weapon! Are you ready for some action?
+20:51 Zekir Baara [1]: yes
+20:51 Santiago: Great! You see, I have a huge cockroach plague in my cellar. I need someone to go down there and help me fight them. You are that courageous person, yes?
+20:52 Zekir Baara [1]: yes
+20:52 Santiago: I knew I could count on you. Here, take this good and sturdy weapon in your hand. Then go back to my house and down the ladder. Good luck, and bye for now!
+(quest log update + club)
+
+(kiedykolwiek odejscie od santiago):
+20:33 Santiago: Good bye traveller, and enjoy your stay on Rookgaard.
+
+drabina do wyjscia:
+21:04 You still need to kill at least 3 cockroaches and bring their legs to Santiago. Don't give up!
+21:05 Open the dead cockroach by right-clicking it and choosing 'Open', then drag the cockroach leg to your bag. - hint
+
+(szafa po prawej)
+21:09 You see a document.
+It weighs 2.00 oz.
+Fishing Master Certificate
+
+Awarded to Santiago Fuentes by the Tibian Fishing Association TFA.
+
+
+zejscie -2:
+21:08 You can't see any cockroaches here. 'Open' this chest and see if you can find something to light the room better.
+(strzalka na skrzynie)
+(nie można nic przesuwac [skrzyn])
+
+(kratka bez wziecia skrzynki)
+21:17 It is too dark down there! 'Open' this chest in this room and see if you can find something to light the room.
+
+skrzynia:
+21:17 You have found a torch. \/ hint
+21:17 Light your torch by right-clicking it and selecting 'Use'. It will slowly burn down as long as it is lit. 'Use' it again to turn it off once you leave the darkness. You can use many things in Tibia, just explore the room! 
+
+podejscie do kratki po skrzynce:
+21:18 Look at the metallic object on the floor - this is a sewer grate. Right-click on it and select 'Use' to climb down.
+(strzalka na kratke)
+
+po zejsciu:
+21:18 You smell stinky cockroaches around here. When you see one, walk to it and attack it by left-clicking it in your battle list!
+21:18 Click on the chase opponent icon in the combat controls, then click on a cockroach in the battle list. 
+21:18 The remains of the Raging Mage are scattered on the floor of his Tower. The dimensional portal quakes.
+(jakis hint)
+
