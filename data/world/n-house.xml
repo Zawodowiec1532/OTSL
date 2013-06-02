@@ -1000,15 +1000,6 @@
   <house name="Theater Avenue 5b" houseid="2389" entryx="32359" entryy="31782" entryz="6" rent="450" townid="4" size="7"/>
   <house name="Theater Avenue 5c" houseid="2390" entryx="32359" entryy="31782" entryz="6" rent="450" townid="4" size="7"/>
   <house name="Theater Avenue 5d" houseid="2391" entryx="32361" entryy="31782" entryz="6" rent="450" townid="4" size="7"/>
-  <house name="Gengia #1" houseid="2392" entryx="31945" entryy="32252" entryz="7" rent="3000000" guildhall="1" townid="16" size="171"/>
-  <house name="Gengia #2" houseid="2393" entryx="31959" entryy="32251" entryz="7" rent="50000" townid="16" size="30"/>
-  <house name="Gengia #3" houseid="2394" entryx="31944" entryy="32290" entryz="7" rent="100000" townid="16" size="63"/>
-  <house name="Gengia #4" houseid="2395" entryx="31957" entryy="32305" entryz="7" rent="50000" townid="16" size="16"/>
-  <house name="Gengia #5" houseid="2396" entryx="31966" entryy="32297" entryz="6" rent="70000" townid="16" size="31"/>
-  <house name="Gengia #6" houseid="2397" entryx="31972" entryy="32299" entryz="7" rent="70000" townid="16" size="35"/>
-  <house name="Gengia #7" houseid="2398" entryx="31955" entryy="32314" entryz="7" rent="70000" townid="16" size="40"/>
-  <house name="Gengia #8" houseid="2399" entryx="31945" entryy="32314" entryz="7" rent="70000" townid="16" size="40"/>
-  <house name="Gengia #9" houseid="2400" entryx="31938" entryy="32314" entryz="7" rent="70000" townid="16" size="40"/>
   <house name="Thais Fixed #1" houseid="2401" entryx="32413" entryy="32238" entryz="7" rent="1000" townid="2" size="14"/>
   <house name="Thais Fixed #2" houseid="2402" entryx="32419" entryy="32238" entryz="7" rent="1000" townid="2" size="10"/>
   <house name="Thais Fixed #3" houseid="2403" entryx="32413" entryy="32237" entryz="7" rent="1000" townid="2" size="14"/>

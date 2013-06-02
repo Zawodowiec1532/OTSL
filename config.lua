@@ -1,16 +1,16 @@
 	fragTime = 24
 	sendAfk = true
 	rookLevelTo = 5
-	rookTownId = 1
-	rookSystem = false
+	rookTownId = 6
+	rookSystem = true
 	noDropBless = false
 	accountManager = false
-	namelockManager = true
+	namelockManager = false
 	newPlayerChooseVoc = false
-	newPlayerSpawnPosX = 95
-	newPlayerSpawnPosY = 117
+	newPlayerSpawnPosX = 31975
+	newPlayerSpawnPosY = 32277
 	newPlayerSpawnPosZ = 7
-	newPlayerTownId = 1
+	newPlayerTownId = 6
 	newPlayerLevel = 1
 	newPlayerMagicLevel = 0
 	generateAccountNumber = false
@@ -161,7 +161,7 @@
 	niceLevel = 5
 	coresUsed = "-1"
 
-	startupDatabaseOptimization = true
+	startupDatabaseOptimization = false
 	updatePremiumStateAtStartup = true
 	confirmOutdatedVersion = false
 
