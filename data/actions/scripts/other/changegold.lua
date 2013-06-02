@@ -11,29 +11,29 @@ local coins = {
 }
 
 function onUse(cid, item, fromPosition, itemEx, toPosition)
-if getPlayerStorageValue(cid,46002) < os.time() - 2 then
-	if(getPlayerFlagValue(cid, PLAYERFLAG_CANNOTPICKUPITEM)) then
-		return false
-	end
+	if getPlayerStorageValue(cid,46002) < os.time() - 2 then
+		if(getPlayerFlagValue(cid, PLAYERFLAG_CANNOTPICKUPITEM)) then
+			return false
+		end
 
-	local coin = coins[item.itemid]
-	if(not coin) then
-		return false
-	end
+		local coin = coins[item.itemid]
+		if(not coin) then
+			return false
+		end
 
-	if(coin.to ~= nil and item.type == ITEMCOUNT_MAX) then
-		doChangeTypeItem(item.uid, item.type - item.type)
-		doPlayerAddItem(cid, coin.to, 1)
-		doSendAnimatedText(fromPosition, "$$$", coins[coin.to].effect)
-		setPlayerStorageValue(cid,46002,os.time())
-	elseif(coin.from ~= nil) then
-		doChangeTypeItem(item.uid, item.type - 1)
-		doPlayerAddItem(cid, coin.from, ITEMCOUNT_MAX)
-		doSendAnimatedText(fromPosition, "$$$", coins[coin.from].effect)
-		setPlayerStorageValue(cid,46002,os.time())
+		if(coin.to ~= nil and item.type == ITEMCOUNT_MAX) then
+			doChangeTypeItem(item.uid, item.type - item.type)
+			doPlayerAddItem(cid, coin.to, 1)
+			doSendAnimatedText(fromPosition, "$$$", coins[coin.to].effect)
+			setPlayerStorageValue(cid, 46002, os.time())
+		elseif(coin.from ~= nil) then
+			doChangeTypeItem(item.uid, item.type - 1)
+			doPlayerAddItem(cid, coin.from, ITEMCOUNT_MAX)
+			doSendAnimatedText(fromPosition, "$$$", coins[coin.from].effect)
+			setPlayerStorageValue(cid, 46002, os.time())
+		end
+		return true
+	else
+	doPlayerSendCancel(cid, "Sorry, you must wait 2 sec.")
 	end
-	return true
-else
-doPlayerSendCancel(cid, "Sorry, you must wait 2 sec.")
-end
 end

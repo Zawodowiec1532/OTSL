@@ -9,9 +9,4 @@
 	<globalevent name="raids" interval="15000" event="script" value="raid.lua"/> <!-- Losowy raid o ustalonej godzinie i dniu -->
 	<globalevent name="serverstart" type="start" event="script" value="start.lua"/> <!-- Skrypt uruchamiający się wraz ze startem servera [Elf War System] -->
 	<!-- <globalevent name="peekhole" type="start" event="script" value="peekhole.lua"/> Skrypt do Questa na ZAO. [Poprawić itemID] -->
-	
-	<!-- Przetestować -->
-	<globalevent name="autobroadcast" interval="10000000" event="script" value="autobroadcast.lua"/> <!-- Skrypt wyświetlający różne ifnormacje. [Poprawić tekst] -->
-	<globalevent name="uptime" interval="10000000" event="script" value="uptime.lua"/> <!-- Skrypt wyświetlający uptime oraz ilość graczy co [Poprawić tekst] -->
-	
 </globalevents>
