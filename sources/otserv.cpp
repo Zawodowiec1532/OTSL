@@ -129,8 +129,8 @@ bool argumentsHandler(StringVec args)
 		{
 			std::clog << SOFTWARE_NAME << ", version " << SOFTWARE_VERSION << " (" << SOFTWARE_CODENAME << ")\n"
 			"Compiled with " << BOOST_COMPILER << " at " << __DATE__ << ", " << __TIME__ << ".\n"
-			"A server developed by Elf, Talaturen, Stian, Slawkens, KaczooH  and Kornholijo.\n"
-			"Visit our forum for updates, support and resources: http://otland.net.\n";
+			"A server developed by Leon Zawodowiec & others.\n"
+			"OTSL is an open-source project: https://github.com/Arcydemon/OTSL\n";
 			return false;
 		}
 
@@ -334,11 +334,10 @@ void otserv(StringVec, ServiceManager* services)
 	}
 #endif
 
-	std::clog << SOFTWARE_NAME << ", version " << SOFTWARE_VERSION << " (" << SOFTWARE_CODENAME << ")" << std::endl
-		<< "Compiled with " << BOOST_COMPILER << " at " << __DATE__ << ", " << __TIME__ << "." << std::endl
-		<< "A server developed by Elf, Talaturen, Stian, Slawkens, KaczooH  and Kornholijo." << std::endl
-		<< "MOD BY CUDDIHOSTING.PL" << std::endl
-		<< "Visit our forum for updates, support and resources: http://otland.net." << std::endl << std::endl;
+	std::clog << SOFTWARE_NAME << ", version " << SOFTWARE_VERSION << " (" << SOFTWARE_CODENAME << ")\n"
+		"Compiled with " << BOOST_COMPILER << " at " << __DATE__ << ", " << __TIME__ << ".\n"
+		"A server developed by Leon Zawodowiec & others.\n"
+		"OTSL is an open-source project: https://github.com/Arcydemon/OTSL\n" << std::endl << std::endl;
 	std::stringstream ss;
 #ifdef __DEBUG__
 	ss << " GLOBAL";
