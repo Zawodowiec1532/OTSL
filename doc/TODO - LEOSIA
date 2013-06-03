@@ -96,3 +96,16 @@ po zejsciu:
 21:18 The remains of the Raging Mage are scattered on the floor of his Tower. The dimensional portal quakes.
 (jakis hint)
 
+1 robal:
+- tut
+2 robal:
+22:15 You can also automatically chase after selected creatures by clicking the 'chase opponent' button near your inventory.
++ efekt na chase
+3 robal: 
+22:17 Well done, you have enough cockroach legs! You should head back to Santiago with them. Climb the ladder to the north to exit.
+22:17 Have you already climbed up a ladder? Right-click on its lower right end and select 'Use'.
++ tut z drabina
+
+drabina:
+22:18 Well done, and don't forget - you can 'Use' and 'Look' at many objects in Tibia.
+22:18 If your torch is still lit when you leave the cellar, you can turn it off again to save its power for darker regions.

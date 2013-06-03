@@ -12,7 +12,7 @@ local storages = {
 
 local positions = {
 	cancel_pos = {x = 0, y = 0, z = 0}, -- @TODO: get real positions
-	stairs_pos = {x = 32033, y = 32277, z = 6}  -- @TODO: get real positions
+	stairs_pos = {x = 32033, y = 32277, z = 6}
 }
 
 local items - {
@@ -32,7 +32,6 @@ function creatureSayCallback(cid, type, msg)
 	end
 	
 	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
-	-- Hmm jakby to genialnie zrobic.. :D --
 
 	if (msgcontains(msg, "hi") or msgcontains(msg, "hello")) and getPlayerStorageValue(cid, storages.FIRST_TALK) ~= 1 and talkState[talkUser] == 0 then
 		npcHandler:say("Hello ".. getPlayerName(cid) ..", nice to see you on Rookgaard! I saw you walking by and wondered if you could help me. Could you? Please, say {yes}!", cid)
@@ -54,11 +53,11 @@ function creatureSayCallback(cid, type, msg)
 		if (msgcontains(msg, "yes"))then
 			npcHandler:say("Great, please go to my house, just a few steps south of here. Upstairs in my room, you'll find a chest. You can keep what you find inside of it! Come back after you got it and greet me to talk to me again. {Alright}?", cid)
 			talkState[talkUser] = 3
-			-- Effekt na schody (strzalka) --
+			doSendMagicEffect(positions.stairs_pos, 55)
 		elseif (msgcontains(msg, "right")) then
 			npcHandler:say("Great, please go to my house, just a few steps south of here. Upstairs in my room, you'll find a chest. You can keep what you find inside of it! Come back after you got it and greet me to talk to me again. {Yes}?", cid)
 			talkState[talkUser] = 3
-			-- Effekt na schody (strzalka) --
+			doSendMagicEffect(positions.stairs_pos, 55)
 		elseif (msgcontains(msg, "no")) then
 			npcHandler:say("Oh, but look at yourself. You can't fight like that! Go to my house. Upstairs, you'll find a chest. You can keep what you find inside of it! Come back after you got it. {Yes}?", cid)
 		else
@@ -68,7 +67,7 @@ function creatureSayCallback(cid, type, msg)
 		npcHandler:say("Alright! Do you see the button called 'Quest Log'? There you can check the status of quests, like this one. Bye for now!", cid)
 		setPlayerStorageValue(cid, storages.QUEST_UPSTAIRS_ACCEPTED, 1)
 		talkState[talkUser] = 0
-		-- @send packet to client which contains a tutorial hint --
+		-- @tutorial hint - pomaranczowa ramka na Quests --
 		return false
 	elseif (msgcontains(msg, "no") or msgcontains(msg, "yes")) and talkState[talkUser] == 666 then
 		if (msgcontains(msg, "yes")) then

@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<movements>
-
+	<!-- Rookgaard -->
+	<movevent type="StepIn" fromaid="6800" toaid="6820" event="script" value="rookgaard_tutorial.lua"/>
+	
 	<!-- Wrath Quest -->
 	<movevent type="StepIn" fromaid="7300" toaid="7305" event="script" value="wrathteleport.lua"/>
 	<movevent type="StepIn" actionid="32361" event="script" value="lights.lua" />
+
 	<!-- <movevent type="StepIn" actionid="32362" event="script" value="lamps.lua" /> -->
 	<movevent type="StepIn" actionid="32363" event="script" value="beetle.lua" />
 	<movevent type="StepIn" fromaid="27232" toaid="27234" event="script" value="lampstepin.lua"/>
