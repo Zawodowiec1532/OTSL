@@ -1,19 +1,30 @@
 	-- Made by Leon Zawodowiec --
+		-- @TODO: Turn off hints when complete quest. --
 local positions = {
 	sign = {x=32007, y=32276, z=7},
 	stone_stairs = {x=32023, y=32273, z=7},
 	waypoint_bridge = {x=32004, y=32278, z=7},
 	santiago_hut = {x=32021, y=32273, z=7},
-	santiago_hut_up = {x=32034, y=32276, z=6}
+	santiago_hut_up = {x=32034, y=32276, z=6},
+	troch_chest = {x = 32033, y = 32278, z = 8},
+	sewer_grate = {x = 32035, y = 32285, z = 8},
+	coat_chest = {x = 32032, y = 32276, z = 5}
 }
 
 local config = {
-	COOLDOWN_TUTORIAL = 15,
+	COOLDOWN_TUTORIAL = 10,
+	BLOCK_BRIDGE = 6704,
+	BLOCK_STAIRS = 6707,
+	BLOCK_CELLAR = 6708,
+	BLOCK_GRATE = 6814,
 	[6800] = 6700,
 	[6801] = 6701,
 	[6802] = 6702,
 	[6803] = 6703,
-	[6805] = 6705
+	[6805] = 6705,
+	[6813] = 6813,
+	[6815] = 6815,
+	[6817] = 6817
 }
 
 function onStepIn(cid, item, position, lastPosition, fromPosition, toPosition, actor)
@@ -38,12 +49,47 @@ function onStepIn(cid, item, position, lastPosition, fromPosition, toPosition, a
 			doSendMagicEffect(positions.stone_stairs, 55)
 
 		elseif item.actionid == 6805 then
-			doPlayerSendTutorial(cid, 2)
+			doPlayerPopupFYI(cid, "This is Santiago, a Non-Player-Character. You can chat with NPCs by typing 'Hi' or 'Hello'. Walk to Santiago and try it!")
+
+		elseif item.actionid == 6813 then
+			doPlayerSendTextMessage(cid, MESSAGE_EVENT_DEFAULT, "You can't see any cockroaches here. 'Open' this chest and see if you can find something to light the room better.")
+			doSendMagicEffect(positions.troch_chest, 55)
+			doSendMagicEffect(positions.troch_chest, 56)
+
+		elseif item.actionid == 6815 and getPlayerStorageValue(cid, config.BLOCK_GRATE) then
+			doPlayerSendTextMessage(cid, MESSAGE_EVENT_DEFAULT, "Look at the metallic object on the floor - this is a sewer grate. Right-click on it and select 'Use' to climb down.")
+			doSendMagicEffect(positions.sewer_grate, 55)
+			doSendMagicEffect(positions.sewer_grate, 56)
+
+		elseif item.actionid == 6817 then
+			doPlayerSendTextMessage(cid, MESSAGE_EVENT_DEFAULT, "You smell stinky cockroaches around here. When you see one, walk to it and attack it by left-clicking it in your battle list!")
+			doPlayerSendTextMessage(cid, MESSAGE_EVENT_DEFAULT, "Click on the chase opponent icon in the combat controls, then click on a cockroach in the battle list. ")
+			doPlayerSendTutorial(cid, 7)
 		end
 		setPlayerStorageValue(cid, config.[item.actionid], os.time())
 	elseif item.actionid == 6804 then
-		doPlayerSendTextMessage(cid, MESSAGE_EVENT_DEFAULT, "This is Santiago, a Non-Player-Character. You can chat with NPCs by typing 'Hi' or 'Hello'. Walk to Santiago and try it!")
-		-- DOKOÑCZYÆ TO.. BALET SAM SIE NIE ZROBI.. :D --
+		setPlayerStorageValue(cid, config.BLOCK_BRIDGE, 1)
+
+	elseif item.actionid == 6806 and getPlayerStorageValue(cid, config.BLOCK_BRIDGE) then
+		doTeleportThing(cid, {x = toPosition.x + 2, y = toPosition.y, z = fromPosition.z}, true)
+		doPlayerSendTextMessage(cid, MESSAGE_EVENT_DEFAULT, "You have no business in this part of the island anymore. Continue by solving Santiago's quest!")
+
+	elseif item.actionid == 6807 then
+		if getPlayerStorageValue(cid, config.BLOCK_STAIRS) ~= 1 then
+			doTeleportThing(cid, {x = toPosition.x + 2, y = toPosition.y, z = fromPosition.z}, true)
+			doPlayerSendTextMessage(cid, MESSAGE_EVENT_DEFAULT, "This is Santiago's room. Maybe you should talk to him before sniffing around in his house.")
+		else
+			doPlayerSendTutorial(cid, 4)
+			doSendMagicEffect(positions.coat_chest, 55)
+			doSendMagicEffect(positions.coat_chest, 56)
+		end
+	elseif item.actionid == 6808 and getPlayerStorageValue(cid, config.BLOCK_CELLAR) ~= 1 then
+		doTeleportThing(cid, {x = toPosition.x - 2, y = toPosition.y, z = fromPosition.z}, true)
+		doPlayerSendTextMessage(cid, MESSAGE_EVENT_DEFAULT, "This is Santiago's cellar. You have no business there yet.")
+
+	elseif item.actionid == 6809 and getPlayerStorageValue(cid, config.BLOCK_BRIDGE) ~= 2 then
+		doTeleportThing(cid, {x = toPosition.x - 2, y = toPosition.y, z = fromPosition.z}, true)
+		doPlayerSendTextMessage(cid, MESSAGE_EVENT_DEFAULT, "Santiago really needs help, maybe you should have a look. Talk to him by typing 'Hi' or 'Hello'.")
 	end
 end
 

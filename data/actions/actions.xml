@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?> <!-- To co ma komentarz zostalo sprawdzone -->
-	<actions> 
+<actions>
+	<!-- Rookgaard -->
+	<action actionid="6810" event="script" value="rookgaard/tutorial_chest_coat.lua"/>
+	<action actionid="6811" event="script" value="rookgaard/tutorial_ladder.lua"/>
+	<action actionid="6812" event="script" value="rookgaard/tutorial_lever.lua"/>
+	<action actionid="6814" event="script" value="rookgaard/tutorial_chest_torch.lua"/>
+	<action actionid="6816" event="script" value="rookgaard/tutorial_sewer_grate.lua"/>
+	
+	
 		<action itemid="12316" event="script" value="tailkeeper.lua"/>
 		<action itemid="12320" event="script" value="thekeeper.lua"/>
 		<action itemid="12290" event="script" value="cleanwater.lua"/> <!-- nadać actionID= 11450 : X: 33282] [Y: 31037] [Z: 10]. ; Position: [X: 33282] [Y: 31036] [Z: 10].-->
