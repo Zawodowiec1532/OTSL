@@ -1,6 +1,6 @@
 	-- Made by Leon Zawodowiec --
 function onUse(cid, item, fromPosition, itemEx, toPosition)
-	snake_head_pos = {x = 32034, y = 32272, z = 8, stackpos = 1}
+	snake_head_pos = {x = 32034, y = 32272, z = 8, stackpos = 2}
 	snake_head = getThingfromPos(snake_head_pos)
 
 	if item.itemid == 1945 and snake_head.itemid == 5058 then

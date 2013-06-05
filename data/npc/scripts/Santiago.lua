@@ -4,9 +4,9 @@ local npcHandler = NpcHandler:new(keywordHandler)
 NpcSystem.parseParameters(npcHandler)
 local talkState = {}
 local storages = {
-	FIRST_TALK = 6800,
+	FIRST_TALK = 6900,
 	QUEST_UPSTAIRS_ACCEPTED = 6801,
-	QUEST_EQUIP_COAT = 6802,
+	QUEST_EQUIP_COAT = 6902,
 	TUTORIAL_CANCELED = 6866
 }
 
@@ -15,7 +15,7 @@ local positions = {
 	stairs_pos = {x = 32033, y = 32277, z = 6}
 }
 
-local items - {
+local items = {
 	coat = 2651,
 	club = 2382,
 	branch = 8600
@@ -33,12 +33,12 @@ function creatureSayCallback(cid, type, msg)
 	
 	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
 
-	if (msgcontains(msg, "hi") or msgcontains(msg, "hello")) and getPlayerStorageValue(cid, storages.FIRST_TALK) ~= 1 and talkState[talkUser] == 0 then
+	if msgcontains(msg, "hi") or msgcontains(msg, "hello") and getPlayerStorageValue(cid, storages.FIRST_TALK) ~= 1 then
 		npcHandler:say("Hello ".. getPlayerName(cid) ..", nice to see you on Rookgaard! I saw you walking by and wondered if you could help me. Could you? Please, say {yes}!", cid)
 		setPlayerStorageValue(cid, storages.FIRST_TALK, 1)
 		talkState[talkUser] = 1
 		
-	elseif (msgcontains(msg, "hi") or msgcontains(msg, "hello")) and getPlayerStorageValue(cid, storages.FIRST_TALK) == 1 and talkState[talkUser] == 0 then
+	elseif msgcontains(msg, "hi") or msgcontains(msg, "hello") and getPlayerStorageValue(cid, storages.FIRST_TALK) == 1 and talkState[talkUser] == 0 then
 		npcHandler:say("Oh, ".. getPlayerName(cid) ..", it's you again! It's probably impolite to disturb a busy adventurer like you, but I really need help. Please, say {yes}!", cid)
 		talkState[talkUser] = 1
 
