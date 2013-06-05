@@ -82,9 +82,6 @@ function onStepIn(cid, item, position, lastPosition, fromPosition, toPosition, a
 		doTeleportThing(cid, {x = toPosition.x - 2, y = toPosition.y, z = fromPosition.z}, true)
 		doPlayerSendTextMessage(cid, MESSAGE_EVENT_ADVANCE, "Santiago really needs help, maybe you should have a look. Talk to him by typing 'Hi' or 'Hello'.")
 	end
-	if isInArray({config[hints]}, item.actionid) then
-		doPlayerSendTextMessage(cid, MESSAGE_EVENT_ADVANCE, "Wartosc: ".. config.hints[item.actionid] .."")
-	end
 end
 
 --[[
