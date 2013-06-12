@@ -6,7 +6,7 @@ NpcSystem.parseParameters(npcHandler)
 local talkState = {}
 local talkUser = 0
 local cofnig = {
-	skull_id = 11073,
+	skull_id = 11076,
 	reward = 11115,
 	quest_storage = 17935,
 	frontier_quest = 17000,
