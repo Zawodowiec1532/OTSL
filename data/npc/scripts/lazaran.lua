@@ -26,19 +26,20 @@ function creatureSayCallback(cid, type, msg)
 	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
 
 	if (getPlayerStorageValue(cid, cofnig.frontier_quest) > 2) then
-		if msgcontains(msg, "mission") and talkState[talkUser] == nil and getPlayerStorageValue(cid, cofnig.quest_storage) < 1 then
+		if msgcontains(msg, "mission") and talkState[talkUser] == nil and getPlayerStorageValue(cid, cofnig.quest_storage) == -1 then
 			msgs = {
 				"Big problem we have! Skull of first leader gone. He ancestor of whole tribe but died long ago in war. We have keep his skull on our sacred place. ...",
 				"Then one night, green men came with wolves... and one of wolves took skull and ran off chewing on it! We need back - many wisdom and power is in skull. Maybe they took to north fortress. But can be hard getting in. You try get our holy skull back?"
 			}
-			doNPCTalkALot(msgs, 1500, cid)
+			doNPCTalkALot(msgs, 2500, cid)
 			talkState[talkUser] = 1
 		elseif msgcontains(msg, "yes") and talkState[talkUser] == 1 then
 			npcHandler:say("You hero of our tribe if bring back holy skull!", cid)
 			setPlayerStorageValue(cid, cofnig.quest_storage, 1)
+			talkState[talkUser] = 666
 		end
 
-		if msgcontains(msg, "mission") and talkState[talkUser] == nil and getPlayerStorageValue(cid, cofnig.quest_storage) == 1 then
+		if msgcontains(msg, "mission") and talkState[talkUser] == nil and getPlayerStorageValue(cid, cofnig.quest_storage) == 1 and getPlayerStorageValue(cid, cofnig.skull_id) == 1 then
 			if getPlayerItemCount(cid, config.skull_id) >= 1 then
 				npcHandler:say("Oh! You found holy skull? In bone pile you found?! Thank Pandor you brought! Me can have it back?", cid)
 				talkState[talkUser] = 2
@@ -46,12 +47,15 @@ function creatureSayCallback(cid, type, msg)
 				npcHandler:say("You don't have a holy skull.", cid)
 			end
 		end
-		if msgcontains(msg, "yes") and talkState[talkUser] == 2 and getPlayerItemCount(cid, config.skull_id) >= 1 then
-			doPlayerRemoveItem(cid, config.skull_id, 1)
-			npcHandler:say("Me thank you much! All wisdom safe again now.", cid)
-			setPlayerStorageValue(cid, cofnig.quest_storage, 2)
-		else
-			npcHandler:say("You don't have a holy skull.", cid)
+
+		if msgcontains(msg, "yes") and talkState[talkUser] == 2 then
+			if getPlayerItemCount(cid, config.skull_id) >= 1 then
+				doPlayerRemoveItem(cid, config.skull_id, 1)
+				npcHandler:say("Me thank you much! All wisdom safe again now.", cid)
+				setPlayerStorageValue(cid, cofnig.quest_storage, 2)
+			else
+				npcHandler:say("You don't have a holy skull.", cid)
+			end
 		end
 
 		if msgcontains(msg, "mission") and talkState[talkUser] == nil and getPlayerStorageValue(cid, cofnig.quest_storage) == 2 then

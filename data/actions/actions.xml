@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <!-- To co ma komentarz zostalo sprawdzone -->
+<?xml version="1.0" encoding="UTF-8"?>
 <actions>
 	<!-- Rookgaard -->
 	<action actionid="6810" event="script" value="rookgaard/tutorial_chest_coat.lua"/>
@@ -6,7 +6,9 @@
 	<action actionid="6812" event="script" value="rookgaard/tutorial_lever.lua"/>
 	<action actionid="6814" event="script" value="rookgaard/tutorial_chest_torch.lua"/>
 	<action actionid="6816" event="script" value="rookgaard/tutorial_sewer_grate.lua"/>
-	
+
+	<!-- Unnatural Selection Quest -->
+	<action actionid="11076" event="script" value="quests/unnatural_skull.lua"/>
 	
 		<action itemid="12316" event="script" value="tailkeeper.lua"/>
 		<action itemid="12320" event="script" value="thekeeper.lua"/>

@@ -17311,17 +17311,19 @@
 		<attribute key="containerSize" value="20" />
 		<attribute key="slotType" value="backpack" />
 	</item>
+	<item id="11120" article="a" name="skull pile" />
+	<item id="11122" article="a" name="pile of bones" />
 	<item id="11123" article="a" name="stone stairs">
 		<attribute key="floorchange" value="north" />
 	</item>
 	<item id="11127" article="a" name="lizard weapon rack">
 		<attribute key="weight" value="5500" />
-		<attribute key="rotateTo" value="11122" />
+		<attribute key="rotateTo" value="11128" />
 		<attribute key="containerSize" value="25" />
 	</item>
 	<item id="11128" article="a" name="lizard weapon rack">
 		<attribute key="weight" value="5500" />
-		<attribute key="rotateTo" value="11121" />
+		<attribute key="rotateTo" value="11127" />
 		<attribute key="containerSize" value="25" />
 	</item>
 	<item id="11129" article="a" name="dragon statue">
