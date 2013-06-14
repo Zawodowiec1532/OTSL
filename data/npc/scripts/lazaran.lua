@@ -5,7 +5,7 @@ local npcHandler = NpcHandler:new(keywordHandler)
 NpcSystem.parseParameters(npcHandler)
 local talkState = {}
 local talkUser = 0
-local cofnig = {
+local config = {
 	skull_id = 11076,
 	reward = 11115,
 	quest_storage = 17935,
@@ -25,8 +25,8 @@ function creatureSayCallback(cid, type, msg)
 	end
 	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
 
-	if (getPlayerStorageValue(cid, cofnig.frontier_quest) > 2) then
-		if msgcontains(msg, "mission") and talkState[talkUser] == nil and getPlayerStorageValue(cid, cofnig.quest_storage) == -1 then
+	if (getPlayerStorageValue(cid, config.frontier_quest) > 2) then
+		if msgcontains(msg, "mission") and talkState[talkUser] == nil and getPlayerStorageValue(cid, config.quest_storage) == -1 then
 			msgs = {
 				"Big problem we have! Skull of first leader gone. He ancestor of whole tribe but died long ago in war. We have keep his skull on our sacred place. ...",
 				"Then one night, green men came with wolves... and one of wolves took skull and ran off chewing on it! We need back - many wisdom and power is in skull. Maybe they took to north fortress. But can be hard getting in. You try get our holy skull back?"
@@ -35,11 +35,11 @@ function creatureSayCallback(cid, type, msg)
 			talkState[talkUser] = 1
 		elseif msgcontains(msg, "yes") and talkState[talkUser] == 1 then
 			npcHandler:say("You hero of our tribe if bring back holy skull!", cid)
-			setPlayerStorageValue(cid, cofnig.quest_storage, 1)
+			setPlayerStorageValue(cid, config.quest_storage, 1)
 			talkState[talkUser] = 666
 		end
 
-		if msgcontains(msg, "mission") and talkState[talkUser] == nil and getPlayerStorageValue(cid, cofnig.quest_storage) == 1 and getPlayerStorageValue(cid, cofnig.skull_id) == 1 then
+		if msgcontains(msg, "mission") and talkState[talkUser] == nil and getPlayerStorageValue(cid, config.quest_storage) == 1 and getPlayerStorageValue(cid, config.skull_id) == 1 then
 			if getPlayerItemCount(cid, config.skull_id) >= 1 then
 				npcHandler:say("Oh! You found holy skull? In bone pile you found?! Thank Pandor you brought! Me can have it back?", cid)
 				talkState[talkUser] = 2
@@ -52,13 +52,13 @@ function creatureSayCallback(cid, type, msg)
 			if getPlayerItemCount(cid, config.skull_id) >= 1 then
 				doPlayerRemoveItem(cid, config.skull_id, 1)
 				npcHandler:say("Me thank you much! All wisdom safe again now.", cid)
-				setPlayerStorageValue(cid, cofnig.quest_storage, 2)
+				setPlayerStorageValue(cid, config.quest_storage, 2)
 			else
 				npcHandler:say("You don't have a holy skull.", cid)
 			end
 		end
 
-		if msgcontains(msg, "mission") and talkState[talkUser] == nil and getPlayerStorageValue(cid, cofnig.quest_storage) == 2 then
+		if msgcontains(msg, "mission") and talkState[talkUser] == nil and getPlayerStorageValue(cid, config.quest_storage) == 2 then
 			msgs = {
 				"You brought back skull of first leader. Hero of tribe! But we more missions to do. ...",
 				"Me and Ulala talk about land outside. We wanting to see more of land! Land over big water! But us no can leave tribe. No can cross water. Only way is skull of first leader. ...",
@@ -66,13 +66,14 @@ function creatureSayCallback(cid, type, msg)
 			}
 			doNPCTalkALot(msgs, 1500, cid)
 			talkState[talkUser] = 3
-		elseif msgcontains(msg, "yes") and talkState[talkUser] == 3 then
+		elseif msgcontains(msg, "yes") and talkState[talkUser] == 3 and getPlayerStorageValue(cid, config.quest_storage) ~= 3 then
 			npcHandler:say("Here take holy skull. You bring where you think is good. See as much as possible! See where other people live!", cid)
-			doPlayerAdditem(cid, config.skull_id, 1, true)
-			setPlayerStorageValue(cid, cofnig.quest_storage, 3)
+			doPlayerAddItem(cid, config.skull_id, 1, true)
+			setPlayerStorageValue(cid, config.quest_storage, 3)
+			talkState[talkUser] = 666
 		end
 
-		if msgcontains(msg, "mission") and talkState[talkUser] == nil and getPlayerStorageValue(cid, cofnig.quest_storage) == 3 then
+		if msgcontains(msg, "mission") and talkState[talkUser] == nil and getPlayerStorageValue(cid, config.quest_storage) == 3 then
 			if getPlayerStorageValue(cid, config.tower_mission) == 11 then
 				npcHandler:say("You say you was to where sun is hot and burning? And where trees grow as high as mountain? And where Fasuon cries white tears? Me can't wait to see!! Can have holy skull back?", cid)
 				talkState[talkUser] = 4
@@ -81,28 +82,28 @@ function creatureSayCallback(cid, type, msg)
 			end
 		elseif msgcontains(msg, "yes") and talkState[talkUser] == 4 then
 			npcHandler:say("We make big ritual soon and learn much about world outside. Me thank you many times for teaching us world. Very wise and adventurous you are!", cid)
-			setPlayerStorageValue(cid, cofnig.quest_storage, 4)
+			setPlayerStorageValue(cid, config.quest_storage, 4)
 		end
 
-		if msgcontains(msg, "mission") and talkState[talkUser] == nil and getPlayerStorageValue(cid, cofnig.quest_storage) == 4 then
+		if msgcontains(msg, "mission") and talkState[talkUser] == nil and getPlayerStorageValue(cid, config.quest_storage) == 4 then
 			npcHandler:say("We been weak for too long! We prepare for great hunt. But still need many doings! You can help us?", cid)
 			talkState[talkUser] = 5
-		elseif (msgcontains(msg, "yes") and (talkState[talkUser] == 5 or getPlayerStorageValue(cid, cofnig.quest_storage) == 5)) then
+		elseif (msgcontains(msg, "yes") and (talkState[talkUser] == 5 or getPlayerStorageValue(cid, config.quest_storage) == 5)) then
 			npcHandler:say("We need to calm and make happy gods. Best go to Ulala. She is priest of us and can tell what needs doing.", cid)
-			setPlayerStorageValue(cid, cofnig.quest_storage, 5)
+			setPlayerStorageValue(cid, config.quest_storage, 5)
 		end
 
-		if msgcontains(msg, "mission") and talkState[talkUser] == nil and getPlayerStorageValue(cid, cofnig.quest_storage) == 6 then
+		if msgcontains(msg, "mission") and talkState[talkUser] == nil and getPlayerStorageValue(cid, config.quest_storage) == 6 then
 			msgs = {
 				"You well did! Great hunt is under best signs now. We prepare weapons and paint faces and then go! ...",
 				"No no, you no need to help us. But can prepare afterparty! Little men sent us stuff some time ago. Was strange water in there. Brown and stinky! But when we tried all tribe became veeeeeeery happy. ...",
 				"Now brown water is gone and we sad! Can you bring POT of brown water for party after great hunt? Just bring to me and me trade for shiny treasure."
 			}
 			doNPCTalkALot(msgs, 1500, cid)
-			setPlayerStorageValue(cid, cofnig.quest_storage, 7)
+			setPlayerStorageValue(cid, config.quest_storage, 7)
 		end
 
-		if msgcontains(msg, "mission") and talkState[talkUser] == nil and getPlayerStorageValue(cid, cofnig.quest_storage) == 7 then
+		if msgcontains(msg, "mission") and talkState[talkUser] == nil and getPlayerStorageValue(cid, config.quest_storage) == 7 then
 			npcHandler:say("You bring us big pot of strange water from little men?", cid)
 			talkState[talkUser] = 6
 		elseif msgcontains(msg, "yes") and talkState[talkUser] == 6 then
@@ -111,7 +112,7 @@ function creatureSayCallback(cid, type, msg)
 				npcHandler:say("Me thank you much! Party will be great again! Here you have old treasure of tribe for trade. Found in caves. Me hope you can use one day.", cid)
 				doRemoveItem(beer)
 				doPlayerAddItem(cid, config.reward, 1, true)
-				setPlayerStorageValue(cid, cofnig.quest_storage, 8)
+				setPlayerStorageValue(cid, config.quest_storage, 8)
 			else
 				npcHandler:say("Please bring the brown water.", cid)
 			end

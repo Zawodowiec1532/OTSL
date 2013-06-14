@@ -6,10 +6,10 @@ function onUse(cid, item, frompos, item2, topos)
 	}
 	if getPlayerStorageValue(cid, config.quest_storage) == 1 and getPlayerStorageValue(cid, config.skull_id) ~= 1 then
 		setPlayerStorageValue(cid, config.skull_id, 1)
-		doPlayerSendTextMessage(cid, MESSAGE_EVENT_ORANGE, "You dig out a skull from the pile of bones. That must be skull Lazaran talked about.")
+		doCreatureSay(cid, "You dig out a skull from the pile of bones. That must be skull Lazaran talked about.", TALKTYPE_MONSTER)
 		doPlayerAddItem(cid, config.skull_id, 1)
 	else
-		doPlayerSendTextMessage(cid, MESSAGE_EVENT_ORANGE, "The pile of bones is empty.")
+		doCreatureSay(cid, "The pile of bones is empty.", TALKTYPE_MONSTER)
 	end
 return true
 end

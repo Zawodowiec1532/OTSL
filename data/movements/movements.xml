@@ -2,6 +2,9 @@
 	<movements>
 	<!-- Rookgaard -->
 	<movevent type="StepIn" fromaid="6800" toaid="6820" event="script" value="rookgaard_tutorial.lua"/>
+
+	<!-- Unnatural Selection Quest -->
+	<movevent type="StepIn" actionid="11077" event="script" value="unnatural_tower.lua"/>
 	
 	<!-- Wrath Quest -->
 	<movevent type="StepIn" fromaid="7300" toaid="7305" event="script" value="wrathteleport.lua"/>
@@ -19,9 +22,6 @@
 <movevent type="StepOut" itemid="12155" event="script" value="closingdoor.lua"/>
 <movevent type="StepOut" itemid="12164" event="script" value="closingdoor.lua"/>
 
-
-	<!-- Ganja System Exit -->
-	<movevent type="StepIn" actionid="7921" event="script" value="maria/exit.lua"/>
 
   	<movevent type="AddItem" tileitem="1" actionid="60626" event="script" value="merge.lua"/>
 	<movevent type="StepIn" fromaid="3950" toaid="3956" event="script" value="teleports.lua"/>

@@ -1,8 +1,7 @@
+	-- Made by Leon Zawodowiec --
+		--TODO: Change storages, make other way to check this shit, change dancefloor on map, check order.
 local quest_storage = 17935
---	//	--	//	--	//	--
-local center_pos = {x = 32991, y = 31497, z = 1}		-- very important, cet to center pos of dance area
-
---	this down, not to config internal work only
+local center_pos = {x = 32991, y = 31497, z = 1}
 local positions =
 	{
 		[1] = {x = center_pos.x - 1, y = center_pos.y - 1, z = center_pos.z},
@@ -17,18 +16,18 @@ local positions =
 	}
 
 local dances = {}
-
-local order = {5, 7, 5, 9, 5, 8, 4, 2, 6, 2, 5, 1, 5, 3, 5, 2}	-- this is the real order based on wikia
+local order = {5, 7, 5, 9, 5, 8, 4, 2, 6, 2, 5, 1, 5, 3, 5, 2}
 
 function onStepIn(cid, item, position, fromPosition)
 	if not isPlayer(cid) or (getPlayerStorageValue(cid, quest_storage) ~= 9) then
 		return true
 	end
-	if not dances[cid] then
-		dances[cid] = 1
-	end
+	--if not dances[cid] then
+	--	dances[cid] = 1
+	--end
 	
-	local dance = dances[cid]
+	--local dance = dances[cid]
+	local dance = not dances[cid] and 1 or dances[cid]
 	
 	if (dance ~= 1) then
 		if not doComparePositions(positions[order[dance]], getCreaturePosition(cid)) then
