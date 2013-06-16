@@ -19,7 +19,7 @@ local dances = {}
 local order = {5, 7, 5, 9, 5, 8, 4, 2, 6, 2, 5, 1, 5, 3, 5, 2}
 
 function onStepIn(cid, item, position, fromPosition)
-	if not isPlayer(cid) or (getPlayerStorageValue(cid, quest_storage) ~= 9) then
+	if not isPlayer(cid) or getPlayerStorageValue(cid, quest_storage) ~= 9 then
 		return true
 	end
 	--if not dances[cid] then

@@ -1,14 +1,6 @@
 <?PHP
 // ###################### CONFIG ########################
-//load page config file
-$config['site'] = parse_ini_file('config/config.ini');
 include('config/config.php');
-//check install
-if($config['site']['install'] != "no")
-{
-	header("Location: install/install.php");
-	exit;
-}
 //load server config
 $config['server'] = parse_ini_file($config['site']['server_path'].'config.lua');
 if(isset($config['server']['sqlHost']))

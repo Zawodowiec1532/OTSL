@@ -83,6 +83,7 @@ function creatureSayCallback(cid, type, msg)
 		elseif msgcontains(msg, "yes") and talkState[talkUser] == 4 then
 			npcHandler:say("We make big ritual soon and learn much about world outside. Me thank you many times for teaching us world. Very wise and adventurous you are!", cid)
 			setPlayerStorageValue(cid, config.quest_storage, 4)
+			talkState[talkUser] = 666
 		end
 
 		if msgcontains(msg, "mission") and talkState[talkUser] == nil and getPlayerStorageValue(cid, config.quest_storage) == 4 then
@@ -91,6 +92,7 @@ function creatureSayCallback(cid, type, msg)
 		elseif (msgcontains(msg, "yes") and (talkState[talkUser] == 5 or getPlayerStorageValue(cid, config.quest_storage) == 5)) then
 			npcHandler:say("We need to calm and make happy gods. Best go to Ulala. She is priest of us and can tell what needs doing.", cid)
 			setPlayerStorageValue(cid, config.quest_storage, 5)
+			talkState[talkUser] = 666
 		end
 
 		if msgcontains(msg, "mission") and talkState[talkUser] == nil and getPlayerStorageValue(cid, config.quest_storage) == 6 then

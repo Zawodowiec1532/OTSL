@@ -14,6 +14,5 @@
 	<channel id="6" name="Trade" level="8" muted="120" conditionId="2" conditionMessage="You may only place one offer in two minutes."/>
 	<channel id="8" name="RL-Chat" level="2"/>
 	<channel id="9" name="Help" logged="yes"/>
-	<!-- <channel id="10" name="My Custom Channel"/> -->
 	<channel id="65535" name="Private Chat Channel"/>
 </channels>

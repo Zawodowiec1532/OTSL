@@ -1,6 +1,6 @@
 <?php
 if(isset($_SERVER['REDIRECT_URL']))
-	header( 'location: /index.php?subtopic=error&id='.$_SERVER['REDIRECT_STATUS'] );
+	header('location: /index.php?subtopic=error&id='.$_SERVER['REDIRECT_STATUS']);
 
 if (isset($_GET['id']))
 {
