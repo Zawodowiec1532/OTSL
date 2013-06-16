@@ -257,12 +257,6 @@ switch($_REQUEST['subtopic'])
 		include("credits.php");
 		break;
 
-	case "toprichest";
-		$topic = "Top Richest Players";
-		$subtopic = "toprichest";
-		include("toprichest.php");
-		break;
-
 	case "ganja":
 		$topic = "Ganja System";
 		$subtopic = "ganja";
