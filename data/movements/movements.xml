@@ -4,7 +4,8 @@
 	<movevent type="StepIn" fromaid="6800" toaid="6820" event="script" value="rookgaard_tutorial.lua"/>
 
 	<!-- Unnatural Selection Quest -->
-	<movevent type="StepIn" actionid="11077" event="script" value="unnatural_tower.lua"/>
+	<movevent type="StepIn" actionid="11077" event="script" value="quests/unnatural_tower.lua"/>
+	<movevent type="StepIn" actionid="11078" event="script" value="quests/unnatural_dance.lua"/>
 	
 	<!-- Wrath Quest -->
 	<movevent type="StepIn" fromaid="7300" toaid="7305" event="script" value="wrathteleport.lua"/>
@@ -16,7 +17,6 @@
 	<movevent type="StepIn" actionid="25232" event="script" value="stepout.lua" />
 
 
-	<movevent type="StepIn" actionid="24152" event="script" value="unna.lua"/>	<!-- Dance zone AID -->
 <movevent type="StepOut" itemid="12157" event="script" value="closingdoor.lua"/>
 <movevent type="StepOut" itemid="12166" event="script" value="closingdoor.lua"/>
 <movevent type="StepOut" itemid="12155" event="script" value="closingdoor.lua"/>
