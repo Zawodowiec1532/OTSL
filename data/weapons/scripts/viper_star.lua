@@ -20,10 +20,9 @@ function onUseWeapon(cid, var)
 	end
 
 	local target = variantToNumber(var)
-	if(target ~= 0) then
-		-- chance to poison the enemy
+	if (target ~= 0) then
 		local chance = math.random(0, 100)
-		if(chance > 90) then
+		if (chance > 90) then
 			ret = doCombat(cid, xCombat, var)
 		end
 	end

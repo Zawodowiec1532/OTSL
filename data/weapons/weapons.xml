@@ -7,7 +7,7 @@
 	<wand id="7735" level="1" mana="0" min="220" max="260" type="death" event="function" value="default"> <!-- Snakebite Rod -->
 		<vocation id="2"/>
 		<vocation id="1"/>
-              <vocation id="6"/>
+		<vocation id="6"/>
 		<vocation id="5"/>
 	</wand>
 	<wand id="2186" level="13" mana="3" min="13" max="25" type="ice" event="function" value="default"> <!-- Moonlight Rod -->

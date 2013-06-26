@@ -32,6 +32,7 @@
 	<talkaction log="yes" words="/send" access="4" event="script" value="teleportsend.lua"/>
 	<talkaction log="yes" words="/clean" access="4" event="script" value="clean.lua"/>
 	<talkaction log="yes" words="/save" access="4" event="script" value="save.lua"/>
+	<talkaction log="yes" words="!checkip" access="4" event="script" value="checkip.lua"/>
 
 	<!-- Gamemasters [Access: 3]-->
 	<talkaction log="yes" words="/b" access="3" event="script" value="broadcast.lua"/>
@@ -75,10 +76,7 @@
 	<talkaction words="!nie" event="script" value="vote_system.lua"/>
 	<talkaction words="!color" event="script" value="partyoutfit.lua"/>
 	<talkaction words="!hunt" event="script" value="bh-add.lua"/>
-	<talkaction words="!iplol" event="script" value="iplol.lua"/>
 	<talkaction words="!sell" event="script" value="sell.lua"/>
-	<!-- <talkaction words="!sellchar" event="script" value="sellchar.lua"/> -->
-	<!-- <talkaction words="!removesellchar" event="script" value="removesellchar.lua"/> -->
 	<talkaction words="!outfit" event="script" value="outfit.lua"/>
 
 	<!-- Houses -->
@@ -94,7 +92,7 @@
 	<talkaction words="/war" channel="0" event="script" value="war.lua" desc="(Guild channel command) War management."/>
 	<talkaction words="/balance" channel="0" event="script" value="balance.lua" desc="(Guild channel command) Balance management."/>
 
-	<!-- (Deprecated) Redirect old '/' to '!' -->
+	<!-- Redirect -->
 	<talkaction words="/online" hide="yes" event="script" value="online.lua"/>
 	<talkaction words="/uptime" hide="yes" event="script" value="uptime.lua"/>
 	<talkaction words="/deathlist" hide="yes" event="script" value="deathlist.lua"/>

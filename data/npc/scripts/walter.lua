@@ -1,4 +1,4 @@
-	-- made by Leon Zawodowiec --
+	-- Made by Leon Zawodowiec --
 local keywordHandler = KeywordHandler:new()
 local npcHandler = NpcHandler:new(keywordHandler)
 NpcSystem.parseParameters(npcHandler)
@@ -10,33 +10,33 @@ function onCreatureSay(cid, type, msg)                  npcHandler:onCreatureSay
 function onThink()                                      npcHandler:onThink()                                    end
 
 function creatureSayCallback(cid, type, msg)
-        if(not npcHandler:isFocused(cid)) then
-                return false
-        end
+	if(not npcHandler:isFocused(cid)) then
+		return false
+	end
 		
-local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
-local storage = getPlayerStorageValue(cid, 1889)
+	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
+	local storage = getPlayerStorageValue(cid, 1889)
 
 	if msgcontains(msg, 'trouble') then
 		if storage == 4 then
 				npcHandler:say("I think there is a pickpocket in town.", cid)
 				setPlayerStorageValue(cid, 1889, 5)
 		else
-			npcHandler:say("I don't feel like chatting.", cid)
+			npcHandler:say("I don't feel 	 chatting.", cid)
 		end
 	elseif msgcontains(msg, 'authorities') then
 		if storage == 5 then
 			npcHandler:say("Well, sooner or later we will get hold of that delinquent. That's for sure.", cid)
 			setPlayerStorageValue(cid, 1889, 6)
 		else
-			npcHandler:say("I don't feel like chatting.", cid)
+			npcHandler:say("I don't feel 	 chatting.", cid)
 		end
 	elseif msgcontains(msg, 'avoided') then	
 		if storage == 6 then
 			npcHandler:say("You can't tell by a person's appearance who is a pickpocket and who isn't. You simply can't close the city gates for everyone.", cid)
 			setPlayerStorageValue(cid, 1889, 7)
 		else
-			npcHandler:say("I don't feel like chatting.", cid)
+			npcHandler:say("I don't feel 	 chatting.", cid)
 		end
 	elseif msgcontains(msg, 'gods allow') then	
 		if storage == 7 then
@@ -44,7 +44,7 @@ local storage = getPlayerStorageValue(cid, 1889)
 			setPlayerStorageValue(cid, 1889, 8)
 			doSendMagicEffect(getCreaturePosition(cid), CONST_ME_HOLYAREA)
 		else
-			npcHandler:say("I don't feel like chatting.", cid)
+			npcHandler:say("I don't feel 	 chatting.", cid)
 		end	
 	end
 return true

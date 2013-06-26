@@ -9,13 +9,13 @@ function onCreatureDisappear(cid)                       npcHandler:onCreatureDis
 function onCreatureSay(cid, type, msg)                  npcHandler:onCreatureSay(cid, type, msg)                end
 function onThink()                                      npcHandler:onThink()                                    end
 
-	function creatureSayCallback(cid, type, msg)
-		if(not npcHandler:isFocused(cid)) then
-			return false
-		end
+function creatureSayCallback(cid, type, msg)
+	if(not npcHandler:isFocused(cid)) then
+		return false
+	end
 			
-		local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
-		local storage = getPlayerStorageValue(cid, 1889)
+	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
+	local storage = getPlayerStorageValue(cid, 1889)
 
 	if msgcontains(msg, 'trouble') then
 		if storage == 12 then

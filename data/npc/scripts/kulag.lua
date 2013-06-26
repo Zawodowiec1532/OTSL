@@ -1,4 +1,4 @@
-	-- made by Leon Zawodowiec --
+	-- Made by Leon Zawodowiec --
 local keywordHandler = KeywordHandler:new()
 local npcHandler = NpcHandler:new(keywordHandler)
 NpcSystem.parseParameters(npcHandler)
@@ -10,12 +10,12 @@ function onCreatureSay(cid, type, msg)                  npcHandler:onCreatureSay
 function onThink()                                      npcHandler:onThink()                                    end
 
 function creatureSayCallback(cid, type, msg)
-        if(not npcHandler:isFocused(cid)) then
-                return false
-        end
-		
-local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
-local storage = getPlayerStorageValue(cid, 1889)
+	if(not npcHandler:isFocused(cid)) then
+		return false
+	end
+
+	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
+	local storage = getPlayerStorageValue(cid, 1889)
 
 	if msgcontains(msg, 'trouble') then
 		if storage == 2 then
@@ -33,7 +33,7 @@ local storage = getPlayerStorageValue(cid, 1889)
 			npcHandler:say("I don't feel like chatting.", cid)
 		end
 	end
-return true
+	 true
 end
 
 npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, creatureSayCallback)

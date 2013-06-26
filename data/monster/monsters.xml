@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monsters>
+	<!-- Wroking.. -->
+	<monster name="Yalahari" file="Yalahari.xml"/>
 	<monster name="Heoni" file="heoni.xml"/>
 	<monster name="The Keeper" file="the keeper.xml"/>
 	<monster name="Glitterscale" file="glitterscale.xml"/>
@@ -166,9 +168,9 @@
 	<monster name="Vashresamun" file="Bosses/vashresamun.xml"/>
 	<monster name="Warlord Ruzad" file="Bosses/warlord ruzad.xml"/>
 	<monster name="Zugurosh" file="Bosses/zugurosh.xml"/>
-       <monster name="Tibia Bug" file="Bosses/tibia bug.xml"/>
-       <monster name="Hacker" file="Misc/hacker.xml"/>
-       <monster name="Primitive" file="Outlaws/Primitive.xml"/>
+	<monster name="Tibia Bug" file="Bosses/tibia bug.xml"/>
+	<monster name="Hacker" file="Misc/hacker.xml"/>
+	<monster name="Primitive" file="Outlaws/Primitive.xml"/>
 	
 	<!-- Bosses Quests -->
 	<monster name="Achad" file="Bosses Quests/achad.xml"/>

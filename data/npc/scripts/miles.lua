@@ -1,4 +1,5 @@
-  local keywordHandler = KeywordHandler:new()
+	-- Made by Leon Zawodowiec --
+local keywordHandler = KeywordHandler:new()
 local npcHandler = NpcHandler:new(keywordHandler)
 NpcSystem.parseParameters(npcHandler)
 local talkState = {}
