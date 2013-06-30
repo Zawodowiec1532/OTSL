@@ -46,7 +46,7 @@ function dance(cid, set, t)
 		p[cid] = 1
 		return doPlayerSendCancel(cid, "You failed, Krunus is sad. :(")
 	end
-return doComparePositions(positions[sets[set][1]], getCreaturePosition(cid)) and t = addEvent(dance, 2000, cid, set) or false
+return doComparePositions(positions[sets[set][1]], getCreaturePosition(cid)) and addEvent(dance, 2000, cid, set) or false
 end
 
 function onStepIn(cid, item, position, fromPosition)

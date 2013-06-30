@@ -2341,7 +2341,7 @@
 		<attribute key="weight" value="100" />
 		<attribute key="decayTo" value="0" />
 		<attribute key="transformDeEquipTo" value="2214" />
-		<attribute key="duration" value="450" />
+		<attribute key="duration" value="480" />
 		<attribute key="healthGain" value="1" />
 		<attribute key="healthTicks" value="1000" />
 		<attribute key="manaGain" value="4" />
