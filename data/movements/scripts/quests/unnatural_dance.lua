@@ -22,7 +22,6 @@ local positions =	{
 }
 
 local sets =	{
-	--[0] = {5},
 	[1] = {7, 1, 3, 9},
 	[2] = {5, 4, 6},
 	[3] = {9, 7, 1, 3},
@@ -46,24 +45,29 @@ function dance(cid, set, t)
 		p[cid] = 1
 		return doPlayerSendCancel(cid, "You failed, Krunus is sad. :(")
 	end
-return doComparePositions(positions[sets[set][1]], getCreaturePosition(cid)) and addEvent(dance, 2000, cid, set) or false
+return doComparePositions(positions[sets[set][1]], getCreaturePosition(cid)) and addEvent(dance, 2000, cid, set + 1, t = true) or false
+end
+
+function plant(set)
+	local z = sets[set]
+	for i = 1, #z do
+		doSendMagicEffect(positions[z[i]], (i > 1 and CONST_ME_BIGPLANTS or CONST_ME_BIGPLANTS))
+	end
+	set = set + 1
+return set < #sets and addEvent(plant, 200, set) or true
 end
 
 function onStepIn(cid, item, position, fromPosition)
-	if getPlayerStorageValue(cid, quest_storage) ~= 9 then
+	if getPlayerStorageValue(cid, quest_storage) ~= 9 or getGlobalStorageValue(dancing) == getPlayerName(cid) then
 		return true
 	end
 	if not isPlayer(cid) or getGlobalStorageValue(dancing) ~= getPlayerName(cid) then -- test: (getGlobalStorageValue(dancing) ~= getPlayerName(cid) and false or setGlobalStorageValue(dancing, getPlayerName(cid)))
 		doCreatureSay(cid, "Dance for the mighty Krunus", TALKTYPE_ORANGE_1)
 		setGlobalStorageValue(dancing, getPlayerName(cid))
 		local set = not p[cid] and 1 or p[cid]
-		addEvent(dance, 1200, cid, set, t = true)
-
-		local pos = positions[sets[set + 1]]
-		for i = 1, 10 do
-			addEvent(doSendMagicEffect, i * 200, pos, CONST_ME_BIGPLANTS)
-		end
-		p[cid] = set + 1
+		local v = addEvent(dance, 1200, cid, set, v and true or false)
+		local l = addEvent(plant, 200, set)
+------------------------------------------------
 		if (p[cid] == #sets) then
 		--	doPlayerSetStorageValue(cid, quest_storage, 10)	-- completed
 			doCreatureSay(cid, "Krunus should be pleased.", TALKTYPE_ORANGE_1)
