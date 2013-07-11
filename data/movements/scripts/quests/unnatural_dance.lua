@@ -1,14 +1,8 @@
 	-- Made by Leon Zawodowiec --
-		--TODO: Change storages, make other way to check this shit, check order, add missing texts and effects.
+		--TODO: Change storages, add support for carniphila stepin
 local quest_storage = 17935
 local dancing = 17999
 local center_pos = {x = 32991, y = 31497, z = 1}
---[[
-		[1][2][3]
-		[4][5][6]
-		[7][8][9]
---]]
-local p = {}
 local positions =	{
 	[1] = {x = center_pos.x - 1, y = center_pos.y - 1, z = center_pos.z},
 	[2] = {x = center_pos.x, y = center_pos.y - 1, z = center_pos.z},
@@ -39,22 +33,37 @@ local sets =	{
 	[15] = {2, 4, 6, 8},
 	[16] = {4, 6}
 }
-
-function dance(cid, set, t)
-	if not t then
-		p[cid] = 1
-		return doPlayerSendCancel(cid, "You failed, Krunus is sad. :(")
+function dance(cid, set)
+	--doSendMagicEffect(positions[sets[set][1]], 36)
+	local lz = doComparePositions(positions[sets[set][1]], getCreaturePosition(cid))
+	if (lz == false) then
+		setGlobalStorageValue(dancing, "")
+		doCreatureSay(cid, "You failed, Krunus is sad. :(", TALKTYPE_ORANGE_1)
+		return setGlobalStorageValue(noob_style, "false")
 	end
-return doComparePositions(positions[sets[set][1]], getCreaturePosition(cid)) and addEvent(dance, 2000, cid, set + 1, t = true) or false
+return true
 end
 
-function plant(set)
+function plant(cid, set)
+	if (getBooleanFromString(getGlobalStorageValue(noob_style)) == false) then
+		return true
+	end
 	local z = sets[set]
 	for i = 1, #z do
-		doSendMagicEffect(positions[z[i]], (i > 1 and CONST_ME_BIGPLANTS or CONST_ME_BIGPLANTS))
+		doSendMagicEffect(positions[sets[set][i]], (i > 1 and CONST_ME_CARNIPHILA or CONST_ME_SMALLPLANTS))
 	end
-	set = set + 1
-return set < #sets and addEvent(plant, 200, set) or true
+	addEvent(dance, 1200, cid, set)
+return set < #sets - 1 and addEvent(plant, 2000, cid, set + 1) or addEvent(done, 400, cid)
+end
+
+function done(cid)
+	for i = 1, #sets[#sets] do
+		doSendMagicEffect(positions[sets[#sets][i]], CONST_ME_BIGPLANTS)
+	end
+	--doPlayerSetStorageValue(cid, quest_storage, 10)
+	doCreatureSay(cid, "Krunus should be pleased.", TALKTYPE_ORANGE_1)
+	setGlobalStorageValue(dancing, "") --:DEBUG
+return true
 end
 
 function onStepIn(cid, item, position, fromPosition)
@@ -62,16 +71,10 @@ function onStepIn(cid, item, position, fromPosition)
 		return true
 	end
 	if not isPlayer(cid) or getGlobalStorageValue(dancing) ~= getPlayerName(cid) then -- test: (getGlobalStorageValue(dancing) ~= getPlayerName(cid) and false or setGlobalStorageValue(dancing, getPlayerName(cid)))
-		doCreatureSay(cid, "Dance for the mighty Krunus", TALKTYPE_ORANGE_1)
+		setGlobalStorageValue(noob_style, "true")
 		setGlobalStorageValue(dancing, getPlayerName(cid))
-		local set = not p[cid] and 1 or p[cid]
-		local v = addEvent(dance, 1200, cid, set, v and true or false)
-		local l = addEvent(plant, 200, set)
-------------------------------------------------
-		if (p[cid] == #sets) then
-		--	doPlayerSetStorageValue(cid, quest_storage, 10)	-- completed
-			doCreatureSay(cid, "Krunus should be pleased.", TALKTYPE_ORANGE_1)
-		end
+		doCreatureSay(cid, "Dance for the mighty Krunus", TALKTYPE_ORANGE_1)
+		addEvent(plant, 1000, cid, 1)
 	else
 		return doPlayerSendCancel(cid, "Sorry, another player has already started a dance for Krunus.. please wait.")
 	end
