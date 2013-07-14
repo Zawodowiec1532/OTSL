@@ -2,7 +2,7 @@
 <monster name="Man in the Cave" nameDescription="man in the cave" race="blood" experience="770" speed="226" manacost="0">
 	<health now="485" max="485"/>
 	<look type="128" head="95" body="116" legs="95" feet="114" addons="1" corpse="6080"/>
-	<targetchange interval="5000" chance="8"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -38,14 +38,14 @@
 		<immunity drunk="1"/>
 		<immunity invisible="1"/>
 	</immunities>
-	<voices interval="2000" chance="5">
+	<voices interval="2000" chance="10">
 		<voice sentence="THE MONKS ARE MINE" yell="1"/>
 		<voice sentence="I will rope you up! All of you!"/>
 		<voice sentence="You have been roped up!"/>
 		<voice sentence="A MIC to rule them all!"/>
 	</voices>
-	<summons maxSummons="1">
-		<summon name="Monk" interval="2000" chance="20" max="1"/>
+	<summons maxSummons="4">
+		<summon name="Monk" interval="2000" chance="20" max="4"/>
 	</summons>
 	<loot>
 		<item id="2148" countmax="27" chance="100000"/><!-- gold coin -->

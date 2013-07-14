@@ -2,7 +2,7 @@
 <monster name="Apprentice Sheng" nameDescription="apprentice sheng" race="blood" experience="100" speed="170" manacost="0">
 	<health now="95" max="95"/>
 	<look type="23" corpse="5981"/>
-	<targetchange interval="5000" chance="8"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -35,9 +35,10 @@
 	<summons maxSummons="2">
 		<summon name="Hyena" interval="2000" chance="100" max="2"/>
 	</summons>
-	<voices interval="5000" chance="10">
+	<voices interval="2000" chance="10">
 		<voice sentence="I will protect the secrets of my master!"/>
 		<voice sentence="This isle will become ours alone!"/>
+		<voice sentence="You already know too much."/>
 		<voice sentence="Kaplar!"/>
 	</voices>
 	<loot>
@@ -46,7 +47,7 @@
 		<item id="2050" chance="10000"/><!-- torch -->
 		<item id="2461" chance="8000"/><!-- leather helmet -->
 		<item id="2649" chance="8000"/><!-- leather legs -->
-		<item id="5878" chance="100000"/><!-- minotaur leather -->
+		<item id="5878" countmax="3" chance="100000"/><!-- minotaur leather -->
 		<item id="1987" chance="100000"><!-- bag -->
 			<inside>
 				<item id="2404" chance="10000"/><!-- combat knife -->

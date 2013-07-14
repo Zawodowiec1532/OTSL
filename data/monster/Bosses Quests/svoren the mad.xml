@@ -50,8 +50,11 @@
 		<immunity earth="1"/>
 		<immunity fire="1"/>
 	</immunities>
-	<voices interval="2000" chance="5">
+	<voices interval="2000" chance="10">
 		<voice sentence="NO mommy NO. Leave me alone!"/>
 		<voice sentence="Not that tower again!"/>
+		<voice sentence="The cat has grown some horns!"/>
+		<voice sentence="What was I doing here again?"/>
+		<voice sentence="Are we there soon mommy?"/>
 	</voices>
 </monster>

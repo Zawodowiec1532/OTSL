@@ -25,14 +25,6 @@
 		</defense>
 	</defenses>
 	<immunities>
-		<immunity physical="0"/>
-		<immunity energy="0"/>
-		<immunity fire="1"/>
-		<immunity poison="0"/>
-		<immunity lifedrain="0"/>
-		<immunity paralyze="0"/>
-		<immunity outfit="0"/>
-		<immunity drunk="0"/>
 		<immunity invisible="1"/>
 	</immunities>
 	<voices interval="5000" chance="10">
@@ -63,28 +55,40 @@
 		<voice sentence="Catch me if you can!"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="16" chance="30750" /><!-- gold coin -->
-    <item id="2111" countmax="3" chance="12100" /><!-- snowball -->
-    <item id="2674" countmax="3" chance="7900" /><!-- red apple -->
-    <item id="1987" chance="28325" /><!-- bag -->
-    <item id="2687" countmax="5" chance="4850" /><!-- cookie -->
-    <item id="7909" countmax="4" chance="1375" /><!-- walnut -->
-    <item id="6277" chance="5725" /><!-- lump of cake dough -->
-    <item id="2675" countmax="2" chance="4625" /><!-- orange -->
-    <item id="4873" chance="925" /><!-- explorer brooch -->
-    <item id="5902" chance="925" /><!-- honeycomb -->
-    <item id="2661" chance="925" /><!-- scarf -->
-    <item id="2114" chance="1375" /><!-- piggy bank -->
+    <item id="2148" countmax="16" chance="30425" /><!-- gold coin -->
+    <item id="2111" countmax="3" chance="11825" /><!-- snowball -->
+    <item id="2674" countmax="3" chance="7725" /><!-- red apple -->
+    <item id="6497" chance="28325" /><!-- bag -->
+    <item id="2687" countmax="5" chance="4450" /><!-- cookie -->
+    <item id="7909" countmax="4" chance="1450" /><!-- walnut -->
+    <item id="6277" chance="5700" /><!-- lump of cake dough -->
+    <item id="2675" countmax="2" chance="4975" /><!-- orange -->
+    <item id="4873" chance="975" /><!-- explorer brooch -->
+    <item id="5902" chance="975" /><!-- honeycomb -->
+    <item id="2661" chance="975" /><!-- scarf -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2695" countmax="2" chance="1150" /><!-- egg -->
-            <item id="2679" chance="925" /><!-- cherry -->
-            <item id="5792" chance="925" /><!-- dice -->
-            <item id="5894" countmax="3" chance="925" /><!-- bat wing -->
-            <item id="7910" countmax="3" chance="925" /><!-- peanut -->
-            <item id="4839" chance="925" /><!-- bottle -->
-            <item id="5890" countmax="3" chance="925" /><!-- chicken feather -->
+            <item id="2114" chance="1450" /><!-- piggy bank -->
+            <item id="2695" countmax="2" chance="1200" /><!-- egg -->
+            <item id="5894" countmax="3" chance="975" /><!-- bat wing -->
+            <item id="7910" countmax="3" chance="975" /><!-- peanut -->
+            <item id="4839" chance="975" /><!-- bottle -->
+            <item id="5890" countmax="3" chance="975" /><!-- chicken feather -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

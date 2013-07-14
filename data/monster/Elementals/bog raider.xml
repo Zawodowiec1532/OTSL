@@ -2,7 +2,7 @@
 <monster name="Bog Raider" nameDescription="a bog raider" race="venom" experience="800" speed="300" manacost="0">
 	<health now="1300" max="1300"/>
 	<look type="299" corpse="8951"/>
-	<targetchange interval="60000" chance="0"/>
+	<targetchange interval="6000" chance="0"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -13,8 +13,6 @@
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
 		<flag staticattack="15"/>
-		<flag lightlevel="0"/>
-		<flag lightcolor="0"/>
 		<flag targetdistance="1"/>
 		<flag runonhealth="1"/>
 	</flags>
@@ -42,7 +40,7 @@
 	</defenses>
 	<elements>
 		<element energyPercent="-10"/>
-		<element earthPercent="5"/>
+		<element earthPercent="30"/>
 		<element icePercent="-5"/>
 		<element physicalPercent="-5"/>
 		<element holyPercent="-5"/>
@@ -58,19 +56,39 @@
 		<voice sentence="Slurp!"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="100" chance="36275" /><!-- gold coin -->
-    <item id="2148" countmax="4" chance="36275" /><!-- gold coin -->
-    <item id="10584" chance="10425" /><!-- boggy dreads -->
-    <item id="7591" chance="1900" /><!-- great health potion -->
-    <item id="8912" chance="1700" /><!-- springsprout rod -->
-    <item id="8472" chance="2250" /><!-- great spirit potion -->
-    <item id="2647" chance="2375" /><!-- plate legs -->
+    <item id="2148" countmax="100" chance="35750" /><!-- gold coin -->
+    <item id="2148" countmax="5" chance="35750" /><!-- gold coin -->
+    <item id="10584" chance="10550" /><!-- boggy dreads -->
+    <item id="7591" chance="2275" /><!-- great health potion -->
+    <item id="8912" chance="1650" /><!-- springsprout rod -->
+    <item id="8472" chance="2600" /><!-- great spirit potion -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="8473" chance="775" /><!-- ultimate health potion -->
-            <item id="8872" chance="1100" /><!-- belted cape -->
-            <item id="8891" chance="600" /><!-- paladin armor -->
+            <item id="2647" chance="2500" /><!-- plate legs -->
+            <item id="8473" chance="1250" /><!-- ultimate health potion -->
+            <item id="8872" chance="1000" /><!-- belted cape -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

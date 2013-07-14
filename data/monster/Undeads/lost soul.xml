@@ -28,15 +28,15 @@
 	</attacks>
 	<defenses armor="25" defense="35"/>
 	<elements>
-		<element firePercent="100"/>
-		<element deathPercent="100"/>
-		<element earthPercent="100"/>
 		<element icePercent="50"/>
 		<element energyPercent="10"/>
 		<element holyPercent="-25"/>
 	</elements>
 	<immunities>
 		<immunity paralyze="1"/>
+		<immunity fire="1"/>
+		<immunity earth="1"/>
+		<immunity death="1"/>
 		<immunity invisible="1"/>
 	</immunities>
 	<voices interval="5000" chance="30">
@@ -44,31 +44,50 @@
 		<voice sentence="Mouuuurn meeee!"/>
 	</voices>
 	<loot>
-    <item id="2483" chance="10325" /><!-- scale armor -->
-    <item id="6300" chance="1550" /><!-- death ring -->
-    <item id="11233" chance="28675" /><!-- unholy bone -->
-    <item id="2197" chance="2925" /><!-- stone skin amulet -->
-    <item id="7413" chance="1225" /><!-- titan axe -->
-    <item id="7590" chance="9775" /><!-- great mana potion -->
-    <item id="5944" chance="7350" /><!-- soul orb -->
-    <item id="2260" chance="35250" /><!-- blank rune -->
-    <item id="2480" chance="7350" /><!-- steel helmet -->
-    <item id="2457" chance="10100" /><!-- steel helmet -->
+    <item id="2483" chance="10225" /><!-- scale armor -->
+    <item id="6300" chance="1475" /><!-- death ring -->
+    <item id="11233" chance="28500" /><!-- unholy bone -->
+    <item id="2197" chance="3000" /><!-- stone skin amulet -->
+    <item id="7413" chance="1350" /><!-- titan axe -->
+    <item id="7590" chance="10000" /><!-- great mana potion -->
+    <item id="5944" chance="6800" /><!-- soul orb -->
+    <item id="2260" chance="35450" /><!-- blank rune -->
+    <item id="2457" chance="10300" /><!-- steel helmet -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="9808" countmax="2" chance="6350" /><!-- rusty armor -->
-            <item id="2463" chance="11825" /><!-- plate armor -->
-            <item id="2148" countmax="100" chance="42800" /><!-- gold coin -->
-            <item id="2148" countmax="100" chance="42800" /><!-- gold coin -->
-            <item id="2148" countmax="100" chance="42800" /><!-- gold coin -->
-            <item id="2148" countmax="13" chance="42800" /><!-- gold coin -->
-            <item id="2152" countmax="3" chance="5125" /><!-- platinum coin -->
-            <item id="6500" chance="6250" /><!-- demonic essence -->
-            <item id="2133" chance="1325" /><!-- ruby necklace -->
+            <item id="9810" countmax="2" chance="6375" /><!-- rusty armor -->
+            <item id="2463" chance="11000" /><!-- plate armor -->
+            <item id="2148" countmax="100" chance="42550" /><!-- gold coin -->
+            <item id="2148" countmax="100" chance="42550" /><!-- gold coin -->
+            <item id="2148" countmax="100" chance="42550" /><!-- gold coin -->
+            <item id="2148" countmax="13" chance="42550" /><!-- gold coin -->
+            <item id="2152" countmax="3" chance="4425" /><!-- platinum coin -->
+            <item id="6500" countmax="3" chance="6500" /><!-- demonic essence -->
+            <item id="2133" chance="1475" /><!-- ruby necklace -->
             <item id="5806" chance="5850" /><!-- silver goblet -->
-            <item id="6526" chance="1725" /><!-- skeleton decoration -->
-            <item id="2436" chance="1325" /><!-- skull staff -->
+            <item id="6524" chance="1675" /><!-- skeleton decoration -->
+            <item id="2436" chance="1150" /><!-- skull staff -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

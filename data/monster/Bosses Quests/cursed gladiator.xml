@@ -32,7 +32,7 @@
 	<immunities>
 		<immunity invisible="1"/>
 	</immunities>
-	<voices interval="2000" chance="5">
+	<voices interval="2000" chance="10">
 		<voice sentence="Death where are you?"/>
 	</voices>
 </monster>

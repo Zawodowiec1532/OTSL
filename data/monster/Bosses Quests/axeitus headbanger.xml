@@ -32,9 +32,9 @@
 		<element earthPercent="-10"/>
 		<element deathPercent="-5"/>
 	</elements>
-	<voices interval="2000" chance="5">
+	<voices interval="2000" chance="10">
 		<voice sentence="Hicks!"/>
-		<voice sentence="Stand still! Both of you! hicks"/>
+		<voice sentence="Stand still! Both of you! *hicks*"/>
 		<voice sentence="This victory will earn me a casket of beer."/>
 	</voices>
 </monster>

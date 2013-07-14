@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Sea Serpent" nameDescription="a sea serpent" race="blood" experience="2300" speed="300" manacost="390">
-	<health now="3200" max="3200"/>
+	<health now="1750" max="1750"/>
 	<look type="275" corpse="8307"/>
 	<targetchange interval="2000" chance="50"/>
 	<strategy attack="100" defense="0"/>
@@ -36,13 +36,7 @@
 			<attribute key="areaEffect" value="redshimmer"/>
 		</defense>	
 	</defenses>
-	<immunities>
-		<immunity ice="1"/>
-		<immunity paralyze="1"/>
-		<immunity invisible="1"/>
-		<immunity drown="1"/>
-	</immunities>
-	<voices interval="3000" chance="200">
+	<voices interval="2000" chance="10">
 		<voice sentence="CHHHRRRR"/>
 		<voice sentence="HISSSS"/>
 	</voices>
@@ -58,29 +52,47 @@
 	<immunity paralyze="1"/>
 	</immunities>
 	<loot>
-    <item id="7588" chance="5100" /><!-- strong health potion -->
-    <item id="7589" chance="3900" /><!-- strong mana potion -->
-    <item id="7590" chance="1025" /><!-- great mana potion -->
-    <item id="2409" chance="4650" /><!-- serpent sword -->
-    <item id="8911" chance="1525" /><!-- northwind rod -->
-    <item id="8870" chance="3375" /><!-- spirit cloak -->
-    <item id="8871" chance="875" /><!-- focus cape -->
-    <item id="2647" chance="7550" /><!-- plate legs -->
-    <item id="2214" chance="1725" /><!-- ring of healing -->
-    <item id="10583" chance="10675" /><!-- sea serpent scale -->
+    <item id="2148" countmax="100" chance="38400" /><!-- gold coin -->
+    <item id="2148" countmax="100" chance="38400" /><!-- gold coin -->
+    <item id="2148" countmax="39" chance="38400" /><!-- gold coin -->
+    <item id="2165" chance="950" /><!-- stealth ring -->
+    <item id="2672" chance="60975" /><!-- dragon ham -->
+    <item id="2146" countmax="3" chance="3125" /><!-- small sapphire -->
+    <item id="7588" chance="5450" /><!-- strong health potion -->
+    <item id="10583" chance="10600" /><!-- sea serpent scale -->
+    <item id="2647" chance="7750" /><!-- plate legs -->
+    <item id="7589" chance="4500" /><!-- strong mana potion -->
+    <item id="2409" chance="4450" /><!-- serpent sword -->
+    <item id="7888" chance="1400" /><!-- glacier amulet -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2672" chance="60300" /><!-- dragon ham -->
-            <item id="2148" countmax="100" chance="38050" /><!-- gold coin -->
-            <item id="2148" countmax="100" chance="38050" /><!-- gold coin -->
-            <item id="2148" countmax="43" chance="38050" /><!-- gold coin -->
-            <item id="2146" countmax="3" chance="3300" /><!-- small sapphire -->
+            <item id="8911" chance="1600" /><!-- northwind rod -->
+            <item id="8870" chance="3500" /><!-- spirit cloak -->
+            <item id="7590" chance="1500" /><!-- great mana potion -->
+            <item id="8871" chance="925" /><!-- focus cape -->
             <item id="7896" chance="925" /><!-- glacier kilt -->
-            <item id="2165" chance="900" /><!-- stealth ring -->
-            <item id="7888" chance="1400" /><!-- glacier amulet -->
+            <item id="2214" chance="1800" /><!-- ring of healing -->
+            <item id="8878" chance="575" /><!-- crystalline armor -->
             <item id="10220" chance="600" /><!-- leviathan's amulet -->
-            <item id="8878" chance="550" /><!-- crystalline armor -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

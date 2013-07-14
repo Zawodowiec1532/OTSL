@@ -66,25 +66,44 @@
 		<voice sentence="Djinns will soon again be the greatest!"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="100" chance="47525" /><!-- gold coin -->
-    <item id="2148" countmax="18" chance="47525" /><!-- gold coin -->
-    <item id="2677" countmax="25" chance="12700" /><!-- blueberry -->
-    <item id="12426" chance="7400" /><!-- jewelled belt -->
-    <item id="2146" chance="6700" /><!-- small sapphire -->
-    <item id="2183" chance="1650" /><!-- hailstorm rod -->
-    <item id="7589" chance="8325" /><!-- strong mana potion -->
-    <item id="7378" countmax="3" chance="13675" /><!-- royal spear -->
-    <item id="7732" chance="1875" /><!-- seeds -->
+    <item id="2148" countmax="100" chance="44600" /><!-- gold coin -->
+    <item id="2148" countmax="27" chance="44600" /><!-- gold coin -->
+    <item id="2677" countmax="25" chance="12375" /><!-- blueberry -->
+    <item id="12387" chance="7775" /><!-- jewelled belt -->
+    <item id="2146" chance="6650" /><!-- small sapphire -->
+    <item id="2183" chance="1250" /><!-- hailstorm rod -->
+    <item id="7589" chance="9900" /><!-- strong mana potion -->
+    <item id="7378" countmax="3" chance="12325" /><!-- royal spear -->
+    <item id="7732" chance="2125" /><!-- seeds -->
+    <item id="1870" chance="3375" /><!-- blue tapestry -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="1870" chance="2800" /><!-- blue tapestry -->
-            <item id="2442" chance="5100" /><!-- heavy machete -->
-            <item id="5912" chance="2800" /><!-- blue piece of cloth -->
-            <item id="7900" chance="1200" /><!-- magma monocle -->
-            <item id="2374" chance="725" /><!-- wooden flute -->
-            <item id="12442" chance="1200" /><!-- noble turban -->
-            <item id="2158" chance="725" /><!-- blue gem -->
+            <item id="2442" chance="5750" /><!-- heavy machete -->
+            <item id="5912" countmax="3" chance="3375" /><!-- blue piece of cloth -->
+            <item id="7900" chance="1250" /><!-- magma monocle -->
+            <item id="2374" chance="625" /><!-- wooden flute -->
+            <item id="12403" chance="1000" /><!-- noble turban -->
+            <item id="2158" chance="750" /><!-- blue gem -->
+            <item id="2663" chance="625" /><!-- mystic turban -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

@@ -41,17 +41,35 @@
 		<voice sentence="Kiyosa sipaju!"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="20" chance="22725" /><!-- gold coin -->
-    <item id="2667" countmax="2" chance="17950" /><!-- fish -->
-    <item id="2398" chance="4550" /><!-- mace -->
-    <item id="2553" chance="2300" /><!-- pick -->
+    <item id="2148" countmax="20" chance="22975" /><!-- gold coin -->
+    <item id="2667" countmax="2" chance="17850" /><!-- fish -->
+    <item id="2398" chance="4350" /><!-- mace -->
+    <item id="2553" chance="2125" /><!-- pick -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="7441" chance="850" /><!-- ice cube -->
-            <item id="2541" chance="1450" /><!-- bone shield -->
-            <item id="7159" chance="750" /><!-- green perch -->
-            <item id="7381" chance="625" /><!-- mammoth whopper -->
+            <item id="7441" chance="800" /><!-- ice cube -->
+            <item id="2541" chance="1600" /><!-- bone shield -->
+            <item id="7159" chance="700" /><!-- green perch -->
+            <item id="7381" chance="600" /><!-- mammoth whopper -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

@@ -54,24 +54,44 @@
 		<voice sentence="Enjoy the pain - I know you love it."/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="100" chance="37000" /><!-- gold coin -->
-    <item id="2148" countmax="48" chance="37000" /><!-- gold coin -->
-    <item id="2195" chance="725" /><!-- boots of haste -->
-    <item id="9447" chance="725" /><!-- blood goblet -->
-    <item id="7589" chance="9800" /><!-- strong mana potion -->
-    <item id="10602" chance="10525" /><!-- vampire teeth -->
-    <item id="2186" chance="5350" /><!-- moonlight rod -->
-    <item id="2152" chance="11050" /><!-- platinum coin -->
-    <item id="8873" chance="1600" /><!-- hibiscus dress -->
-    <item id="2127" chance="1550" /><!-- emerald bangle -->
-    <item id="7588" chance="4800" /><!-- strong health potion -->
+    <item id="2127" chance="1350" /><!-- emerald bangle -->
+    <item id="5669" chance="650" /><!-- mysterious voodoo skull -->
+    <item id="8873" chance="1400" /><!-- hibiscus dress -->
+    <item id="2195" chance="750" /><!-- boots of haste -->
+    <item id="9835" chance="1600" /><!-- velvet tapestry -->
+    <item id="2145" countmax="2" chance="1350" /><!-- small diamond -->
+    <item id="9808" chance="1350" /><!-- rusty armor -->
+    <item id="2152" chance="10450" /><!-- platinum coin -->
+    <item id="7589" chance="9900" /><!-- strong mana potion -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2145" countmax="2" chance="1275" /><!-- small diamond -->
-            <item id="9808" chance="1475" /><!-- rusty armor -->
-            <item id="9837" chance="1475" /><!-- velvet tapestry -->
-            <item id="5669" chance="575" /><!-- mysterious voodoo skull -->
+            <item id="2186" chance="5200" /><!-- moonlight rod -->
+            <item id="12405" chance="4675" /><!-- blood preservation -->
+            <item id="7588" chance="5475" /><!-- strong health potion -->
+            <item id="2148" countmax="100" chance="37075" /><!-- gold coin -->
+            <item id="2148" countmax="48" chance="37075" /><!-- gold coin -->
+            <item id="10602" chance="10775" /><!-- vampire teeth -->
+            <item id="9447" chance="550" /><!-- blood goblet -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

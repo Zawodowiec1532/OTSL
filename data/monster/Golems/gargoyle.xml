@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Gargoyle" nameDescription="a gargoyle" race="blood" experience="150" speed="250" manacost="0">
-	<health now="450" max="450"/>
+<monster name="Gargoyle" nameDescription="a gargoyle" race="blood" experience="70" speed="250" manacost="0">
+	<health now="250" max="250"/>
 	<look type="95" corpse="6027"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
@@ -26,13 +26,13 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element earthPercent="100"/>
 		<element physicalPercent="20"/>
 		<element deathPercent="40"/>
 		<element firePercent="-10"/>
 	</elements>
 	<immunities>
 		<immunity lifedrain="1"/>
+		<immunity earth="1"/>
 	</immunities>
 	<voices interval="5000" chance="10">
 		<voice sentence="Harrrr Harrrr!"/>
@@ -42,21 +42,40 @@
 		<voice sentence="There is a stone in your shoe!"/>
 	</voices>
 	<loot>
-    <item id="8838" countmax="2" chance="4275" /><!-- potato -->
-    <item id="2148" countmax="30" chance="27325" /><!-- gold coin -->
-    <item id="11195" chance="10800" /><!-- stone wing -->
-    <item id="1294" countmax="10" chance="8100" /><!-- small stone -->
-    <item id="2394" chance="1575" /><!-- morning star -->
-    <item id="2489" chance="600" /><!-- dark armor -->
-    <item id="2129" chance="650" /><!-- wolf tooth chain -->
+    <item id="11195" chance="10275" /><!-- stone wing -->
+    <item id="2394" chance="1650" /><!-- morning star -->
+    <item id="2513" chance="2175" /><!-- battle shield -->
+    <item id="2148" countmax="30" chance="27100" /><!-- gold coin -->
+    <item id="2209" chance="600" /><!-- club ring -->
+    <item id="8838" countmax="2" chance="4175" /><!-- potato -->
+    <item id="1294" countmax="10" chance="8900" /><!-- small stone -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2680" countmax="5" chance="1125" /><!-- strawberry -->
-            <item id="2209" chance="600" /><!-- club ring -->
-            <item id="2513" chance="1625" /><!-- battle shield -->
-            <item id="2457" chance="800" /><!-- steel helmet -->
-            <item id="11227" chance="675" /><!-- shiny stone -->
+            <item id="2680" countmax="5" chance="1075" /><!-- strawberry -->
+            <item id="2489" chance="675" /><!-- dark armor -->
+            <item id="11227" chance="775" /><!-- shiny stone -->
+            <item id="2129" chance="725" /><!-- wolf tooth chain -->
+            <item id="2457" chance="675" /><!-- steel helmet -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

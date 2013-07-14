@@ -69,21 +69,40 @@
 		<voice sentence="I remember your face - and I know where you sleep"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="100" chance="34875" /><!-- gold coin -->
-    <item id="2148" countmax="9" chance="34875" /><!-- gold coin -->
-    <item id="2804" chance="5100" /><!-- shadow herb -->
-    <item id="8870" chance="1000" /><!-- spirit cloak -->
-    <item id="7589" chance="1525" /><!-- strong mana potion -->
-    <item id="2200" chance="1475" /><!-- protection amulet -->
+    <item id="2148" countmax="100" chance="34650" /><!-- gold coin -->
+    <item id="2148" countmax="9" chance="34650" /><!-- gold coin -->
+    <item id="2804" chance="5050" /><!-- shadow herb -->
+    <item id="8870" chance="1075" /><!-- spirit cloak -->
+    <item id="7589" chance="2075" /><!-- strong mana potion -->
+    <item id="2200" chance="1575" /><!-- protection amulet -->
     <item id="2195" chance="600" /><!-- boots of haste -->
-    <item id="2124" chance="1450" /><!-- crystal ring -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="9942" chance="700" /><!-- crystal of balance -->
-            <item id="7407" chance="875" /><!-- haunted blade -->
-            <item id="2171" chance="725" /><!-- platinum amulet -->
-            <item id="7427" chance="600" /><!-- chaos mace -->
+            <item id="2124" chance="1400" /><!-- crystal ring -->
+            <item id="9942" chance="650" /><!-- crystal of balance -->
+            <item id="7407" chance="800" /><!-- haunted blade -->
+            <item id="2171" chance="775" /><!-- platinum amulet -->
+            <item id="7427" chance="575" /><!-- chaos mace -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

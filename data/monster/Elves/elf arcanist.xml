@@ -52,30 +52,48 @@
 		<voice sentence="Vihil Ealuel!"/>
 	</voices>
 	<loot>
-    <item id="1949" chance="31600" /><!-- scroll -->
-    <item id="2682" chance="22300" /><!-- melon -->
-    <item id="2642" chance="12475" /><!-- sandals -->
-    <item id="2689" chance="15075" /><!-- bread -->
-    <item id="2260" chance="18650" /><!-- blank rune -->
-    <item id="2148" countmax="45" chance="11150" /><!-- gold coin -->
-    <item id="2544" countmax="3" chance="3925" /><!-- arrow -->
-    <item id="7589" chance="3150" /><!-- strong mana potion -->
-    <item id="2401" chance="9650" /><!-- staff -->
-    <item id="5922" chance="2500" /><!-- holy orchid -->
-    <item id="2802" chance="5900" /><!-- sling herb -->
-    <item id="2747" chance="6925" /><!-- grave flower -->
+    <item id="10552" chance="9100" /><!-- elvish talisman -->
+    <item id="7618" chance="4850" /><!-- health potion -->
+    <item id="2260" chance="19375" /><!-- blank rune -->
+    <item id="12421" chance="9025" /><!-- elven astral observer -->
+    <item id="2689" chance="13625" /><!-- bread -->
+    <item id="2148" countmax="45" chance="10150" /><!-- gold coin -->
+    <item id="2682" chance="23800" /><!-- melon -->
+    <item id="1949" chance="28600" /><!-- scroll -->
+    <item id="2802" chance="5025" /><!-- sling herb -->
+    <item id="2642" chance="1725" /><!-- sandals -->
+    <item id="2600" chance="1725" /><!-- inkwell -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2652" chance="7550" /><!-- green tunic -->
-            <item id="2047" chance="22500" /><!-- candlestick -->
-            <item id="10552" chance="10300" /><!-- elvish talisman -->
-            <item id="2032" chance="6400" /><!-- bowl -->
-            <item id="2600" chance="9675" /><!-- inkwell -->
-            <item id="7618" chance="4550" /><!-- health potion -->
-            <item id="2189" chance="1750" /><!-- wand of cosmic energy -->
-            <item id="2198" chance="2425" /><!-- elven amulet -->
-            <item id="2177" chance="1600" /><!-- life crystal -->
+            <item id="2189" chance="1275" /><!-- wand of cosmic energy -->
+            <item id="2652" chance="7725" /><!-- green tunic -->
+            <item id="2047" chance="2400" /><!-- candlestick -->
+            <item id="2544" countmax="3" chance="3475" /><!-- arrow -->
+            <item id="2198" chance="2325" /><!-- elven amulet -->
+            <item id="7589" chance="4675" /><!-- strong mana potion -->
+            <item id="5922" countmax="3" chance="2675" /><!-- holy orchid -->
+            <item id="2747" chance="1725" /><!-- grave flower -->
+            <item id="2177" chance="1025" /><!-- life crystal -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

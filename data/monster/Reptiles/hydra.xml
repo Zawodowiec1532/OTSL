@@ -40,7 +40,6 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element earthPercent="100"/>
 		<element icePercent="50"/>
 		<element holyPercent="30"/>
 		<element physicalPercent="-5"/>
@@ -48,6 +47,7 @@
 	</elements>
 	<immunities>
 		<immunity lifedrain="1"/>
+		<immunity earth="1"/>
 		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
 	</immunities>
@@ -56,26 +56,45 @@
 		<voice sentence="HISSSS"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="100" chance="27350" /><!-- gold coin -->
-    <item id="2148" countmax="100" chance="27350" /><!-- gold coin -->
-    <item id="2148" countmax="44" chance="27350" /><!-- gold coin -->
-    <item id="2671" chance="60725" /><!-- ham -->
-    <item id="2146" chance="5300" /><!-- small sapphire -->
-    <item id="11199" chance="10775" /><!-- hydra head -->
-    <item id="8842" chance="5425" /><!-- cucumber -->
+    <item id="2148" countmax="100" chance="27400" /><!-- gold coin -->
+    <item id="2148" countmax="100" chance="27400" /><!-- gold coin -->
+    <item id="2148" countmax="44" chance="27400" /><!-- gold coin -->
+    <item id="2671" countmax="4" chance="60800" /><!-- ham -->
+    <item id="2146" chance="5525" /><!-- small sapphire -->
+    <item id="11199" chance="10675" /><!-- hydra head -->
+    <item id="7245" chance="5450" /><!-- cucumber -->
     <item id="2476" chance="1500" /><!-- knight armor -->
-    <item id="2214" chance="1675" /><!-- ring of healing -->
+    <item id="2214" chance="1650" /><!-- ring of healing -->
     <item id="2536" chance="750" /><!-- medusa shield -->
-    <item id="2475" chance="1350" /><!-- warrior helmet -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
+            <item id="2475" chance="1400" /><!-- warrior helmet -->
             <item id="2177" chance="1150" /><!-- life crystal -->
-            <item id="4850" chance="1425" /><!-- hydra egg -->
-            <item id="2197" chance="1350" /><!-- stone skin amulet -->
-            <item id="7589" chance="500" /><!-- strong mana potion -->
-            <item id="2498" chance="775" /><!-- royal helmet -->
+            <item id="4850" chance="1450" /><!-- hydra egg -->
+            <item id="2197" chance="1300" /><!-- stone skin amulet -->
+            <item id="7589" chance="950" /><!-- strong mana potion -->
+            <item id="2498" chance="750" /><!-- royal helmet -->
             <item id="2195" chance="600" /><!-- boots of haste -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

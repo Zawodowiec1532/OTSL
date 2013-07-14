@@ -2,7 +2,7 @@
 <monster name="Rahemos" nameDescription="a rahemos" race="undead" experience="3100" speed="320" manacost="0">
 	<health now="3700" max="3700"/>
 	<look type="87" corpse="6031"/>
-	<targetchange interval="5000" chance="8"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -65,28 +65,47 @@
 	<summons maxSummons="1">
 		<summon name="Demon" interval="2000" chance="25" max="1"/>
 	</summons>
-	<voices interval="5000" chance="10">
+	<voices interval="2000" chance="10">
 		<voice sentence="It's a kind of magic."/>
 		<voice sentence="Abrah Kadabrah!"/>
 		<voice sentence="Nothing hidden in my wrappings."/>
 		<voice sentence="It's not a trick, it's Rahemos."/>
-		<voice sentence="Meet my friend from hell."/>
+		<voice sentence="Meet my friend from hell!"/>
 		<voice sentence="I will make you believe in magic."/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="100" chance="30950" /><!-- gold coin -->
-    <item id="2148" countmax="100" chance="30950" /><!-- gold coin -->
-    <item id="2148" countmax="17" chance="30950" /><!-- gold coin -->
-    <item id="2348" chance="100500" /><!-- ancient rune -->
-    <item id="7590" chance="10150" /><!-- great mana potion -->
-    <item id="2150" countmax="3" chance="8075" /><!-- small amethyst -->
-    <item id="2214" chance="6350" /><!-- ring of healing -->
-    <item id="2662" chance="2450" /><!-- magician hat -->
+    <item id="2148" countmax="100" chance="31325" /><!-- gold coin -->
+    <item id="2148" countmax="100" chance="31325" /><!-- gold coin -->
+    <item id="2148" countmax="17" chance="31325" /><!-- gold coin -->
+    <item id="2348" chance="100000" /><!-- ancient rune -->
+    <item id="7590" chance="10175" /><!-- great mana potion -->
+    <item id="2150" countmax="3" chance="7975" /><!-- small amethyst -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2153" chance="1350" /><!-- violet gem -->
-            <item id="2176" chance="1200" /><!-- orb -->
+            <item id="2214" chance="6250" /><!-- ring of healing -->
+            <item id="2662" chance="2400" /><!-- magician hat -->
+            <item id="2153" chance="1400" /><!-- violet gem -->
+            <item id="2176" chance="1050" /><!-- orb -->
+            <item id="2184" chance="600" /><!-- crystal wand -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

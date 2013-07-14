@@ -24,9 +24,9 @@
 		<element energyPercent="-10"/>
 	</elements>
 	<loot>
-    <item id="2667" countmax="2" chance="5550" /><!-- fish -->
+    <item id="2667" countmax="2" chance="5925" /><!-- fish -->
     <item id="7158" chance="600" /><!-- rainbow trout -->
-    <item id="7159" chance="750" /><!-- green perch -->
+    <item id="7159" chance="650" /><!-- green perch -->
 </loot>
 
 

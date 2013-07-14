@@ -2,7 +2,7 @@
 <monster name="Massacre" nameDescription="the massacre" race="blood" experience="20000" speed="430" manacost="0">
 	<health now="32000" max="32000"/>
 	<look type="244" corpse="6336"/>
-	<targetchange interval="60000" chance="0"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -42,22 +42,45 @@
 		<immunity drunk="1"/>
 		<immunity invisible="1"/>
 	</immunities>
+	<voices interval="2000" chance="10">
+		<voice sentence="HATE! HATE! KILL! KILL!" yell="1"/>
+		<voice sentence="GRRAAARRRHH!" yell="1"/>
+		<voice sentence="GRRRR!" yell="1"/>
+	</voices>
 	<loot>
     <item id="2221" chance="46200" /><!-- old twig -->
     <item id="2176" chance="9075" /><!-- orb -->
     <item id="2231" chance="9075" /><!-- big bone -->
-    <item id="6540" chance="100500" /><!-- piece of massacre's shell -->
+    <item id="6540" chance="100000" /><!-- piece of massacre's shell -->
     <item id="2666" chance="91925" /><!-- meat -->
     <item id="5022" countmax="7" chance="42950" /><!-- orichalcum pearl -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
             <item id="2152" countmax="6" chance="31450" /><!-- platinum coin -->
             <item id="5944" chance="89075" /><!-- soul orb -->
-            <item id="6500" chance="100500" /><!-- demonic essence -->
+            <item id="6500" chance="100000" /><!-- demonic essence -->
             <item id="2148" countmax="100" chance="61925" /><!-- gold coin -->
             <item id="2148" countmax="22" chance="61925" /><!-- gold coin -->
-            <item id="7590" chance="5700" /><!-- great mana potion -->
+            <item id="7590" chance="6200" /><!-- great mana potion -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

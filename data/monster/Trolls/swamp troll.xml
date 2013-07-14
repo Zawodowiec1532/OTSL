@@ -31,17 +31,36 @@
 		<voice sentence="Me strong! Me ate spinach!"/>
 	</voices>
 	<loot>
-    <item id="2643" chance="10500" /><!-- leather boots -->
-    <item id="2148" countmax="5" chance="30975" /><!-- gold coin -->
-    <item id="2667" chance="59800" /><!-- fish -->
-    <item id="2050" chance="14900" /><!-- torch -->
+    <item id="2643" chance="10575" /><!-- leather boots -->
+    <item id="2148" countmax="5" chance="30925" /><!-- gold coin -->
+    <item id="2667" chance="59875" /><!-- fish -->
+    <item id="2050" chance="15025" /><!-- torch -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
             <item id="10603" chance="3525" /><!-- swamp grass -->
-            <item id="2389" chance="13150" /><!-- spear -->
-            <item id="2805" chance="1450" /><!-- troll green -->
+            <item id="2389" chance="13075" /><!-- spear -->
+            <item id="2805" chance="1400" /><!-- troll green -->
             <item id="2580" chance="550" /><!-- fishing rod -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

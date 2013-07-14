@@ -32,13 +32,13 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element physicalPercent="100"/>
-		<element deathPercent="100"/>
-		<element earthPercent="100"/>
 		<element holyPercent="-25"/>
 	</elements>
 	<immunities>
 		<immunity paralyze="1"/>
+		<immunity earth="1"/>
+		<immunity death="1"/>
+		<immunity physical="1"/>
 	</immunities>
 	<voices interval="5000" chance="10">
 		<voice sentence="Yooh Ho Hooh Ho!"/>
@@ -48,15 +48,35 @@
 		<voice sentence="You will not get my treasure!"/>
 	</voices>
 	<loot>
-    <item id="2165" chance="1350" /><!-- stealth ring -->
-    <item id="2148" countmax="63" chance="17350" /><!-- gold coin -->
-    <item id="10601" chance="5200" /><!-- tattered piece of robe -->
+    <item id="2165" chance="1300" /><!-- stealth ring -->
+    <item id="2148" countmax="63" chance="17675" /><!-- gold coin -->
+    <item id="10601" chance="4875" /><!-- tattered piece of robe -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="1948" chance="925" /><!-- parchment -->
-            <item id="2383" chance="700" /><!-- spike sword -->
-            <item id="2655" chance="700" /><!-- red robe -->
+            <item id="1948" chance="1200" /><!-- parchment -->
+            <item id="2383" chance="600" /><!-- spike sword -->
+            <item id="2655" chance="675" /><!-- red robe -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

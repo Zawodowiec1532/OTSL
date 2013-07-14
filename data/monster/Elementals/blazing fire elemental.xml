@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Blazing Fire Elemental" nameDescription="a blazing fire elemental" race="fire" experience="580" speed="220" manacost="0">
-	<health now="580" max="580"/>
+<monster name="Blazing Fire Elemental" nameDescription="a blazing fire elemental" race="fire" experience="450" speed="220" manacost="0">
+	<health now="650" max="650"/>
 	<look type="49" corpse="8964"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
@@ -28,20 +28,43 @@
 		</attack>
 	</attacks>
 	<defenses armor="20" defense="20"/>
+	<elements>
+		<element icePercent="-25"/>
+		<element earthPercent="50"/>
+		<element deathPercent="40"/>
+		<element energyPercent="20"/>
+	</elements>	
 	<immunities>
 		<immunity fire="1"/>
 		<immunity holy="1"/>
 	</immunities>
-	<elements>
-		<element icePercent="-25"/>
-		<element eartPercent="50"/>
-		<element deatPercent="40"/>
-	</elements>
 	<loot>
-    <item id="2148" countmax="100" chance="26650" /><!-- gold coin -->
-    <item id="2148" countmax="23" chance="26650" /><!-- gold coin -->
-    <item id="7840" countmax="3" chance="2700" /><!-- flaming arrow -->
-    <item id="10553" chance="6550" /><!-- fiery heart -->
-    <item id="8299" chance="4475" /><!-- glimmering soil -->
+    <item id="2148" countmax="100" chance="25800" /><!-- gold coin -->
+    <item id="2148" countmax="26" chance="25800" /><!-- gold coin -->
+    <item id="7840" countmax="3" chance="2925" /><!-- flaming arrow -->
+    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+            <item id="10553" chance="5500" /><!-- fiery heart -->
+            <item id="8299" chance="4675" /><!-- glimmering soil -->
+        </inside>
+    </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

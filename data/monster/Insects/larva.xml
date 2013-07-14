@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Larva" nameDescription="a larva" race="venom" experience="40" speed="135" manacost="355">
+<monster name="Larva" nameDescription="a larva" race="venom" experience="44" speed="135" manacost="355">
 	<health now="70" max="70"/>
 	<look type="82" corpse="6023"/>
 	<targetchange interval="5000" chance="8"/>
@@ -22,17 +22,17 @@
 	</attacks>
 	<defenses armor="5" defense="11"/>
 	<elements>
-		<element earthPercent="100"/>
 		<element energyPercent="10"/>
 		<element firePercent="-10"/>
 		<element icePercent="-5"/>
 	</elements>
 	<immunities>
 		<immunity paralyze="1"/>
+		<immunity earth="1"/>
 	</immunities>
 	<loot>
-    <item id="2666" chance="15425" /><!-- meat -->
-    <item id="2148" countmax="15" chance="35675" /><!-- gold coin -->
+    <item id="2666" chance="14850" /><!-- meat -->
+    <item id="2148" countmax="15" chance="35350" /><!-- gold coin -->
 </loot>
 
 

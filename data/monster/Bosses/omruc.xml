@@ -2,7 +2,7 @@
 <monster name="Omruc" nameDescription="a omruc" race="undead" experience="2950" speed="310" manacost="0">
 	<health now="4300" max="4300"/>
 	<look type="90" corpse="6025"/>
-	<targetchange interval="5000" chance="8"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -55,20 +55,22 @@
 	<summons maxSummons="4">
 		<summon name="Stalker" interval="2000" chance="10"/>
 	</summons>
-	<voices interval="5000" chance="10">
-		<voice sentence="Now chhhou shhhee me ... Now chhhou don't!!"/>
+	<voices interval="2000" chance="10">
+		<voice sentence="Now chhhou shhhee me ... Now chhhou don't."/>
 		<voice sentence="Chhhhou are marked ashhh my prey."/>
 		<voice sentence="Psssst, I am over chhhere."/>
+		<voice sentence="Catchhhh me if chhhou can."/>
+		<voice sentence="Die!"/>
 	</voices>
 	<loot>
-    <item id="7591" chance="41650" /><!-- great health potion -->
+    <item id="7591" chance="42175" /><!-- great health potion -->
     <item id="2148" countmax="100" chance="50150" /><!-- gold coin -->
     <item id="2148" countmax="38" chance="50150" /><!-- gold coin -->
     <item id="2674" countmax="2" chance="46325" /><!-- red apple -->
     <item id="2545" countmax="20" chance="45075" /><!-- poison arrow -->
-    <item id="2352" chance="100500" /><!-- crystal arrow -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
+            <item id="2352" chance="100000" /><!-- crystal arrow -->
             <item id="2544" countmax="19" chance="10150" /><!-- arrow -->
             <item id="2546" countmax="14" chance="24300" /><!-- burst arrow -->
             <item id="7365" countmax="3" chance="8825" /><!-- onyx arrow -->
@@ -76,4 +78,22 @@
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

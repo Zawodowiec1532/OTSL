@@ -25,7 +25,7 @@
 	</attacks>
 	<defenses armor="6" defense="12"/>
 	<elements>
-		<element holyPercent="28"/>
+		<element holyPercent="20"/>
 		<element deathPercent="-10"/>
 	</elements>
 	<immunities>
@@ -39,19 +39,37 @@
 		<voice sentence="Death to the defilers!"/>
 	</voices>
 	<loot>
-    <item id="2544" countmax="3" chance="5800" /><!-- arrow -->
-    <item id="8839" countmax="2" chance="17100" /><!-- plum -->
-    <item id="2148" countmax="30" chance="25650" /><!-- gold coin -->
-    <item id="2484" chance="10600" /><!-- studded armor -->
-    <item id="2482" chance="16500" /><!-- studded helmet -->
-    <item id="2510" chance="10475" /><!-- plate shield -->
+    <item id="2544" countmax="3" chance="5575" /><!-- arrow -->
+    <item id="8839" countmax="2" chance="16950" /><!-- plum -->
+    <item id="2148" countmax="30" chance="25825" /><!-- gold coin -->
+    <item id="2484" chance="10350" /><!-- studded armor -->
+    <item id="2482" chance="16350" /><!-- studded helmet -->
+    <item id="2510" chance="9450" /><!-- plate shield -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2643" chance="12400" /><!-- leather boots -->
-            <item id="2397" chance="14450" /><!-- longsword -->
-            <item id="10552" chance="3375" /><!-- elvish talisman -->
-            <item id="5921" chance="1525" /><!-- heaven blossom -->
+            <item id="2643" chance="12300" /><!-- leather boots -->
+            <item id="2397" chance="13000" /><!-- longsword -->
+            <item id="10552" chance="2975" /><!-- elvish talisman -->
+            <item id="5921" countmax="3" chance="1425" /><!-- heaven blossom -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

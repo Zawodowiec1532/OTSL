@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <monster name="Brimstone Bug" namedescription="a brimstone bug" race="venom" experience="900" speed="160" manacost="0">
 	<health now="1300" max="1300"/>
-	<look type="352" corpse="12527"/>
-	<targetchange interval="2000" chance="5"/>
+	<look type="352" corpse="12488"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -10,7 +10,7 @@
 		<flag hostile="1"/>
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
-		<flag pushable="1"/>
+		<flag pushable="0"/>
 		<flag canpushitems="1"/>
 		<flag canpushcreatures="0"/>
 		<flag targetdistance="1"/>
@@ -52,18 +52,42 @@
 		<voice sentence="Chrrr!"/>
 	</voices>
 	<loot>
-	    <item id="2165" chance="750" /><!-- stealth ring -->
-		<item id="2148" countmax="100" chance="39550" /><!-- gold coin -->
-		<item id="2148" countmax="94" chance="39550" /><!-- gold coin -->
-		<item id="7588" chance="8780" /><!-- strong health potion -->
-		<item id="11232" chance="14925" /><!-- sulphurous stone-->
-		<item id="12658" chance="6525" /><!-- brimstone fangs -->
-		<item id="7589" chance="8780" /><!-- strong mana potion -->
-		<item id="12659" chance="10280" /><!-- brimstone shell -->
-		<item id="4904" chance="2070" /><!-- magic sulphur -->
-		<item id="11222" chance="20000" /><!-- lump of earth -->
-		<item id="2149" countmax="4" chance="1802" /><!-- small emerald -->
-		<item id="10557" chance="49280" /><!-- poisonous slime -->
-		<item id="2152" chance="190" /><!-- platinum amulet -->
+    <item id="2165" chance="1450" /><!-- stealth ring -->
+    <item id="7588" chance="9325" /><!-- strong health potion -->
+    <item id="11232" chance="15475" /><!-- sulphurous stone -->
+    <item id="12619" chance="6725" /><!-- brimstone fangs -->
+    <item id="7589" chance="9250" /><!-- strong mana potion -->
+    <item id="12659" chance="10450" /><!-- brimstone shell -->
+    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+            <item id="5904" chance="2200" /><!-- magic sulphur -->
+            <item id="11222" chance="20375" /><!-- lump of earth -->
+            <item id="2149" countmax="4" chance="1975" /><!-- small emerald -->
+            <item id="10557" chance="51300" /><!-- poisonous slime -->
+            <item id="2148" countmax="100" chance="39300" /><!-- gold coin -->
+            <item id="2148" countmax="97" chance="39300" /><!-- gold coin -->
+            <item id="2171" chance="675" /><!-- platinum amulet -->
+        </inside>
+    </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

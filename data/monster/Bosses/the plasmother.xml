@@ -2,7 +2,7 @@
 <monster name="The Plasmother" nameDescription="the plasmother" race="venom" experience="8300" speed="310" manacost="0">
 	<health now="8000" max="8000"/>
 	<look type="238" corpse="6532"/>
-	<targetchange interval="5500" chance="10"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -55,8 +55,10 @@
 		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
 	</immunities>
-	<voices interval="5000" chance="10">
+	<voices interval="2000" chance="10">
 		<voice sentence="Blubb"/>
+		<voice sentence="Blubb Blubb"/>
+		<voice sentence="Blubberdiblubb"/>
 	</voices>
 	<loot>
 		<item id="2148" countmax="70" chance1="20000" chancemax="0"/><!-- gold coins -->

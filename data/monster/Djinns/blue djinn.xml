@@ -55,21 +55,39 @@
 		<voice sentence="Wishes can come true."/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="100" chance="37850" /><!-- gold coin -->
-    <item id="2148" countmax="11" chance="37850" /><!-- gold coin -->
-    <item id="2684" chance="27850" /><!-- carrot -->
-    <item id="7378" countmax="2" chance="4300" /><!-- royal spear -->
-    <item id="2146" countmax="4" chance="2450" /><!-- small sapphire -->
-    <item id="5912" chance="2075" /><!-- blue piece of cloth -->
-    <item id="7620" chance="1450" /><!-- mana potion -->
+    <item id="2148" countmax="100" chance="36100" /><!-- gold coin -->
+    <item id="2148" countmax="15" chance="36100" /><!-- gold coin -->
+    <item id="2684" chance="26275" /><!-- carrot -->
+    <item id="7378" countmax="2" chance="4275" /><!-- royal spear -->
+    <item id="2146" countmax="4" chance="2025" /><!-- small sapphire -->
+    <item id="5912" countmax="3" chance="2125" /><!-- blue piece of cloth -->
+    <item id="7620" chance="1550" /><!-- mana potion -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="1950" chance="2075" /><!-- book -->
-            <item id="12412" chance="2775" /><!-- dirty turban -->
-            <item id="2062" chance="1650" /><!-- small oil lamp -->
+            <item id="1963" chance="2550" /><!-- book -->
+            <item id="12373" chance="2900" /><!-- dirty turban -->
+            <item id="2062" chance="1675" /><!-- small oil lamp -->
             <item id="2663" chance="750" /><!-- mystic turban -->
             <item id="2745" chance="950" /><!-- blue rose -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

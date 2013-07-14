@@ -52,22 +52,41 @@
 		<voice sentence="Oh by the gods! What is this... aaaaaargh!"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="100" chance="28425" /><!-- gold coin -->
-    <item id="2148" countmax="30" chance="28425" /><!-- gold coin -->
-    <item id="2226" chance="10750" /><!-- fishbone -->
-    <item id="2696" chance="8800" /><!-- cheese -->
-    <item id="2376" chance="5375" /><!-- sword -->
-    <item id="11225" chance="20725" /><!-- mutated flesh -->
-    <item id="2483" chance="8050" /><!-- scale armor -->
-    <item id="2801" chance="975" /><!-- fern -->
+    <item id="2148" countmax="100" chance="28700" /><!-- gold coin -->
+    <item id="2148" countmax="30" chance="28700" /><!-- gold coin -->
+    <item id="2226" chance="11100" /><!-- fishbone -->
+    <item id="2696" chance="8875" /><!-- cheese -->
+    <item id="2376" chance="5450" /><!-- sword -->
+    <item id="11225" chance="20375" /><!-- mutated flesh -->
+    <item id="2483" chance="8000" /><!-- scale armor -->
+    <item id="2801" chance="950" /><!-- fern -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="3976" countmax="2" chance="6150" /><!-- worm -->
-            <item id="9808" chance="2300" /><!-- rusty armor -->
-            <item id="2161" chance="5350" /><!-- strange talisman -->
-            <item id="7910" chance="1125" /><!-- peanut -->
+            <item id="3976" countmax="2" chance="6125" /><!-- worm -->
+            <item id="9808" chance="2275" /><!-- rusty armor -->
+            <item id="2161" chance="5450" /><!-- strange talisman -->
+            <item id="7910" chance="1150" /><!-- peanut -->
             <item id="2170" chance="600" /><!-- silver amulet -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

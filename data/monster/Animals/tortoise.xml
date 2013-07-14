@@ -2,7 +2,7 @@
 <monster name="Tortoise" nameDescription="a tortoise" race="blood" experience="90" speed="200" manacost="445">
 	<health now="185" max="185"/>
 	<look type="197" corpse="6072"/>
-	<targetchange interval="5000" chance="0"/>
+	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -28,15 +28,15 @@
 		<element firePercent="-10"/>
 	</elements>
 	<loot>
-    <item id="2148" countmax="30" chance="30925" /><!-- gold coin -->
-    <item id="6131" chance="725" /><!-- tortoise shield -->
-    <item id="5678" countmax="2" chance="1125" /><!-- tortoise egg -->
-    <item id="2667" chance="5600" /><!-- fish -->
+    <item id="2148" countmax="30" chance="31325" /><!-- gold coin -->
+    <item id="6131" chance="775" /><!-- tortoise shield -->
+    <item id="5678" countmax="2" chance="1175" /><!-- tortoise egg -->
+    <item id="2667" chance="5475" /><!-- fish -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2510" chance="3625" /><!-- plate shield -->
-            <item id="2417" chance="1375" /><!-- battle hammer -->
-            <item id="5899" chance="1475" /><!-- turtle shell -->
+            <item id="2510" chance="3550" /><!-- plate shield -->
+            <item id="2417" chance="1300" /><!-- battle hammer -->
+            <item id="5899" countmax="3" chance="1550" /><!-- turtle shell -->
         </inside>
     </item>
 </loot>

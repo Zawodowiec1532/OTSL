@@ -29,35 +29,54 @@
 		</defense>	
 	</defenses>
 	<elements>
-		<element firePercent="100"/>
-		<element icePercent="100"/>
 		<element earthPercent="-10"/>
 		<element energyPercent="-25"/>
 	</elements>
 	<immunities>
 		<immunity lifedrain="1"/>
 		<immunity drown="1"/>
+		<immunity fire="1"/>
+		<immunity ice="1"/>
 	</immunities>
 	<voices interval="5000" chance="10">
 		<voice sentence="Zuerk Pachak!"/>
 		<voice sentence="Shrrrr"/>
 	</voices>
 	<loot>
-    <item id="2670" chance="5600" /><!-- shrimp -->
-    <item id="2148" countmax="100" chance="27100" /><!-- gold coin -->
-    <item id="2148" countmax="30" chance="27100" /><!-- gold coin -->
-    <item id="2377" chance="10200" /><!-- two handed sword -->
-    <item id="2229" chance="5575" /><!-- skull -->
-    <item id="2654" chance="10200" /><!-- cape -->
-    <item id="2165" chance="1550" /><!-- stealth ring -->
-    <item id="5895" chance="1050" /><!-- fish fin -->
+    <item id="2148" countmax="100" chance="28675" /><!-- gold coin -->
+    <item id="2148" countmax="29" chance="28675" /><!-- gold coin -->
+    <item id="2377" chance="1725" /><!-- two handed sword -->
+    <item id="2654" chance="1500" /><!-- cape -->
+    <item id="12445" chance="9925" /><!-- mantassin tail -->
+    <item id="2146" chance="1875" /><!-- small sapphire -->
+    <item id="2479" chance="575" /><!-- strange helmet -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2146" chance="975" /><!-- small sapphire -->
-            <item id="2381" chance="4050" /><!-- halberd -->
-            <item id="2479" chance="600" /><!-- strange helmet -->
-            <item id="2656" chance="600" /><!-- blue robe -->
+            <item id="2381" chance="4600" /><!-- halberd -->
+            <item id="5895" countmax="3" chance="1000" /><!-- fish fin -->
+            <item id="2670" chance="5450" /><!-- shrimp -->
+            <item id="2165" chance="1500" /><!-- stealth ring -->
+            <item id="2656" chance="675" /><!-- blue robe -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

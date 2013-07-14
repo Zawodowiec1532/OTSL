@@ -38,9 +38,25 @@
 <voice sentence="Zrp zrp!"/>
 </voices>
 <loot>
-    <item id="2148" countmax="25" chance="32100" /><!-- gold coin -->
-    <item id="11371" chance="8875" /><!-- terramite legs -->
-    <item id="11369" chance="2500" /><!-- terramite shell -->
-    <item id="11370" chance="4050" /><!-- terramite eggs -->
+    <item id="2148" countmax="25" chance="31800" /><!-- gold coin -->
+    <item id="11371" chance="9075" /><!-- terramite legs -->
+    <item id="11369" chance="2450" /><!-- terramite shell -->
+    <item id="11370" chance="3875" /><!-- terramite eggs -->
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

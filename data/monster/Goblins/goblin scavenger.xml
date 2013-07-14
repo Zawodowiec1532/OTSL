@@ -5,7 +5,7 @@
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
-		<flag summonable="1"/>
+		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
 		<flag illusionable="1"/>
@@ -51,20 +51,40 @@
 		<voice sentence="Uhh!"/>
 	</voices>
 	<loot>
-    <item id="2559" chance="7450" /><!-- small axe -->
-    <item id="2148" countmax="9" chance="28025" /><!-- gold coin -->
-    <item id="2406" chance="10225" /><!-- short sword -->
-    <item id="2235" chance="8825" /><!-- moldy cheese -->
-    <item id="2461" chance="11900" /><!-- leather helmet -->
-    <item id="2467" chance="8000" /><!-- leather armor -->
+    <item id="2461" chance="12600" /><!-- leather helmet -->
+    <item id="2559" chance="10350" /><!-- small axe -->
+    <item id="2230" chance="11050" /><!-- bone -->
+    <item id="2235" chance="6900" /><!-- mouldy cheese -->
+    <item id="2467" chance="10200" /><!-- leather armor -->
+    <item id="2406" chance="11050" /><!-- short sword -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2230" chance="13000" /><!-- bone -->
-            <item id="2379" chance="18000" /><!-- dagger -->
-            <item id="2667" chance="12450" /><!-- fish -->
-            <item id="1294" countmax="2" chance="18000" /><!-- small stone -->
-            <item id="2449" chance="4950" /><!-- bone club -->
+            <item id="2379" chance="18850" /><!-- dagger -->
+            <item id="1294" countmax="2" chance="18675" /><!-- small stone -->
+            <item id="2449" chance="6550" /><!-- bone club -->
+            <item id="2148" countmax="9" chance="27475" /><!-- gold coin -->
+            <item id="2667" chance="13300" /><!-- fish -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>
+

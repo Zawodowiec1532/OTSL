@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Dworc Fleshhunter" nameDescription="a dworc fleshhunter" race="blood" experience="35" speed="240" manacost="0">
+<monster name="Dworc Fleshhunter" nameDescription="a dworc fleshhunter" race="blood" experience="40" speed="240" manacost="300">
 	<health now="85" max="85"/>
 	<look type="215" corpse="6058"/>
 	<targetchange interval="5000" chance="8"/>
@@ -25,30 +25,51 @@
 	</attacks>
 	<defenses armor="3" defense="8"/>
 	<elements>
-		<element earthPercent="100"/>
 		<element deathPercent="-13"/>
 		<element firePercent="-8"/>
 		<element icePercent="-10"/>
 	</elements>
+		<immunities>
+		<immunity earth="1"/>
+	</immunities>
 	<voices interval="5000" chance="10">
 		<voice sentence="Grak brrretz!"/>
 		<voice sentence="Grow truk grrrrr."/>
 		<voice sentence="Prek tars, dekklep zurk."/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="13" chance="41750" /><!-- gold coin -->
-    <item id="2568" chance="8950" /><!-- cleaver -->
-    <item id="2229" countmax="3" chance="2525" /><!-- skull -->
-    <item id="3965" chance="2475" /><!-- hunting spear -->
-    <item id="2050" chance="6950" /><!-- torch -->
+    <item id="2148" countmax="13" chance="40875" /><!-- gold coin -->
+    <item id="2568" chance="8725" /><!-- cleaver -->
+    <item id="2229" countmax="3" chance="2400" /><!-- skull -->
+    <item id="3965" chance="2375" /><!-- hunting spear -->
+    <item id="2050" chance="5950" /><!-- torch -->
+    <item id="2467" chance="11475" /><!-- leather armor -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2467" chance="11225" /><!-- leather armor -->
-            <item id="2411" chance="2050" /><!-- poison dagger -->
-            <item id="3967" chance="925" /><!-- tribal mask -->
-            <item id="3955" chance="925" /><!-- tribal mask -->
-            <item id="2541" chance="1750" /><!-- bone shield -->
+            <item id="2411" chance="2325" /><!-- poison dagger -->
+            <item id="3967" chance="1025" /><!-- tribal mask -->
+            <item id="2541" chance="1775" /><!-- bone shield -->
+            <item id="3964" chance="625" /><!-- ripper lance -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

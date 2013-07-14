@@ -29,13 +29,13 @@
 	</attacks>
 	<defenses armor="14" defense="20"/>
 	<elements>
-		<element earthPercent="100"/>
-		<element deathPercent="100"/>
 		<element icePercent="20"/>
 		<element holyPercent="-25"/>
 	</elements>
 	<immunities>
 		<immunity lifedrain="1"/>
+		<immunity death="1"/>
+		<immunity earth="1"/>
 		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
 	</immunities>
@@ -48,22 +48,40 @@
 		<voice sentence="Yohag Sssetham!"/>
 	</voices>
 	<loot>
-    <item id="2406" chance="8525" /><!-- short sword -->
-    <item id="2148" countmax="80" chance="20600" /><!-- gold coin -->
-    <item id="10566" chance="10200" /><!-- gauze bandage -->
-    <item id="3976" countmax="3" chance="13125" /><!-- worm -->
-    <item id="2144" chance="1450" /><!-- black pearl -->
-    <item id="2161" chance="6325" /><!-- strange talisman -->
-    <item id="2162" chance="16525" /><!-- magic light wand -->
+    <item id="2148" countmax="80" chance="20975" /><!-- gold coin -->
+    <item id="12422" chance="12650" /><!-- flask of embalming fluid -->
+    <item id="2162" chance="6950" /><!-- magic light wand -->
+    <item id="5914" countmax="3" chance="1650" /><!-- yellow piece of cloth -->
+    <item id="2124" chance="2650" /><!-- crystal ring -->
+    <item id="3976" countmax="3" chance="11475" /><!-- worm -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2134" chance="4625" /><!-- silver brooch -->
-            <item id="2124" chance="2050" /><!-- crystal ring -->
-            <item id="5914" chance="1500" /><!-- yellow piece of cloth -->
-            <item id="2411" chance="2900" /><!-- poison dagger -->
-            <item id="2529" chance="700" /><!-- black shield -->
-            <item id="2170" chance="650" /><!-- silver amulet -->
+            <item id="2134" chance="3900" /><!-- silver brooch -->
+            <item id="2161" chance="6200" /><!-- strange talisman -->
+            <item id="10566" chance="10425" /><!-- gauze bandage -->
+            <item id="2144" chance="1650" /><!-- black pearl -->
+            <item id="2170" chance="750" /><!-- silver amulet -->
+            <item id="2411" chance="825" /><!-- poison dagger -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

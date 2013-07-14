@@ -21,12 +21,12 @@
 	<elements>
 		<element firePercent="-10"/>
 	</elements>
-	<voices interval="5000" chance="10">
+	<voices interval="2000" chance="10">
 		<voice sentence="Maeh"/>
 	</voices>
 	<loot>
-    <item id="2666" chance="64850" /><!-- meat -->
-    <item id="11236" chance="1025" /><!-- wool -->
+    <item id="2666" countmax="4" chance="66700" /><!-- meat -->
+    <item id="11236" chance="2300" /><!-- wool -->
 </loot>
 
 

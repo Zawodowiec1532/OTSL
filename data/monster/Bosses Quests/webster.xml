@@ -48,8 +48,10 @@
 		<immunity fire="1"/>
 		<immunity ice="1"/>
 	</immunities>
-	<voices interval="2000" chance="5">
-		<voice sentence="You are lost!"/>
+	<voices interval="2000" chance="10">
+		<voice sentence="You are lost."/>
 		<voice sentence="Come my little morsel."/>
+		<voice sentence="So tasty!"/>
+		<voice sentence="I'll get you!"/>
 	</voices>
 </monster>

@@ -48,23 +48,41 @@
 	<voices interval="2500" chance="10">
 	</voices>
 	<loot>
-    <item id="2148" countmax="100" chance="37975" /><!-- gold coin -->
-    <item id="2148" countmax="28" chance="37975" /><!-- gold coin -->
-    <item id="2800" chance="5775" /><!-- star herb -->
-    <item id="9808" countmax="2" chance="7000" /><!-- rusty armor -->
-    <item id="2513" chance="8200" /><!-- battle shield -->
-    <item id="2425" chance="8025" /><!-- obsidian lance -->
-    <item id="5894" countmax="3" chance="4050" /><!-- bat wing -->
-    <item id="10579" chance="5700" /><!-- mutated bat ear -->
-    <item id="2167" chance="1400" /><!-- energy ring -->
+    <item id="2148" countmax="100" chance="37700" /><!-- gold coin -->
+    <item id="2148" countmax="30" chance="37700" /><!-- gold coin -->
+    <item id="2800" chance="5600" /><!-- star herb -->
+    <item id="9809" countmax="2" chance="6900" /><!-- rusty armor -->
+    <item id="2513" chance="8300" /><!-- battle shield -->
+    <item id="2425" chance="7400" /><!-- obsidian lance -->
+    <item id="5894" countmax="3" chance="4450" /><!-- bat wing -->
+    <item id="10579" chance="5600" /><!-- mutated bat ear -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2150" countmax="2" chance="875" /><!-- small amethyst -->
-            <item id="2144" countmax="3" chance="1125" /><!-- black pearl -->
-            <item id="10016" chance="550" /><!-- batwing hat -->
-            <item id="2529" chance="650" /><!-- black shield -->
+            <item id="2167" chance="1375" /><!-- energy ring -->
+            <item id="2150" countmax="2" chance="850" /><!-- small amethyst -->
+            <item id="2144" countmax="3" chance="1100" /><!-- black pearl -->
+            <item id="10016" chance="600" /><!-- batwing hat -->
             <item id="7386" chance="575" /><!-- mercenary sword -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

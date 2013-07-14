@@ -2,7 +2,7 @@
 <monster name="Badger" namedescription="a badger" race="blood" experience="5" speed="140" manacost="200">
 	<health now="23" max="23"/>
 	<look type="105" corpse="6034"/>
-	<targetchange interval="2000" chance="20"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="1"/>
@@ -25,9 +25,13 @@
 	</attacks>
 	<defenses armor="1" defense="3"/>
 	<loot>
-    <item id="8845" chance="39900" /><!-- beetroot -->
-    <item id="7965" chance="9600" /><!-- badger fur -->
-    <item id="11213" chance="5050" /><!-- acorn -->
+    <item id="8845" chance="42000" /><!-- beetroot -->
+    <item id="11210" chance="10700" /><!-- badger fur -->
+    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+            <item id="11207" chance="5250" /><!-- acorn -->
+        </inside>
+    </item>
 </loot>
 
 

@@ -49,9 +49,6 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element firePercent="100"/>
-		<element energyPercent="100"/>
-		<element icePercent="100"/>
 		<element earthPercent="95"/>
 		<element holyPercent="-8"/>
 		<element physicalPercent="-5"/>
@@ -59,6 +56,9 @@
 	<immunities>
 		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
+		<immunity fire="1"/>
+		<immunity energy="1"/>
+		<immunity ice="1"/>
 	</immunities>
 	<summons maxSummons="1">
 		<summon name="stone golem" interval="2000" chance="10" max="1"/>
@@ -69,30 +69,31 @@
 		<voice sentence="We don't like intruders!"/>
 	</voices>
 	<loot>
-    <item id="2600" chance="11500" /><!-- inkwell -->
-    <item id="2167" chance="2400" /><!-- energy ring -->
     <item id="2679" countmax="4" chance="12675" /><!-- cherry -->
-    <item id="2689" chance="9750" /><!-- bread -->
-    <item id="2047" chance="15050" /><!-- candlestick -->
+    <item id="2148" countmax="80" chance="15350" /><!-- gold coin -->
     <item id="2436" chance="6350" /><!-- skull staff -->
-    <item id="2411" chance="8675" /><!-- poison dagger -->
-    <item id="2148" countmax="80" chance="15600" /><!-- gold coin -->
-    <item id="7590" chance="4500" /><!-- great mana potion -->
-    <item id="2656" chance="2050" /><!-- blue robe -->
-    <item id="2178" chance="3100" /><!-- mind stone -->
-    <item id="7368" countmax="4" chance="2625" /><!-- assassin star -->
-    <item id="2146" chance="1800" /><!-- small sapphire -->
+    <item id="2689" chance="10475" /><!-- bread -->
+    <item id="2466" chance="700" /><!-- golden armor -->
+    <item id="2411" chance="8125" /><!-- poison dagger -->
+    <item id="2146" chance="1950" /><!-- small sapphire -->
+    <item id="7590" chance="5600" /><!-- great mana potion -->
+    <item id="2167" chance="2450" /><!-- energy ring -->
+    <item id="2792" chance="3350" /><!-- dark mushroom -->
+    <item id="7898" chance="1475" /><!-- lightning robe -->
+    <item id="2124" chance="1225" /><!-- crystal ring -->
+    <item id="7591" chance="5850" /><!-- great health potion -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="7591" chance="4800" /><!-- great health potion -->
-            <item id="2151" chance="1625" /><!-- talon -->
-            <item id="2792" chance="3275" /><!-- dark mushroom -->
-            <item id="2123" chance="975" /><!-- ring of the sky -->
-            <item id="2124" chance="1275" /><!-- crystal ring -->
+            <item id="7368" countmax="4" chance="2625" /><!-- assassin star -->
+            <item id="2600" chance="1550" /><!-- inkwell -->
+            <item id="2151" chance="1600" /><!-- talon -->
+            <item id="12410" chance="1025" /><!-- luminous orb -->
+            <item id="2123" chance="1000" /><!-- ring of the sky -->
+            <item id="2178" chance="2650" /><!-- mind stone -->
+            <item id="1986" chance="750" /><!-- red tome -->
+            <item id="2047" chance="1775" /><!-- candlestick -->
+            <item id="2656" chance="2050" /><!-- blue robe -->
             <item id="2197" chance="1000" /><!-- stone skin amulet -->
-            <item id="7898" chance="600" /><!-- lightning robe -->
-            <item id="1986" chance="800" /><!-- red tome -->
-            <item id="2466" chance="700" /><!-- golden armor -->
             <item id="2114" chance="550" /><!-- piggy bank -->
         </inside>
     </item>

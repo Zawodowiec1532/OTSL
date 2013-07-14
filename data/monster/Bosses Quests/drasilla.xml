@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Drasilla" nameDescription="drasilla" race="blood" experience="700" speed="170" manacost="0">
 	<health now="1320" max="1320"/>
-	<look type="34" corpse="7349"/>
-	<targetchange interval="2000" chance="5"/>
+	<look type="291" corpse="6068"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -41,10 +41,10 @@
 		<immunity invisible="1"/>
 		<immunity fire="1"/>
 	</immunities>
-	<voices interval="2000" chance="5">
-		<voice sentence="FCHHHHHHHH!"/>
-		<voice sentence="GROOOOAAAAAAAAR!"/>
-		<voice sentence="DIRTY LITTLE HUMANS"/>
-		<voice sentence="YOU CAN'T KEEP ME HERE FOREVER"/>
+	<voices interval="2000" chance="10">
+		<voice sentence="FCHHHHHHHH!" yell="1"/>
+		<voice sentence="GROOOOAAAAAAAAR!" yell="1"/>
+		<voice sentence="DIRTY LITTLE HUMANS" yell="1"/>
+		<voice sentence="YOU CAN'T KEEP ME HERE FOREVER" yell="1"/>
 	</voices>
 </monster>

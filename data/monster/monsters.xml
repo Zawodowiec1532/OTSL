@@ -1,34 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monsters>
-	<!-- Wroking.. -->
-	<monster name="Yalahari" file="Yalahari.xml"/>
-	<monster name="Heoni" file="heoni.xml"/>
-	<monster name="The Keeper" file="the keeper.xml"/>
-	<monster name="Glitterscale" file="glitterscale.xml"/>
-
+	<!-- Misc -->
 	<monster name="Lizard Gate Guardian" file="lizard gate guardian.xml"/>
-	<monster name="Eternal Guardian" file="eternal guardian.xml"/>
-	<monster name="Zulazza the Corruptor" file="Zulazza the Corruptor.xml"/>
-	<monster name="Chizzoron the Distorter" file="Chizzoron the Distorter.xml"/>
 
-	<monster name="Arachir the ancient one" file="Undeads/Arachir the ancient one.xml"/>
-	<monster name="Diblis The Fair" file="Undeads/Diblis The Fair.xml"/>
-	<monster name="Gravelord Oshuran" file="Undeads/Gravelord Oshuran.xml"/>
-	<monster name="Sir Valorcrest" file="Undeads/Sir Valorcrest.xml"/>
-	<monster name="Zevelon Duskbringer" file="Undeads/zevelon duskbringer.xml"/>
-
-	<!-- Illusions -->
-	<monster name="Cyclops Illusion" file="Illusion/cyclops illusion.xml"/>
-	<monster name="Demon Illusion" file="Illusion/demon illusion.xml"/>
-	<monster name="Warlock Illusion" file="Illusion/warlock illusion.xml"/>
-	<monster name="Hydra Illusion" file="Illusion/hydra illusion.xml"/>
-	<monster name="Hellhound Illusion" file="Illusion/hellhound illusion.xml"/>
-	<monster name="Cyclops Drone Illusion" file="Illusion/cyclops drone illusion.xml"/>
-	<monster name="Cyclops Smith Illusion" file="Illusion/cyclops smith illusion.xml"/>
-	<monster name="Frost Dragon Illusion" file="Illusion/frost dragon illusion.xml"/>
-	<monster name="Dragon Lord Illusion" file="Illusion/dragon lord illusion.xml"/>
-	<monster name="Dragon Illusion" file="Illusion/dragon illusion.xml"/>
-	
 	<!-- Animals -->
 	<monster name="Azure Frog" file="Animals/azure frog.xml"/>
 	<monster name="Badger" file="Animals/badger.xml"/>
@@ -116,9 +90,9 @@
 	<monster name="Barbarian Skullhunter" file="Barbarians/barbarian skullhunter.xml"/>
 	
 	<!-- Beholders -->
-	<monster name="Beholder" file="Beholders/beholder.xml"/>
+	<monster name="Bonelord" file="Beholders/bonelord.xml"/>
 	<monster name="Braindeath" file="Beholders/braindeath.xml"/>
-	<monster name="Elder Beholder" file="Beholders/elder beholder.xml"/>
+	<monster name="Elder Bonelord" file="Beholders/elder bonelord.xml"/>
 	<monster name="Gazer" file="Beholders/gazer.xml"/>
 
 	<!-- Bosses -->
@@ -126,6 +100,7 @@
 	<monster name="Apprentice Sheng" file="Bosses/apprentice sheng.xml"/>
 	<monster name="Ashmunrah" file="Bosses/ashmunrah.xml"/>
 	<monster name="Brutus Bloodbeard" file="Bosses/brutus bloodbeard.xml"/>
+	<monster name="Chizzoron the Distorter" file="Bosses/Chizzoron the Distorter.xml"/>
 	<monster name="Countess Sorrow" file="Bosses/countess sorrow.xml"/>
 	<monster name="Deadeye Devious" file="Bosses/deadeye devious.xml"/>
 	<monster name="Demodras" file="Bosses/demodras.xml"/>
@@ -168,17 +143,15 @@
 	<monster name="Vashresamun" file="Bosses/vashresamun.xml"/>
 	<monster name="Warlord Ruzad" file="Bosses/warlord ruzad.xml"/>
 	<monster name="Zugurosh" file="Bosses/zugurosh.xml"/>
-	<monster name="Tibia Bug" file="Bosses/tibia bug.xml"/>
-	<monster name="Hacker" file="Misc/hacker.xml"/>
-	<monster name="Primitive" file="Outlaws/Primitive.xml"/>
+	<monster name="Zulazza The Corruptor" file="Bosses/zulazza the corruptor.xml"/>
 	
 	<!-- Bosses Quests -->
 	<monster name="Achad" file="Bosses Quests/achad.xml"/>
 	<monster name="Avalanche" file="Bosses Quests/avalanche.xml"/>
-	<monster name="Azerus" file="Bosses Quests/Azerus.xml"/> 
-   	<monster name="Azerus1" file="Bosses Quests/Azerus1.xml"/> 
-  	<monster name="Azerus2" file="Bosses Quests/Azerus2.xml"/> 
-   	<monster name="Azerus3" file="Bosses Quests/Azerus3.xml"/>  
+	<monster name="Azerus" file="Bosses Quests/azerus.xml"/> 
+   	<monster name="Azerus1" file="Bosses Quests/azerus1.xml"/> 
+  	<monster name="Azerus2" file="Bosses Quests/azerus2.xml"/> 
+   	<monster name="Azerus3" file="Bosses Quests/azerus3.xml"/>  
 	<monster name="Axeitus Headbanger" file="Bosses Quests/axeitus headbanger.xml"/>
 	<monster name="Baron Brute" file="Bosses Quests/baron brute.xml"/>
 	<monster name="Bloodpaw" file="Bosses Quests/bloodpaw.xml"/>
@@ -194,19 +167,23 @@
 	<monster name="Fallen Mooh'tah Master Ghar" file="Bosses Quests/fallen mooh'tah master ghar.xml"/>
 	<monster name="Fatality" file="Bosses Quests/fatality.xml"/>
 	<monster name="Frostfur" file="Bosses Quests/frostfur.xml"/>
+	<monster name="Glitterscale" file="Bosses Quests/glitterscale.xml"/>
 	<monster name="Gnorre Chyllson" file="Bosses Quests/gnorre chyllson.xml"/>
 	<monster name="Grimgor Guteater" file="Bosses Quests/grimgor guteater.xml"/>
 	<monster name="Haunter" file="Bosses Quests/haunter.xml"/>
+	<monster name="Heoni" file="Bosses Quests/heoni.xml"/>
 	<monster name="Incineron" file="Bosses Quests/incineron.xml"/>
 	<monster name="Koshei The Deathless" file="Bosses Quests/koshei the deathless.xml"/>
 	<monster name="Kreebosh The Exile" file="Bosses Quests/kreebosh the exile.xml"/>
 	<monster name="Mad Technomancer" file="Bosses Quests/mad technomancer.xml"/>
 	<monster name="Menace" file="Bosses Quests/menace.xml"/>
+	<monster name="Mutated Zalamon" file="Bosses Quests/mutated zalamon.xml"/>
 	<monster name="Norgle Glacierbeard" file="Bosses Quests/norgle glacierbeard.xml"/>
 	<monster name="Orcus The Cruel" file="Bosses Quests/orcus the cruel.xml"/>
-	<monster name="Pythius The Rotten" file="Bosses/pythius the rotten.xml"/>
 	<monster name="Rocko" file="Bosses Quests/rocko.xml"/>
 	<monster name="Rocky" file="Bosses Quests/rocky.xml"/>
+	<monster name="Snake God Essence" file="Bosses Quests/snake god essence.xml"/>
+	<monster name="Snake Thing" file="Bosses Quests/snake thing.xml"/>
 	<monster name="Slim" file="Bosses Quests/slim.xml"/>
 	<monster name="Spirit Of Earth" file="Bosses Quests/spirit of earth.xml"/>
 	<monster name="Spirit Of Fire" file="Bosses Quests/spirit of fire.xml"/>
@@ -217,6 +194,7 @@
 	<monster name="The Dreadorian" file="Bosses Quests/the dreadorian.xml"/>
 	<monster name="The Hag" file="Bosses Quests/the hag.xml"/>
 	<monster name="The Hairy One" file="Bosses Quests/the hairy one.xml"/>
+	<monster name="The Keeper" file="Bosses Quests/the keeper.xml"/>
 	<monster name="The Masked Marauder" file="Bosses Quests/the masked marauder.xml"/>
 	<monster name="The Obliverator" file="Bosses Quests/the obliverator.xml"/>
 	<monster name="The Pit Lord" file="Bosses Quests/the pit lord.xml"/>
@@ -313,13 +291,12 @@
 	<monster name="Elf Arcanist" file="Elves/elf arcanist.xml"/>
 	<monster name="Elf Scout" file="Elves/elf scout.xml"/>
 
-	<!-- Event --> 
+	<!-- Event -->
 	<monster name="Dryad" file="Event/dryad.xml"/>
-	<monster name="The Halloween Hare" file="Event/The Halloween Hare.xml"/>
 	<monster name="Grynch Clan Goblin" file="Event/grynch clan goblin.xml"/>
 	<monster name="Undead Jester" file="Event/undead jester.xml"/>
-	<monster name="Demon (Goblin)" file="Event/demon (goblin).xml"/>
-	<monster name="Training Monk" file="training monk.xml"/>
+	<monster name="Demon (Goblin)" file="Event/goblin.xml"/>
+	<monster name="Training Monk" file="event/training monk.xml"/>
 
 	<!-- Goblins -->
 	<monster name="Goblin" file="Goblins/goblin.xml"/>
@@ -350,17 +327,17 @@
 	<!-- Insects -->
 	<monster name="Ancient Scarab" file="Insects/ancient scarab.xml"/>
 	<monster name="Blue Butterfly" file="Insects/blue butterfly.xml"/>
-	<monster name="Butterfly" file="Insects/Butterfly.xml"/>
+	<monster name="Butterfly" file="Insects/butterfly.xml"/>
 	<monster name="Centipede" file="Insects/centipede.xml"/>
 	<monster name="Insect Swarm" file="Insects/insect swarm.xml"/>
-	<monster name="Lancer Beetle" file="Insects/Lancer Beetle.xml"/>
+	<monster name="Lancer Beetle" file="Insects/lancer beetle.xml"/>
 	<monster name="Larva" file="Insects/larva.xml"/>
 	<monster name="Pink Butterfly" file="Insects/pink butterfly.xml"/>
 	<monster name="Red Butterfly" file="Insects/red butterfly.xml"/>
 	<monster name="Sandcrawler" file="Insects/sandcrawler.xml"/>
 	<monster name="Scarab" file="Insects/scarab.xml"/>
 	<monster name="Scorpion" file="Insects/scorpion.xml"/>
-	<monster name="Terramite" file="Insects/Terramite.xml"/>
+	<monster name="Terramite" file="Insects/terramite.xml"/>
 	<monster name="Wasp" file="Insects/wasp.xml"/>
 	<monster name="Yellow Butterfly" file="Insects/yellow butterfly.xml"/>
 
@@ -370,6 +347,8 @@
 	<monster name="Draken Warmaster" file="Lizards/draken warmaster.xml"/>
 	<monster name="Draken Abomination" file="Lizards/draken abomination.xml"/>
 	<monster name="Draken Elite" file="Lizards/draken elite.xml"/>
+	<monster name="Eternal Guardian" file="Lizards/eternal guardian.xml"/>
+	<monster name="Lizard Abomination" file="Lizards/lizard abomination.xml"/>
 	<monster name="Lizard Chosen" file="Lizards/lizard chosen.xml"/>
 	<monster name="Lizard Dragon Priest" file="Lizards/lizard dragon priest.xml"/>
 	<monster name="Lizard High Guard" file="Lizards/lizard high guard.xml"/>
@@ -378,9 +357,7 @@
 	<monster name="Lizard Snakecharmer" file="Lizards/lizard snakecharmer.xml"/>
 	<monster name="Lizard Templar" file="Lizards/lizard templar.xml"/>
 	<monster name="Lizard Zaogun" file="Lizards/lizard zaogun.xml"/>
-	<monster name="Lizard Magistratus" file="Lizards/lizard magistratus.xml"/>
-	<monster name="Lizard Noble" file="Lizards/lizard noble.xml"/>
-
+	
 	<!-- Magicians -->
 	<monster name="Dark Apprentice" file="Magicians/dark apprentice.xml"/>
 	<monster name="Dark Magician" file="Magicians/dark magician.xml"/>
@@ -406,13 +383,10 @@
 	<monster name="Mutated Tiger" file="Mutans/mutated tiger.xml"/>
 
 	<!-- Orcs -->
-	<monster name="Orcarmor" file="Orcs/orcraid.xml"/>
-	<monster name="Orchelmet" file="Orcs/orcraider.xml"/>
-	<monster name="Orcshield" file="Orcs/orcsdsar.xml"/>
 	<monster name="Orc" file="Orcs/orc.xml"/>
 	<monster name="Orc Berserker" file="Orcs/orc berserker.xml"/>
 	<monster name="Orc Leader" file="Orcs/orc leader.xml"/>
-	<monster name="Orc Marauder" file="Orcs/Orc Marauder.xml"/>
+	<monster name="Orc Marauder" file="Orcs/orc marauder.xml"/>
 	<monster name="Orc Rider" file="Orcs/orc rider.xml"/>
 	<monster name="Orc Shaman" file="Orcs/orc shaman.xml"/>
 	<monster name="Orc Spearman" file="Orcs/orc spearman.xml"/>

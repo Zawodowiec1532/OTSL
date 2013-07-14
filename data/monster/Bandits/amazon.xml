@@ -2,7 +2,7 @@
 <monster name="Amazon" nameDescription="a amazon" race="blood" experience="60" speed="200" manacost="390">
 	<health now="110" max="110"/>
 	<look type="137" head="113" body="120" legs="114" feet="132" corpse="6081"/>
-	<targetchange interval="5000" chance="8"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="1"/>
@@ -28,8 +28,9 @@
 		<element physicalPercent="-5"/>
 		<element deathPercent="-5"/>
 	</elements>
-	<voices interval="5000" chance="10">
+	<voices interval="2000" chance="10">
 		<voice sentence="Yeeee ha!"/>
+		<voice sentence="Your head will be mine!"/>
 		<voice sentence="Your head shall be mine!"/>
 	</voices>
 	<loot>
@@ -37,6 +38,7 @@
     <item id="2467" chance="51950" /><!-- leather armor -->
     <item id="2379" chance="81050" /><!-- dagger -->
     <item id="2148" countmax="20" chance="21275" /><!-- gold coin -->
+	<item id="12399" chance="11050" /><!-- girlish haird decoration -->
     <item id="2691" chance="30300" /><!-- brown bread -->
     <item id="2526" chance="5175" /><!-- studded shield -->
     <item id="1987" chance="100000"><!-- bag -->
@@ -44,8 +46,33 @@
             <item id="2385" chance="24225" /><!-- sabre -->
             <item id="2050" chance="5700" /><!-- torch -->
             <item id="2147" chance="575" /><!-- small ruby -->
+			<item id="12400" chance="5500" /><!-- protective charm -->
             <item id="2125" chance="575" /><!-- crystal necklace -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

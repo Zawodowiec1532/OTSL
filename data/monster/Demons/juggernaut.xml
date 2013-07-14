@@ -49,27 +49,45 @@
 		<voice sentence="GRRRRRR!" yell="1"/>
 	</voices>
 	<loot>
-    <item id="2671" chance="83025" /><!-- ham -->
-    <item id="2148" countmax="100" chance="40375" /><!-- gold coin -->
-    <item id="2148" countmax="89" chance="40375" /><!-- gold coin -->
-    <item id="6558" countmax="4" chance="20500" /><!-- concentrated demonic blood -->
-    <item id="5944" chance="34900" /><!-- soul orb -->
-    <item id="7590" chance="10350" /><!-- great mana potion -->
-    <item id="6500" chance="45400" /><!-- demonic essence -->
-    <item id="9808" chance="9500" /><!-- rusty armor -->
-    <item id="7365" countmax="5" chance="1475" /><!-- onyx arrow -->
-    <item id="7591" chance="9800" /><!-- great health potion -->
-    <item id="2152" countmax="4" chance="4625" /><!-- platinum coin -->
+    <item id="2671" chance="79750" /><!-- ham -->
+    <item id="2148" countmax="100" chance="40875" /><!-- gold coin -->
+    <item id="2148" countmax="89" chance="40875" /><!-- gold coin -->
+    <item id="6558" countmax="4" chance="20625" /><!-- concentrated demonic blood -->
+    <item id="5944" chance="34700" /><!-- soul orb -->
+    <item id="7590" chance="10300" /><!-- great mana potion -->
+    <item id="6500" countmax="3" chance="45025" /><!-- demonic essence -->
+    <item id="9810" chance="10000" /><!-- rusty armor -->
+    <item id="7365" countmax="5" chance="1700" /><!-- onyx arrow -->
+    <item id="7591" chance="10200" /><!-- great health potion -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="9971" chance="4675" /><!-- gold ingot -->
+            <item id="2152" countmax="4" chance="4100" /><!-- platinum coin -->
+            <item id="9971" chance="5250" /><!-- gold ingot -->
             <item id="7368" countmax="2" chance="1175" /><!-- assassin star -->
-            <item id="2514" chance="775" /><!-- mastermind shield -->
-            <item id="2452" chance="625" /><!-- heavy mace -->
-            <item id="7452" chance="2375" /><!-- spiked squelcher -->
+            <item id="2514" chance="800" /><!-- mastermind shield -->
+            <item id="2452" chance="600" /><!-- heavy mace -->
+            <item id="7452" chance="2450" /><!-- spiked squelcher -->
             <item id="2136" chance="900" /><!-- demonbone amulet -->
-            <item id="2578" chance="625" /><!-- closed trap -->
+            <item id="2578" chance="600" /><!-- closed trap -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

@@ -47,9 +47,9 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element earthPercent="90"/>
-		<element physicalPercent="-10"/>
-		<element icePercent="-15"/>
+		<element earthPercent="95"/>
+		<element physicalPercent="-5"/>
+		<element icePercent="-5"/>
 		<element holyPercent="10"/>
 		<element deathPercent="10"/>
 	</elements>
@@ -69,23 +69,46 @@
 		<voice sentence="Feel the heat of battle!"/>
 	</voices>
 	<loot>
-    <item id="8840" countmax="5" chance="5300" /><!-- raspberry -->
-    <item id="2148" countmax="100" chance="40100" /><!-- gold coin -->
-    <item id="2148" countmax="47" chance="40100" /><!-- gold coin -->
-    <item id="7590" chance="19500" /><!-- great mana potion -->
-    <item id="7591" chance="20825" /><!-- great health potion -->
-    <item id="2436" chance="6550" /><!-- skull staff -->
-    <item id="1986" chance="950" /><!-- red tome -->
-    <item id="7760" chance="4575" /><!-- small enchanted ruby -->
-    <item id="2167" chance="3050" /><!-- energy ring -->
+    <item id="8840" countmax="5" chance="5250" /><!-- raspberry -->
+    <item id="2148" countmax="100" chance="40425" /><!-- gold coin -->
+    <item id="2148" countmax="47" chance="40425" /><!-- gold coin -->
+    <item id="7590" chance="20025" /><!-- great mana potion -->
+    <item id="7591" chance="20900" /><!-- great health potion -->
+    <item id="2436" chance="7000" /><!-- skull staff -->
+    <item id="1986" chance="850" /><!-- red tome -->
+    <item id="7760" chance="4750" /><!-- small enchanted ruby -->
+    <item id="2167" chance="2750" /><!-- energy ring -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="5911" chance="1375" /><!-- red piece of cloth -->
-            <item id="5904" chance="725" /><!-- magic sulphur -->
+            <item id="9969" chance="600" /><!-- black skull -->
+            <item id="5911" countmax="3" chance="1200" /><!-- red piece of cloth -->
+            <item id="9958" chance="850" /><!-- royal tapestry -->
+            <item id="5904" chance="850" /><!-- magic sulphur -->
             <item id="7891" chance="600" /><!-- magma boots -->
-            <item id="9971" chance="600" /><!-- gold ingot -->
-            <item id="8902" chance="725" /><!-- spellbook of mind control -->
+            <item id="9971" chance="675" /><!-- gold ingot -->
+            <item id="8902" chance="750" /><!-- spellbook of mind control -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

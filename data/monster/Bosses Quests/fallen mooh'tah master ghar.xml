@@ -2,7 +2,7 @@
 <monster name="Fallen Mooh'tah Master Ghar" nameDescription="fallen mooh'tah master ghar" race="blood" experience="4400" speed="190">
 	<health now="8000" max="8000"/>
 	<look type="29" corpse="7349"/>
-	<targetchange interval="2000" chance="5"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag pushable="0"/>
@@ -37,8 +37,8 @@
 	<immunities>
 		<immunity invisible="1"/>
 	</immunities>
-	<voices interval="2000" chance="5">
-		<voice sentence="I will finish you!"/>
+	<voices interval="2000" chance="10">
+		<voice sentence="I will finish you"/>
 		<voice sentence="You are no match for a master of the Mooh'Tha!"/>
 		<voice sentence="I might be fallen but you will fall before me!"/>
 	</voices>

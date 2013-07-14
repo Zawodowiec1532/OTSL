@@ -8,7 +8,7 @@
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="0"/>
+		<flag illusionable="1"/>
 		<flag convinceable="1"/>
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
@@ -31,8 +31,6 @@
 	</attacks>
 	<defenses armor="15" defense="15"/>
 	<elements>
-		<element firePercent="100"/>
-		<element icePercent="100"/>
 		<element earthPercent="-10"/>
 		<element energyPercent="-25"/>
 	</elements>
@@ -40,6 +38,8 @@
 		<immunity lifedrain="1"/>
 		<immunity paralyze="1"/>
 		<immunity drown="1"/>
+		<immunity fire="1"/>
+		<immunity ice="1"/>
 	</immunities>
 	<voices interval="5000" chance="10">
 		<voice sentence="Gaaahhh!"/>
@@ -48,17 +48,35 @@
 		<voice sentence="Boohaa!"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="100" chance="29000" /><!-- gold coin -->
-    <item id="2397" chance="5500" /><!-- longsword -->
-    <item id="2150" chance="775" /><!-- small amethyst -->
-    <item id="2460" chance="10400" /><!-- brass helmet -->
+    <item id="2148" countmax="100" chance="30150" /><!-- gold coin -->
+    <item id="2670" chance="6225" /><!-- shrimp -->
+    <item id="2397" chance="5650" /><!-- longsword -->
+    <item id="12443" chance="10600" /><!-- quara tentacle -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2465" chance="2500" /><!-- brass armor -->
-            <item id="2670" chance="5475" /><!-- shrimp -->
-            <item id="5895" chance="1025" /><!-- fish fin -->
-            <item id="2406" chance="7075" /><!-- short sword -->
+            <item id="2150" chance="750" /><!-- small amethyst -->
+            <item id="5895" countmax="3" chance="950" /><!-- fish fin -->
+            <item id="2465" chance="2725" /><!-- brass armor -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

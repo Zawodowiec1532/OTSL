@@ -47,8 +47,30 @@
 		<voice sentence="Rooawwrr"/>
 	</voices>
 		<loot>
-    <item id="2148" countmax="53" chance="18475" /><!-- gold coin -->
-    <item id="2672" chance="44950" /><!-- dragon ham -->
-    <item id="7618" chance="100" /><!-- health potion -->
+    <item id="2148" countmax="55" chance="20675" /><!-- gold coin -->
+    <item id="2672" chance="53600" /><!-- dragon ham -->
+    <item id="12374" chance="4050" /><!-- dragon's tail -->
+    <item id="7618" chance="650" /><!-- health potion -->
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

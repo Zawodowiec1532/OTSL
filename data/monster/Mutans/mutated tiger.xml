@@ -48,20 +48,39 @@
 		<voice sentence="CHHHHHHHHHHH"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="100" chance="45300" /><!-- gold coin -->
-    <item id="2148" countmax="3" chance="45300" /><!-- gold coin -->
-    <item id="2666" chance="31900" /><!-- meat -->
-    <item id="11210" chance="11875" /><!-- striped fur -->
-    <item id="2168" chance="6600" /><!-- life ring -->
-    <item id="7454" chance="1750" /><!-- glorious axe -->
-    <item id="11228" chance="4575" /><!-- sabretooth -->
-    <item id="7436" chance="875" /><!-- angelic axe -->
+    <item id="2148" countmax="100" chance="44625" /><!-- gold coin -->
+    <item id="2148" countmax="5" chance="44625" /><!-- gold coin -->
+    <item id="2666" chance="31225" /><!-- meat -->
+    <item id="11210" chance="11100" /><!-- striped fur -->
+    <item id="2167" chance="5850" /><!-- life ring -->
+    <item id="9959" chance="1750" /><!-- silky tapestry -->
+    <item id="7454" chance="1500" /><!-- glorious axe -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2515" chance="825" /><!-- guardian shield -->
-            <item id="7588" chance="1125" /><!-- strong health potion -->
-            <item id="2509" chance="550" /><!-- steel shield -->
+            <item id="11228" chance="3975" /><!-- sabretooth -->
+            <item id="7436" chance="900" /><!-- angelic axe -->
+            <item id="2515" chance="950" /><!-- guardian shield -->
+            <item id="7588" chance="1625" /><!-- strong health potion -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

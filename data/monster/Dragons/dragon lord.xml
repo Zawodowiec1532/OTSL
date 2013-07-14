@@ -50,31 +50,50 @@
 		<voice sentence="YOU WILL BURN!" yell="1"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="100" chance="33525" /><!-- gold coin -->
-    <item id="2148" countmax="100" chance="33525" /><!-- gold coin -->
-    <item id="2148" countmax="45" chance="33525" /><!-- gold coin -->
-    <item id="2672" chance="74850" /><!-- dragon ham -->
-    <item id="2796" chance="12375" /><!-- green mushroom -->
-    <item id="2146" chance="5425" /><!-- small sapphire -->
-    <item id="5882" chance="2550" /><!-- red dragon scale -->
-    <item id="2547" countmax="7" chance="4275" /><!-- power bolt -->
-    <item id="2167" chance="5525" /><!-- energy ring -->
-    <item id="7402" chance="575" /><!-- dragon slayer -->
-    <item id="7378" countmax="3" chance="6525" /><!-- royal spear -->
-    <item id="1950" chance="9450" /><!-- book -->
-    <item id="2033" chance="3400" /><!-- golden mug -->
-    <item id="2177" chance="1050" /><!-- life crystal -->
+    <item id="2148" countmax="100" chance="33475" /><!-- gold coin -->
+    <item id="2148" countmax="100" chance="33475" /><!-- gold coin -->
+    <item id="2148" countmax="45" chance="33475" /><!-- gold coin -->
+    <item id="2672" chance="77400" /><!-- dragon ham -->
+    <item id="2796" chance="12475" /><!-- green mushroom -->
+    <item id="2146" chance="5500" /><!-- small sapphire -->
+    <item id="5882" countmax="3" chance="2475" /><!-- red dragon scale -->
+    <item id="2547" countmax="7" chance="4250" /><!-- power bolt -->
+    <item id="2167" chance="5475" /><!-- energy ring -->
+    <item id="7402" chance="600" /><!-- dragon slayer -->
+    <item id="7378" countmax="3" chance="6500" /><!-- royal spear -->
+    <item id="1976" chance="9525" /><!-- book -->
+    <item id="2033" chance="3525" /><!-- golden mug -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
+            <item id="2177" chance="1050" /><!-- life crystal -->
             <item id="2498" chance="725" /><!-- royal helmet -->
             <item id="2528" chance="800" /><!-- tower shield -->
-            <item id="7588" chance="850" /><!-- strong health potion -->
+            <item id="7588" chance="1400" /><!-- strong health potion -->
             <item id="5948" chance="1525" /><!-- red dragon leather -->
-            <item id="2392" chance="875" /><!-- fire sword -->
-            <item id="2479" chance="950" /><!-- strange helmet -->
+            <item id="2392" chance="850" /><!-- fire sword -->
+            <item id="2479" chance="925" /><!-- strange helmet -->
             <item id="2492" chance="600" /><!-- dragon scale mail -->
-            <item id="7399" chance="400" /><!-- dragon lord trophy -->
+            <item id="7399" chance="600" /><!-- dragon lord trophy -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

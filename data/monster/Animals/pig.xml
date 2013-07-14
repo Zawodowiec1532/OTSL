@@ -21,9 +21,13 @@
 		<attack name="melee" interval="2000" skill="10" attack="0"/>
 	</attacks>
 	<defenses armor="2" defense="2"/>
+	<voices interval="2000" chance="10">
+		<voice sentence="Oink oink"/>
+		<voice sentence="Oink"/>
+	</voices>
 	<loot>
-    <item id="2666" chance="67250" /><!-- meat -->
-    <item id="10610" chance="2100" /><!-- pig foot -->
+    <item id="2666" countmax="4" chance="66800" /><!-- meat -->
+    <item id="10610" chance="1875" /><!-- pig foot -->
 </loot>
 
 

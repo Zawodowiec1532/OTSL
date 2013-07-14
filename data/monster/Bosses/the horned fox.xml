@@ -2,7 +2,7 @@
 <monster name="The Horned Fox" nameDescription="the Horned Fox" race="blood" experience="300" speed="210" manacost="0">
 	<health now="265" max="265"/>
 	<look type="202" corpse="5983"/>
-	<targetchange interval="5000" chance="8"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="70" defense="10"/>
 	<flags>
 		<flag summonable="0"/>
@@ -44,21 +44,19 @@
 		<immunity invisible="1"/>
 	</immunities>
 	<summons maxSummons="6">
-		<summon name="minotaur archer" interval="1000" chance="13" max="2"/>
-		<summon name="minotaur guard" interval="1000" chance="13" max="2"/>
-	<summon name="minotaur mage" interval="1000" chance="13" max="2"/>
+		<summon name="minotaur archer" interval="2000" chance="20" max="2"/>
+		<summon name="minotaur guard" interval="2000" chance="20" max="2"/>
+		<summon name="minotaur mage" interval="2000" chance="20" max="2"/>
 	</summons>
-	<voices interval="5000" chance="10">
-		<voice sentence="You will never get me!"/>
+	<voices interval="2000" chance="10">
 		<voice sentence="I'll be back!"/>
 		<voice sentence="Catch me, if you can!"/>
-		<voice sentence="Help me, boys!"/>
 	</voices>
 	<loot>
     <item id="2148" countmax="22" chance="42450" /><!-- gold coin -->
     <item id="2580" chance="15875" /><!-- fishing rod -->
     <item id="2648" chance="15875" /><!-- chain legs -->
-    <item id="5804" chance="100500" /><!-- nose ring -->
+    <item id="5804" chance="100000" /><!-- nose ring -->
     <item id="2502" chance="8200" /><!-- dwarven helmet -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>

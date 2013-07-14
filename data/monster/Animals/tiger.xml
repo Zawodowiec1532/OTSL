@@ -2,7 +2,7 @@
 <monster name="Tiger" nameDescription="a tiger" race="blood" experience="40" speed="200" manacost="420">
 	<health now="75" max="75"/>
 	<look type="125" corpse="6051"/>
-	<targetchange interval="5000" chance="8"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="1"/>
@@ -29,8 +29,12 @@
 		<element deathPercent="-5"/>
 	</elements>
 	<loot>
-    <item id="2666" chance="37300" /><!-- meat -->
-    <item id="11210" chance="13250" /><!-- striped fur -->
+    <item id="2666" countmax="3" chance="35500" /><!-- meat -->
+    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+            <item id="11204" chance="11875" /><!-- striped fur -->
+        </inside>
+    </item>
 </loot>
 
 

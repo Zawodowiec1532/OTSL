@@ -47,11 +47,11 @@
 	<elements>
 		<element earthPercent="50"/>
 		<element holyPercent="30"/>
-		<element firePercent="45"/>
-		<element energyPercent="35"/>
-		<element physicalPercent="40"/>
-		<element icePercent="25"/>
-		<element deathPercent="30"/>
+		<element firePercent="15"/>
+		<element energyPercent="5"/>
+		<element physicalPercent="10"/>
+		<element icePercent="30"/>
+		<element deathPercent="20"/>
 	</elements>
 	<immunities>
 		<immunity invisible="1"/>
@@ -69,34 +69,54 @@
 		<voice sentence="Rrrtttarrrttarrrtta"/>		
 	</voices>
 	<loot>
-    <item id="2513" chance="5275" /><!-- battle shield -->
+    <item id="2513" chance="5350" /><!-- battle shield -->
     <item id="9976" chance="1500" /><!-- crystal pedestal -->
-    <item id="8473" chance="10000" /><!-- ultimate health potion -->
-    <item id="7439" chance="825" /><!-- berserk potion -->
-    <item id="5880" chance="2775" /><!-- iron ore -->
-    <item id="2377" chance="5350" /><!-- two handed sword -->
-    <item id="8309" countmax="5" chance="3675" /><!-- nail -->
-    <item id="9808" chance="3550" /><!-- rusty armor -->
-    <item id="7590" chance="9500" /><!-- great mana potion -->
-    <item id="2510" chance="9575" /><!-- plate shield -->
+    <item id="8473" chance="10675" /><!-- ultimate health potion -->
+    <item id="7439" chance="1375" /><!-- berserk potion -->
+    <item id="5880" countmax="3" chance="2750" /><!-- iron ore -->
+    <item id="2377" chance="5500" /><!-- two handed sword -->
+    <item id="8309" countmax="5" chance="3625" /><!-- nail -->
+    <item id="9809" chance="3425" /><!-- rusty armor -->
+    <item id="7590" chance="9850" /><!-- great mana potion -->
+    <item id="2510" chance="9300" /><!-- plate shield -->
     <item id="2394" chance="8175" /><!-- morning star -->
-    <item id="2438" chance="8150" /><!-- epee -->
-    <item id="2148" countmax="100" chance="43150" /><!-- gold coin -->
-    <item id="2148" countmax="100" chance="43150" /><!-- gold coin -->
-    <item id="2148" countmax="56" chance="43150" /><!-- gold coin -->
-    <item id="10571" chance="8575" /><!-- war crystal -->
+    <item id="2438" chance="7775" /><!-- epee -->
+    <item id="2148" countmax="100" chance="42975" /><!-- gold coin -->
+    <item id="2148" countmax="100" chance="42975" /><!-- gold coin -->
+    <item id="2148" countmax="56" chance="42975" /><!-- gold coin -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2209" chance="1350" /><!-- club ring -->
-            <item id="7428" chance="1125" /><!-- bonebreaker -->
-            <item id="2213" chance="1725" /><!-- dwarven ring -->
-            <item id="2177" chance="1700" /><!-- life crystal -->
-            <item id="2645" chance="975" /><!-- steel boots -->
-            <item id="7403" chance="600" /><!-- berserker -->
+            <item id="10571" chance="8475" /><!-- war crystal -->
+            <item id="2209" chance="1450" /><!-- club ring -->
+            <item id="7428" chance="1200" /><!-- bonebreaker -->
+            <item id="2213" chance="1700" /><!-- dwarven ring -->
+            <item id="2177" chance="1650" /><!-- life crystal -->
+            <item id="2645" chance="1000" /><!-- steel boots -->
+            <item id="7403" chance="575" /><!-- berserker -->
             <item id="7893" chance="575" /><!-- lightning boots -->
             <item id="7422" chance="600" /><!-- jade hammer -->
             <item id="9980" chance="600" /><!-- crystal of power -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

@@ -27,38 +27,58 @@
 	</attacks>
 	<defenses armor="25" defense="25"/>
 	<elements>
-		<element firePercent="100"/>
-		<element energyPercent="40"/>
-		<element physicalPercent="24"/>
-		<element deathPercent="22"/>
-		<element icePercent="-20"/>
+		<element energyPercent="20"/>
+		<element physicalPercent="50"/>
+		<element deathPercent="20"/>
+		<element icePercent="-25"/>
 	</elements>
 	<immunities>
 		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
+		<immunity fire="1"/>
 	</immunities>
 	<loot>
-    <item id="2148" countmax="100" chance="40750" /><!-- gold coin -->
-    <item id="2148" countmax="100" chance="40750" /><!-- gold coin -->
-    <item id="2148" countmax="43" chance="40750" /><!-- gold coin -->
-    <item id="6500" chance="16050" /><!-- demonic essence -->
-    <item id="2239" chance="50225" /><!-- burnt scroll -->
+    <item id="2148" countmax="100" chance="40850" /><!-- gold coin -->
+    <item id="2148" countmax="100" chance="40850" /><!-- gold coin -->
+    <item id="2148" countmax="43" chance="40850" /><!-- gold coin -->
+    <item id="6500" countmax="3" chance="15975" /><!-- demonic essence -->
+    <item id="2239" chance="50850" /><!-- burnt scroll -->
     <item id="2187" chance="9725" /><!-- wand of inferno -->
-    <item id="5944" chance="12050" /><!-- soul orb -->
-    <item id="2260" countmax="2" chance="22875" /><!-- blank rune -->
-    <item id="10553" chance="10625" /><!-- fiery heart -->
-    <item id="2432" chance="1150" /><!-- fire axe -->
-    <item id="2392" chance="4200" /><!-- fire sword -->
+    <item id="5944" chance="11975" /><!-- soul orb -->
+    <item id="2260" countmax="2" chance="23075" /><!-- blank rune -->
+    <item id="10553" chance="10425" /><!-- fiery heart -->
+    <item id="2432" chance="1050" /><!-- fire axe -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2127" chance="2525" /><!-- emerald bangle -->
-            <item id="2145" chance="2250" /><!-- small diamond -->
-            <item id="10581" chance="5350" /><!-- piece of hellfire armor -->
-            <item id="7894" chance="1250" /><!-- magma legs -->
-            <item id="2152" chance="1525" /><!-- platinum coin -->
-            <item id="7899" chance="1200" /><!-- magma coat -->
-            <item id="2136" chance="700" /><!-- demonbone amulet -->
+            <item id="2392" chance="4200" /><!-- fire sword -->
+            <item id="2127" chance="2350" /><!-- emerald bangle -->
+            <item id="2145" chance="2225" /><!-- small diamond -->
+            <item id="10581" chance="5300" /><!-- piece of hellfire armor -->
+            <item id="7894" chance="1225" /><!-- magma legs -->
+            <item id="2152" chance="1550" /><!-- platinum coin -->
+            <item id="7899" chance="1150" /><!-- magma coat -->
+            <item id="2136" chance="675" /><!-- demonbone amulet -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

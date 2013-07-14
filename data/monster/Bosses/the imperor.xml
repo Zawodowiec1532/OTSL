@@ -2,7 +2,7 @@
 <monster name="The Imperor" nameDescription="the imperor" race="fire" experience="8000" speed="234" manacost="0">
 	<health now="15000" max="15000"/>
 	<look type="237" corpse="8635"/>
-	<targetchange interval="5000" chance="5"/>
+	<targetchange interval="2000" chance="5"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -55,9 +55,9 @@
 	<summons maxSummons="2">
 		<summon name="diabolic imp" interval="2000" chance="20" max="2"/>
 	</summons>
-	<voices interval="5000" chance="10">
-		<voice sentence="Muahaha!"/>
-		<voice sentence="He he he!"/>
+	<voices interval="2000" chance="10">
+		<voice sentence="Poke! Poke!"/>
+		<voice sentence="Let me tickle you with my trident!"/>
 	</voices>
 	<loot>
 		<item id="2148" countmax="79" chance="100000"/><!-- gold coin -->

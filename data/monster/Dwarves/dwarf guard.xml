@@ -34,21 +34,40 @@
 		<voice sentence="Hail Durin!"/>
 	</voices>
 	<loot>
-    <item id="2787" countmax="2" chance="41875" /><!-- white mushroom -->
+    <item id="2787" countmax="2" chance="41800" /><!-- white mushroom -->
     <item id="2643" chance="40050" /><!-- leather boots -->
-    <item id="2148" countmax="30" chance="21125" /><!-- gold coin -->
-    <item id="2387" chance="1150" /><!-- double axe -->
-    <item id="2483" chance="9725" /><!-- scale armor -->
-    <item id="2513" chance="6425" /><!-- battle shield -->
-    <item id="2417" chance="4450" /><!-- battle hammer -->
+    <item id="2148" countmax="30" chance="21350" /><!-- gold coin -->
+    <item id="2387" chance="1100" /><!-- double axe -->
+    <item id="2483" chance="9600" /><!-- scale armor -->
+    <item id="2513" chance="6475" /><!-- battle shield -->
+    <item id="2417" chance="4550" /><!-- battle hammer -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2457" chance="1925" /><!-- steel helmet -->
-            <item id="5880" chance="950" /><!-- iron ore -->
-            <item id="7618" chance="450" /><!-- health potion -->
-            <item id="2208" chance="625" /><!-- axe ring -->
-            <item id="2150" chance="600" /><!-- small amethyst -->
+            <item id="2457" chance="1950" /><!-- steel helmet -->
+            <item id="5880" countmax="3" chance="900" /><!-- iron ore -->
+            <item id="7618" chance="1000" /><!-- health potion -->
+            <item id="2208" chance="650" /><!-- axe ring -->
+            <item id="2150" chance="575" /><!-- small amethyst -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

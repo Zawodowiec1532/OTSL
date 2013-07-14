@@ -27,12 +27,12 @@
 		<element icePercent="-10"/>
 		<element deathPercent="-10"/>
 	</elements>
-	<voices interval="5000" chance="10">
+	<voices interval="2000" chance="10">
 		<voice sentence="Meep!"/>
 	</voices>
 	<loot>
-    <item id="2696" chance="40725" /><!-- cheese -->
-    <item id="2148" countmax="4" chance="44400" /><!-- gold coin -->
+    <item id="2696" chance="40300" /><!-- cheese -->
+    <item id="2148" countmax="4" chance="44675" /><!-- gold coin -->
 </loot>
 
 

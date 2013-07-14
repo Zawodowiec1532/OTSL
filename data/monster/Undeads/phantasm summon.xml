@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Phantasm" nameDescription="a phantasm" race="undead" experience="3300" speed="280" manacost="0">
-	<health now="50" max="50"/>
+<monster name="Phantasm" nameDescription="a phantasm" race="undead" experience="0" speed="280" manacost="0">
+	<health now="65" max="65"/>
 	<look type="241" head="20" corpse="6344"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
@@ -37,9 +37,6 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element deathPercent="100"/>
-		<element physicalPercent="100"/>
-		<element earthPercent="20"/>
 		<element icePercent="20"/>
 		<element holyPercent="-10"/>
 		<element firePercent="-10"/>
@@ -47,6 +44,9 @@
 	</elements>
 	<immunities>
 		<immunity paralyze="1"/>
+		<immunity earth="1"/>
+		<immunity death="1"/>
+		<immunity physical="1"/>
 		<immunity invisible="1"/>
 	</immunities>
 	<voices interval="5000" chance="10">

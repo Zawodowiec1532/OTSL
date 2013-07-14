@@ -2,7 +2,7 @@
 <monster name="Slim" nameDescription="slim" race="undead" experience="580" speed="200" manacost="0">
 	<health now="1025" max="1025"/>
 	<look type="101" corpse="7349"/>
-	<targetchange interval="2000" chance="5"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -44,7 +44,7 @@
 		<immunity death="1"/>
 		<immunity earth="1"/>
 	</immunities>
-	<voices interval="2000" chance="5">
+	<voices interval="2000" chance="10">
 		<voice sentence="Zhroozzzzs."/>
 	</voices>
 </monster>

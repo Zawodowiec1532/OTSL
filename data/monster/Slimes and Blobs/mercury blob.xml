@@ -47,6 +47,25 @@
 		<voice sentence="Crackle"/>
 	</voices>
 	<loot>
-    <item id="9966" chance="17250" /><!-- glob of mercury -->
+    <item id="9966" chance="17275" /><!-- glob of mercury -->
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

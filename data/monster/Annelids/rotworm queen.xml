@@ -2,7 +2,7 @@
 <monster name="Rotworm Queen" nameDescription="a rotworm queen" race="blood" experience="75" speed="126" manacost="0">
 	<health now="105" max="105"/>
 	<look type="295" corpse="8947"/>
-	<targetchange interval="60000" chance="0"/>
+	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -25,8 +25,8 @@
 		<element earthPercent="40"/>
 	</elements>
 	<loot>
-		<item id="2148" countmax="86" chance="100000"/> <!-- gold coin -->
-		<item id="8971" chance="3333"/> <!-- gland -->
-		<item id="3976" countmax="47" chance="20000"/> <!-- worm -->
+		<item id="2148" countmax="47" chance="100000"/><!-- gold coin -->
+		<item id="8971" chance="3333"/><!-- gland -->
+		<item id="3976" countmax="45" chance="20000"/><!-- worm -->
 	</loot>
 </monster>

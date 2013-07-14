@@ -2,7 +2,7 @@
 <monster name="Gazer" nameDescription="a gazer" race="venom" experience="90" speed="240" manacost="0">
 	<health now="120" max="120"/>
 	<look type="109" corpse="6036"/>
-	<targetchange interval="5000" chance="8"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -37,11 +37,13 @@
 		<immunity invisible="1"/>
 		<immunity earth="1"/>
 	</immunities>
-	<voices interval="5000" chance="10">
+	<voices interval="2000" chance="10">
 		<voice sentence="Mommy!?"/>
 		<voice sentence="Buuuuhaaaahhaaaaa!"/>
 		<voice sentence="Me need mana!"/>
 	</voices>
 	<loot>
 </loot>
+
+
 </monster>

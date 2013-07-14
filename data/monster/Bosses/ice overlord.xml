@@ -54,9 +54,29 @@
 		<immunity drown="1"/>
 	</immunities>
 	<loot>
-    <item id="2152" countmax="3" chance="34900" /><!-- platinum coin -->
-    <item id="8300" chance="100500" /><!-- flawless ice crystal -->
-    <item id="2148" countmax="74" chance="35450" /><!-- gold coin -->
-    <item id="8878" chance="950" /><!-- crystalline armor -->
+    <item id="2152" countmax="3" chance="35050" /><!-- platinum coin -->
+    <item id="8300" chance="100000" /><!-- flawless ice crystal -->
+    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+            <item id="2148" countmax="74" chance="35225" /><!-- gold coin -->
+            <item id="8878" chance="950" /><!-- crystalline armor -->
+        </inside>
+    </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

@@ -40,9 +40,9 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element earthPercent="10"/>
+		<element earthPercent="75"/>
 		<element icePercent="-10"/>
-		<element energyPercent="-10"/>
+		<element energyPercent="-5"/>
 	</elements>
 	<immunities>
 		<immunity fire="1"/>
@@ -54,15 +54,33 @@
 		<voice sentence="Rooawwrr"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="100" chance="21350" /><!-- gold coin -->
-    <item id="2148" countmax="63" chance="21350" /><!-- gold coin -->
-    <item id="2672" chance="54000" /><!-- dragon ham -->
-    <item id="2796" chance="850" /><!-- green mushroom -->
+    <item id="2148" countmax="100" chance="20325" /><!-- gold coin -->
+    <item id="2148" countmax="69" chance="20325" /><!-- gold coin -->
+    <item id="2672" chance="68325" /><!-- dragon ham -->
+    <item id="2796" chance="950" /><!-- green mushroom -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="7620" chance="375" /><!-- mana potion -->
+            <item id="7620" chance="1000" /><!-- mana potion -->
             <item id="7891" chance="600" /><!-- magma boots -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

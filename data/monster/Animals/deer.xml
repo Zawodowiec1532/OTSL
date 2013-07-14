@@ -33,9 +33,9 @@
 		<immunity invisible="0"/>
 	</immunities>
 	<loot>
-    <item id="2671" chance="50075" /><!-- ham -->
-    <item id="2666" chance="79325" /><!-- meat -->
-    <item id="11214" chance="1600" /><!-- antlers -->
+    <item id="2671" countmax="2" chance="51000" /><!-- ham -->
+    <item id="2666" countmax="4" chance="79700" /><!-- meat -->
+    <item id="11214" chance="1375" /><!-- antlers -->
 </loot>
 
 

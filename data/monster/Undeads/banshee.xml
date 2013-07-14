@@ -36,12 +36,12 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element firePercent="100"/>
-		<element deathPercent="100"/>
-		<element earthPercent="100"/>
 		<element holyPercent="-25"/>
 	</elements>
 	<immunities>
+		<immunity fire="1"/>
+		<immunity earth="1"/>
+		<immunity death="1"/>
 		<immunity lifedrain="1"/>
 		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
@@ -56,30 +56,49 @@
 		<voice sentence="Feel my gentle kiss of death."/>
 	</voices>
 	<loot>
-    <item id="2071" chance="1550" /><!-- lyre -->
-    <item id="2170" chance="9375" /><!-- silver amulet -->
-    <item id="11337" chance="4825" /><!-- petrified scream -->
-    <item id="2237" chance="20750" /><!-- dirty cape -->
-    <item id="2148" countmax="80" chance="15825" /><!-- gold coin -->
-    <item id="2047" chance="68200" /><!-- candlestick -->
-    <item id="2657" chance="58950" /><!-- simple dress -->
-    <item id="2411" chance="2150" /><!-- poison dagger -->
-    <item id="2177" chance="600" /><!-- life crystal -->
-    <item id="2144" chance="2250" /><!-- black pearl -->
-    <item id="2121" chance="1200" /><!-- wedding ring -->
-    <item id="2175" chance="875" /><!-- spellbook -->
+    <item id="2148" countmax="80" chance="15650" /><!-- gold coin -->
+    <item id="2047" chance="70450" /><!-- candlestick -->
+    <item id="2656" chance="1100" /><!-- blue robe -->
+    <item id="2655" chance="600" /><!-- red robe -->
+    <item id="2134" chance="2525" /><!-- silver brooch -->
+    <item id="2143" chance="1550" /><!-- white pearl -->
+    <item id="2214" chance="1400" /><!-- ring of healing -->
+    <item id="2411" chance="2175" /><!-- poison dagger -->
+    <item id="12402" chance="4600" /><!-- hair of a banshee -->
+    <item id="2657" chance="6550" /><!-- simple dress -->
+    <item id="11337" chance="4600" /><!-- petrified scream -->
+    <item id="2144" chance="2675" /><!-- black pearl -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="7589" chance="900" /><!-- strong mana potion -->
-            <item id="2214" chance="1300" /><!-- ring of healing -->
-            <item id="2655" chance="600" /><!-- red robe -->
-            <item id="2143" chance="1550" /><!-- white pearl -->
-            <item id="2656" chance="1000" /><!-- blue robe -->
-            <item id="2197" chance="1250" /><!-- stone skin amulet -->
-            <item id="7884" chance="850" /><!-- terra mantle -->
-            <item id="2134" chance="2125" /><!-- silver brooch -->
-            <item id="2124" chance="600" /><!-- crystal ring -->
+            <item id="2170" chance="11000" /><!-- silver amulet -->
+            <item id="2071" chance="1450" /><!-- lyre -->
+            <item id="2197" chance="1450" /><!-- stone skin amulet -->
+            <item id="2175" chance="1200" /><!-- spellbook -->
+            <item id="7884" chance="750" /><!-- terra mantle -->
+            <item id="7589" chance="1200" /><!-- strong mana potion -->
+            <item id="2121" chance="800" /><!-- wedding ring -->
+            <item id="2177" chance="650" /><!-- life crystal -->
+            <item id="2124" chance="550" /><!-- crystal ring -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

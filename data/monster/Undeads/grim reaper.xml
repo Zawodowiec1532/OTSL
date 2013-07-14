@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Grim Reaper" nameDescription="a grim reaper" race="undead" experience="5500" speed="400" manacost="0">
-	<health now="4100" max="4100"/>
+	<health now="3900" max="3900"/>
 	<look type="300" corpse="8955"/>
 	<targetchange interval="5000" chance="10"/>
 	<strategy attack="100" defense="0"/>
@@ -64,26 +64,46 @@
 	<loot>
     <item id="10577" chance="5350" /><!-- mystical hourglass -->
     <item id="5022" countmax="4" chance="1400" /><!-- orichalcum pearl -->
-    <item id="7418" chance="1225" /><!-- nightmare blade -->
-    <item id="7590" chance="9975" /><!-- great mana potion -->
-    <item id="9808" chance="3525" /><!-- rusty armor -->
-    <item id="2162" chance="5550" /><!-- magic light wand -->
-    <item id="2521" chance="3300" /><!-- dark shield -->
-    <item id="6500" chance="11550" /><!-- demonic essence -->
-    <item id="8473" chance="10175" /><!-- ultimate health potion -->
+    <item id="7418" chance="1250" /><!-- nightmare blade -->
+    <item id="7590" chance="10400" /><!-- great mana potion -->
+    <item id="9810" chance="3650" /><!-- rusty armor -->
+    <item id="2162" chance="5475" /><!-- magic light wand -->
+    <item id="2521" chance="3350" /><!-- dark shield -->
+    <item id="6500" countmax="3" chance="11675" /><!-- demonic essence -->
+    <item id="8473" chance="10500" /><!-- ultimate health potion -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2550" chance="10775" /><!-- scythe -->
-            <item id="2152" countmax="4" chance="3650" /><!-- platinum coin -->
-            <item id="6558" chance="35425" /><!-- concentrated demonic blood -->
-            <item id="2148" countmax="100" chance="39700" /><!-- gold coin -->
-            <item id="2148" countmax="100" chance="39700" /><!-- gold coin -->
-            <item id="2148" countmax="71" chance="39700" /><!-- gold coin -->
-            <item id="8910" chance="1625" /><!-- underworld rod -->
-            <item id="6300" chance="700" /><!-- death ring -->
-            <item id="8889" chance="700" /><!-- skullcracker armor -->
+            <item id="2550" chance="10675" /><!-- scythe -->
+            <item id="2152" countmax="4" chance="3675" /><!-- platinum coin -->
+            <item id="6558" chance="35375" /><!-- concentrated demonic blood -->
+            <item id="2148" countmax="100" chance="39600" /><!-- gold coin -->
+            <item id="2148" countmax="100" chance="39600" /><!-- gold coin -->
+            <item id="2148" countmax="71" chance="39600" /><!-- gold coin -->
+            <item id="8910" chance="1675" /><!-- underworld rod -->
+            <item id="6300" chance="725" /><!-- death ring -->
+            <item id="8889" chance="675" /><!-- skullcracker armor -->
             <item id="7896" chance="775" /><!-- glacier kilt -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

@@ -2,7 +2,7 @@
 <monster name="Tirecz" nameDescription="Tirecz" race="blood" experience="6000" speed="220" manacost="0">
 <health now="25000" max="25000"/>
 <look type="334" corpse="11103"/>
-<targetchange interval="5000" chance="8"/>
+<targetchange interval="2000" chance="10"/>
 <strategy attack="100" defense="0"/>
 <flags>
 <flag summonable="0"/>
@@ -50,7 +50,7 @@
 	<immunities>
 		<immunity invisible="1"/>
 	</immunities>
-<voices interval="5000" chance="10">
+<voices interval="2000" chance="10">
 <voice sentence="Hissss!"/>
 </voices>
 </monster>

@@ -30,25 +30,44 @@
 		<element physicalPercent="-10"/>
 		<element deathPercent="-5"/>
 	</elements>
-	<voices interval="5000" chance="10">
+	<voices interval="2000" chance="10">
 		<voice sentence="An enemy!"/>
 		<voice sentence="Gimme your money!"/>
 	</voices>
 	<loot>
-    <item id="2511" chance="19650" /><!-- brass shield -->
-    <item id="2148" countmax="28" chance="18925" /><!-- gold coin -->
-    <item id="2398" chance="10825" /><!-- mace -->
-    <item id="2649" chance="14550" /><!-- leather legs -->
-    <item id="2458" chance="5725" /><!-- chain helmet -->
-    <item id="2509" chance="1525" /><!-- steel shield -->
+    <item id="2511" chance="18675" /><!-- brass shield -->
+    <item id="2148" countmax="30" chance="17725" /><!-- gold coin -->
+    <item id="2398" chance="10750" /><!-- mace -->
+    <item id="2649" chance="9500" /><!-- leather legs -->
+    <item id="2458" chance="5400" /><!-- chain helmet -->
+    <item id="2509" chance="1600" /><!-- steel shield -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2386" chance="30475" /><!-- axe -->
-            <item id="2695" countmax="2" chance="8875" /><!-- egg -->
-            <item id="2459" chance="1300" /><!-- iron helmet -->
-            <item id="2465" chance="2750" /><!-- brass armor -->
-            <item id="2110" chance="1100" /><!-- doll -->
+            <item id="2386" chance="30275" /><!-- axe -->
+            <item id="2695" countmax="2" chance="8075" /><!-- egg -->
+            <item id="2459" chance="1200" /><!-- iron helmet -->
+            <item id="2465" chance="2875" /><!-- brass armor -->
+            <item id="2110" chance="1025" /><!-- doll -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Blightwalker" nameDescription="a blightwalker" race="undead" experience="3350" speed="240" manacost="0">
+<monster name="Blightwalker" nameDescription="a blightwalker" race="undead" experience="5850" speed="240" manacost="0">
 	<health now="8900" max="8900"/>
 	<look type="246" corpse="6354"/>
 	<targetchange interval="5000" chance="8"/>
@@ -36,8 +36,6 @@
 	</attacks>
 	<defenses armor="15" defense="15"/>
 	<elements>
-		<element earthPercent="100"/>
-		<element deathPercent="100"/>
 		<element firePercent="50"/>
 		<element energyPercent="20"/>
 		<element icePercent="50"/>
@@ -46,40 +44,60 @@
 	</elements>
 	<immunities>
 		<immunity paralyze="1"/>
-        <immunity invisible="1"/>
-
+		<immunity invisible="1"/>
+		<immunity lifedrain="1"/>
+		<immunity earth="1"/>
+		<immunity death="1"/>
 	</immunities>
 	<voices interval="5000" chance="10">
 		<voice sentence="I can see you decaying!"/>
 		<voice sentence="Let me taste your mortality!"/>
 	</voices>
 	<loot>
-    <item id="2694" chance="60000" /><!-- bunch of wheat -->
-    <item id="2148" countmax="100" chance="42275" /><!-- gold coin -->
-    <item id="2148" countmax="100" chance="42275" /><!-- gold coin -->
-    <item id="2148" countmax="66" chance="42275" /><!-- gold coin -->
-    <item id="5944" chance="27000" /><!-- soul orb -->
-    <item id="10605" chance="10150" /><!-- bundle of cursed straw -->
-    <item id="9808" chance="8050" /><!-- rusty armor -->
-    <item id="6500" chance="31350" /><!-- demonic essence -->
-    <item id="2545" countmax="12" chance="3975" /><!-- poison arrow -->
-    <item id="2260" countmax="2" chance="20625" /><!-- blank rune -->
-    <item id="7884" chance="1325" /><!-- terra mantle -->
-    <item id="7591" chance="9750" /><!-- great health potion -->
-    <item id="2550" chance="3500" /><!-- scythe -->
-    <item id="2183" chance="8800" /><!-- hailstorm rod -->
+    <item id="2694" chance="59775" /><!-- bunch of wheat -->
+    <item id="2148" countmax="100" chance="41375" /><!-- gold coin -->
+    <item id="2148" countmax="100" chance="41375" /><!-- gold coin -->
+    <item id="2148" countmax="71" chance="41375" /><!-- gold coin -->
+    <item id="5944" chance="26275" /><!-- soul orb -->
+    <item id="10605" chance="10725" /><!-- bundle of cursed straw -->
+    <item id="9810" chance="8150" /><!-- rusty armor -->
+    <item id="6500" chance="31000" /><!-- demonic essence -->
+    <item id="2545" countmax="12" chance="4225" /><!-- poison arrow -->
+    <item id="2260" countmax="2" chance="19775" /><!-- blank rune -->
+    <item id="7884" chance="1100" /><!-- terra mantle -->
+    <item id="7591" chance="10000" /><!-- great health potion -->
+    <item id="2550" chance="3725" /><!-- scythe -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="7732" chance="2600" /><!-- seeds -->
-            <item id="7885" chance="1900" /><!-- terra legs -->
-            <item id="2199" chance="1650" /><!-- garlic necklace -->
-            <item id="2436" chance="1200" /><!-- skull staff -->
-            <item id="2179" chance="1525" /><!-- gold ring -->
-            <item id="6300" chance="700" /><!-- death ring -->
-            <item id="2173" chance="750" /><!-- amulet of loss -->
-            <item id="9971" chance="550" /><!-- gold ingot -->
-            <item id="2418" chance="550" /><!-- golden sickle -->
+            <item id="2183" chance="8200" /><!-- hailstorm rod -->
+            <item id="7732" chance="2450" /><!-- seeds -->
+            <item id="7885" chance="1925" /><!-- terra legs -->
+            <item id="2199" chance="1675" /><!-- garlic necklace -->
+            <item id="2436" chance="1300" /><!-- skull staff -->
+            <item id="2179" chance="1600" /><!-- gold ring -->
+            <item id="6300" chance="650" /><!-- death ring -->
+            <item id="2173" chance="775" /><!-- amulet of loss -->
+            <item id="9971" chance="600" /><!-- gold ingot -->
+            <item id="2418" chance="600" /><!-- golden sickle -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

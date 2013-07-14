@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Undead Jester" nameDescription="a Undead Jester" race="blood" experience="5" speed="904" manacost="0">
-	<health now="415" max="415"/>
+	<health now="355" max="355"/>
 	<look type="273" head="114" body="0" legs="114" feet="0" addons="3" corpse="6080"/>/>
 	<targetchange interval="2000" chance="5"/>
 	<strategy attack="70" defense="20"/>
@@ -14,7 +14,7 @@
 		<flag canpushitems="1"/>
 		<flag canpushcreatures="1"/>
 		<flag targetdistance="3"/>
-                <flag staticattack="90"/>
+        <flag staticattack="90"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" attack="10" skill="3"/>
@@ -55,5 +55,7 @@
   </summons>
 	<loot capacity="500">
 		<item id="2688" countmax="7" chance="1900"/>
+		<item id="6280" countmax="1" chance="2500"/>
+		<item id="5907" countmax="3" chance="2400"/>
 	</loot>
 </monster>

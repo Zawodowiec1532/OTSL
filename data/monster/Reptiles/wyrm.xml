@@ -54,32 +54,53 @@
 		<immunity invisible="1"/>
 		<immunity lifedrain="1"/>
 	</immunities>
-	<voices interval="2000" chance="5">
+	<voices interval="2000" chance="10">
 		<voice sentence="GRRR!"/>
 		<voice sentence="GROOOOAAAAAAAAR!"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="100" chance="30700" /><!-- gold coin -->
-    <item id="2148" countmax="100" chance="30700" /><!-- gold coin -->
-    <item id="2148" countmax="32" chance="30700" /><!-- gold coin -->
-    <item id="2672" chance="35700" /><!-- dragon ham -->
-    <item id="7588" chance="20350" /><!-- strong health potion -->
-    <item id="10582" chance="15125" /><!-- wyrm scale -->
-    <item id="2546" countmax="10" chance="4975" /><!-- burst arrow -->
-    <item id="7589" chance="15300" /><!-- strong mana potion -->
-    <item id="2455" chance="6350" /><!-- crossbow -->
-    <item id="8873" chance="775" /><!-- hibiscus dress -->
+    <item id="2148" countmax="100" chance="30550" /><!-- gold coin -->
+    <item id="2148" countmax="100" chance="30550" /><!-- gold coin -->
+    <item id="2148" countmax="32" chance="30550" /><!-- gold coin -->
+    <item id="2672" countmax="3" chance="35575" /><!-- dragon ham -->
+    <item id="7588" chance="20900" /><!-- strong health potion -->
+    <item id="10582" chance="15150" /><!-- wyrm scale -->
+    <item id="2546" countmax="10" chance="4850" /><!-- burst arrow -->
+    <item id="7589" chance="15700" /><!-- strong mana potion -->
+    <item id="2455" chance="6600" /><!-- crossbow -->
+    <item id="8873" chance="850" /><!-- hibiscus dress -->
     <item id="8871" chance="1675" /><!-- focus cape -->
-    <item id="8921" chance="1425" /><!-- wand of draconia -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="8920" chance="925" /><!-- wand of starstorm -->
-            <item id="7889" chance="1300" /><!-- lightning pendant -->
-            <item id="2145" countmax="3" chance="1025" /><!-- small diamond -->
-            <item id="7430" chance="600" /><!-- dragonbone staff -->
+            <item id="8921" chance="1375" /><!-- wand of draconia -->
+            <item id="8920" chance="900" /><!-- wand of starstorm -->
+            <item id="7889" chance="1250" /><!-- lightning pendant -->
+            <item id="2145" countmax="3" chance="1050" /><!-- small diamond -->
+            <item id="7430" chance="575" /><!-- dragonbone staff -->
             <item id="10221" chance="625" /><!-- shockwave amulet -->
             <item id="8855" chance="550" /><!-- composite hornbow -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

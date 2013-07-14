@@ -8,8 +8,8 @@
 		<flag summonable="1"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="0"/>
-		<flag convinceable="0"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
 		<flag pushable="1"/>
 		<flag canpushitems="1"/>
 		<flag canpushcreatures="0"/>
@@ -29,22 +29,42 @@
 		<voice sentence="Gruntz!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="10" chance="35000"/><!-- gold coin -->
-		<item id="5901" chance="15000"/><!-- wood -->
-		<item id="2389" chance="23000"/><!-- spear -->
-		<item id="2380" chance="17000"/><!-- hand axe -->
-		<item id="2512" chance="15000"/><!-- wooden shield -->
-		<item id="2666" chance="15000"/><!-- meat -->
-		<item id="1987" chance="100000"><!-- bag -->
-			<inside>
-				<item id="5901" chance="15000"/><!-- wood -->		
-				<item id="2643" chance="11500"/><!-- leather boots -->
-				<item id="2461" chance="10000"/><!-- leather helmet -->
-				<item id="2120" chance="7250"/><!-- rope -->
-				<item id="2448" chance="6000"/><!-- studded club -->
-				<item id="2170" chance="50"/><!-- silver amulet -->
-				<item id="7963" chance="150"/><!-- marlin -->
-			</inside>
-		</item>
-	</loot>
+    <item id="2448" chance="4600" /><!-- studded club -->
+    <item id="2120" chance="8275" /><!-- rope -->
+    <item id="2148" countmax="10" chance="33800" /><!-- gold coin -->
+    <item id="5097" chance="5400" /><!-- mango -->
+    <item id="5901" chance="29800" /><!-- wood -->
+    <item id="2380" chance="18750" /><!-- hand axe -->
+    <item id="2461" chance="10475" /><!-- leather helmet -->
+    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+            <item id="2389" chance="20675" /><!-- spear -->
+            <item id="2512" chance="15075" /><!-- wooden shield -->
+            <item id="2643" chance="11300" /><!-- leather boots -->
+            <item id="7963" chance="575" /><!-- marlin -->
+            <item id="2170" chance="575" /><!-- silver amulet -->
+        </inside>
+    </item>
+</loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

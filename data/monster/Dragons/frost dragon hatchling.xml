@@ -41,6 +41,7 @@
 	<immunities>
 		<immunity fire="1"/>
 		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
 		<immunity ice="1"/>
 		<immunity earth="1"/>
 		<immunity invisible="1"/>
@@ -50,14 +51,34 @@
 		<voice sentence="Fchu?" yell="0"/>
 	</voices>
 	<loot>
-    <item id="8900" chance="1075" /><!-- spellbook of enlightenment -->
-    <item id="10578" chance="5625" /><!-- frosty heart -->
-    <item id="2672" chance="80600" /><!-- dragon ham -->
+    <item id="8900" chance="1025" /><!-- spellbook of enlightenment -->
+    <item id="10578" chance="5600" /><!-- frosty heart -->
+    <item id="2672" chance="80625" /><!-- dragon ham -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2148" countmax="55" chance="32000" /><!-- gold coin -->
-            <item id="7618" chance="475" /><!-- health potion -->
+            <item id="2148" countmax="55" chance="32225" /><!-- gold coin -->
+            <item id="7618" chance="1000" /><!-- health potion -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

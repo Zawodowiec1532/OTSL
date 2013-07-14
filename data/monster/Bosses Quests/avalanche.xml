@@ -2,7 +2,7 @@
 <monster name="Avalanche" nameDescription="avalanche" race="undead" experience="305" speed="195">
 	<health now="550" max="550"/>
 	<look type="261" corpse="7349"/>
-	<targetchange interval="2000" chance="5"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
     <flags> 
         <flag summonable="0"/> 
@@ -40,7 +40,7 @@
 		<immunity ice="1"/>
 		<immunity earth="1"/>
 	</immunities>
-	<voices interval="5000" chance="5">
+	<voices interval="2000" chance="10">
 		<voice sentence="You will pay for imprisoning me here."/>
 	</voices>
 </monster>

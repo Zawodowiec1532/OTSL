@@ -2,7 +2,7 @@
 <monster name="Thornback Tortoise" nameDescription="a thornback tortoise" race="blood" experience="150" speed="200" manacost="490">
 	<health now="300" max="300"/>
 	<look type="198" corpse="6073"/>
-	<targetchange interval="5000" chance="8"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -31,15 +31,16 @@
 		<element firePercent="-10"/>
 	</elements>
 	<loot>
-    <item id="2148" countmax="26" chance="30475" /><!-- gold coin -->
-    <item id="2667" chance="12100" /><!-- fish -->
-    <item id="10560" chance="5475" /><!-- thorn -->
-    <item id="2787" chance="1600" /><!-- white mushroom -->
+    <item id="2148" countmax="29" chance="28600" /><!-- gold coin -->
+    <item id="2667" chance="10400" /><!-- fish -->
+    <item id="10560" chance="6050" /><!-- thorn -->
+    <item id="2787" chance="1975" /><!-- white mushroom -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="5678" countmax="3" chance="1050" /><!-- tortoise egg -->
-            <item id="7618" chance="2200" /><!-- health potion -->
-            <item id="2391" chance="1050" /><!-- war hammer -->
+            <item id="5678" countmax="3" chance="1175" /><!-- tortoise egg -->
+            <item id="7618" chance="1400" /><!-- health potion -->
+            <item id="2391" chance="975" /><!-- war hammer -->
+            <item id="2789" chance="1350" /><!-- brown mushroom -->
         </inside>
     </item>
 </loot>

@@ -2,7 +2,7 @@
 <monster name="Mr. Punish" nameDescription="a mr. punish" race="undead" experience="5500" speed="400" manacost="0">
 	<health now="12000" max="12000"/>
 	<look type="234" corpse="6331"/>
-	<targetchange interval="2000" chance="5"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -43,24 +43,48 @@
 		<immunity drunk="1"/>
 		<immunity invisible="1"/>
 	</immunities>
+	<voices interval="2000" chance="10">
+		<voice sentence="I kept my axe sharp, especially for you!"/>
+		<voice sentence="Time for a little torturing practice!"/>
+		<voice sentence="Scream for me!"/>
+	</voices>
 	<loot>
     <item id="2148" countmax="100" chance="48000" /><!-- gold coin -->
     <item id="2148" countmax="7" chance="48000" /><!-- gold coin -->
-    <item id="6500" chance="100500" /><!-- demonic essence -->
+    <item id="6500" chance="100000" /><!-- demonic essence -->
+    <item id="5801" chance="13000" /><!-- key ring -->
     <item id="9971" chance="42175" /><!-- gold ingot -->
     <item id="2387" chance="33825" /><!-- double axe -->
-    <item id="5944" chance="100500" /><!-- soul orb -->
-    <item id="6537" chance="100500" /><!-- mr. punish's handcuffs -->
-    <item id="2152" countmax="4" chance="14050" /><!-- platinum coin -->
+    <item id="5944" chance="100000" /><!-- soul orb -->
+    <item id="6537" chance="100000" /><!-- mr. punish's handcuffs -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
+            <item id="2152" countmax="4" chance="14050" /><!-- platinum coin -->
             <item id="7368" countmax="4" chance="6750" /><!-- assassin star -->
             <item id="6492" chance="17175" /><!-- bat decoration -->
-            <item id="7590" chance="12500" /><!-- great mana potion -->
+            <item id="7590" chance="13000" /><!-- great mana potion -->
             <item id="5480" chance="29675" /><!-- cat's paw -->
             <item id="6300" chance="4675" /><!-- death ring -->
-            <item id="7591" chance="4150" /><!-- great health potion -->
+            <item id="7591" chance="4675" /><!-- great health potion -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

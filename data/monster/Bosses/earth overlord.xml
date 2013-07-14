@@ -2,7 +2,7 @@
 <monster name="Earth Overlord" nameDescription="an earth overlord" race="undead" experience="2800" speed="330" manacost="0">
 	<health now="4000" max="4000"/>
 	<look type="285" corpse="8933"/>
-	<targetchange interval="20000" chance="30"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -45,15 +45,31 @@
 		<immunity holy="1"/>
 	</immunities>
 	<loot>
-    <item id="2152" countmax="3" chance="44950" /><!-- platinum coin -->
-    <item id="8305" chance="100500" /><!-- mother soil -->
-    <item id="2148" countmax="74" chance="35700" /><!-- gold coin -->
+    <item id="2152" countmax="3" chance="40100" /><!-- platinum coin -->
+    <item id="8305" chance="100000" /><!-- mother soil -->
+    <item id="2148" countmax="74" chance="37175" /><!-- gold coin -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="7884" chance="1950" /><!-- terra mantle -->
-            <item id="11227" chance="4850" /><!-- shiny stone -->
-            <item id="11222" chance="12100" /><!-- lump of earth -->
+            <item id="7884" chance="1675" /><!-- terra mantle -->
+            <item id="11227" chance="6375" /><!-- shiny stone -->
+            <item id="11216" chance="20500" /><!-- lump of earth -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

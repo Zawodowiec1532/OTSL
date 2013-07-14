@@ -2,7 +2,7 @@
 <monster name="The Hairy One" nameDescription="the hairy one" race="blood" experience="115" speed="240">
 	<health now="325" max="325"/>
 	<look type="116" corpse="7349"/>
-	<targetchange interval="60000" chance="0"/>
+	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag pushable="0"/>
@@ -18,7 +18,7 @@
 		<element energyPercent="5"/>
 		<element icePercent="-10"/>
 	</elements>
-	<voices interval="2000" chance="5">
+	<voices interval="2000" chance="10">
 		<voice sentence="Hugah!"/>
 		<voice sentence="Ungh! Ungh!"/>
 	</voices>

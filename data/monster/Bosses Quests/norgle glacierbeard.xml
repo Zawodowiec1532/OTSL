@@ -2,7 +2,7 @@
 <monster name="Norgle Glacierbeard" nameDescription="Norgle Glacierbeard" race="blood" experience="2100" speed="195" manacost="0">
 	<health now="4300" max="4300"/>
 	<look type="257" corpse="7349"/>
-	<targetchange interval="2000" chance="5"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -45,11 +45,11 @@
 		<immunity ice="1"/>
 		<immunity fire="1"/>
 	</immunities>
-	<voices interval="2000" chance="5">
+	<voices interval="2000" chance="10">
 		<voice sentence="I'll extinguish you warmbloods."/>
-		<voice sentence="REVENGE!"/>
+		<voice sentence="REVENGE!" yell="1"/>
 		<voice sentence="Far too hot."/>
-		<voice sentence="DISGUSTING WARMBLOODS!"/>
+		<voice sentence="DISGUSTING WARMBLOODS!" yell="1"/>
 		<voice sentence="Revenge is sweetest when served cold."/>
 	</voices>
 </monster>

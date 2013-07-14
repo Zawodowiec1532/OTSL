@@ -59,22 +59,41 @@
 		<voice sentence="Fcccccchhhhhh"/>
 	</voices>
 	<loot>
-    <item id="2235" chance="1450" /><!-- moldy cheese -->
-    <item id="2229" chance="21400" /><!-- skull -->
-    <item id="2799" chance="5000" /><!-- stone herb -->
-    <item id="2381" chance="3575" /><!-- halberd -->
-    <item id="10585" chance="4575" /><!-- mutated rat tail -->
-    <item id="2148" countmax="100" chance="23525" /><!-- gold coin -->
-    <item id="2148" countmax="29" chance="23525" /><!-- gold coin -->
-    <item id="2510" chance="4650" /><!-- plate shield -->
+    <item id="2235" chance="1475" /><!-- mouldy cheese -->
+    <item id="2229" chance="21275" /><!-- skull -->
+    <item id="2799" chance="5225" /><!-- stone herb -->
+    <item id="2381" chance="3450" /><!-- halberd -->
+    <item id="10585" chance="4625" /><!-- mutated rat tail -->
+    <item id="2148" countmax="100" chance="23600" /><!-- gold coin -->
+    <item id="2148" countmax="30" chance="23600" /><!-- gold coin -->
+    <item id="2510" chance="4500" /><!-- plate shield -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="8900" chance="1000" /><!-- spellbook of enlightenment -->
-            <item id="7618" chance="425" /><!-- health potion -->
-            <item id="2796" chance="1800" /><!-- green mushroom -->
-            <item id="2165" chance="925" /><!-- stealth ring -->
-            <item id="2528" chance="575" /><!-- tower shield -->
+            <item id="8900" chance="925" /><!-- spellbook of enlightenment -->
+            <item id="7618" chance="975" /><!-- health potion -->
+            <item id="2796" chance="1850" /><!-- green mushroom -->
+            <item id="2165" chance="1000" /><!-- stealth ring -->
+            <item id="2528" chance="550" /><!-- tower shield -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

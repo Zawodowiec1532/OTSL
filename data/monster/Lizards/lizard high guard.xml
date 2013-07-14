@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Lizard High Guard" nameDescription="a lizard high guard" race="blood" experience="1450" speed="340" manacost="0">
 <health now="1800" max="1800"/>
-<look type="337" corpse="11269"/>
+<look type="337" corpse="11266"/>
 <targetchange interval="5000" chance="8"/>
 <strategy attack="100" defense="0"/>
 <flags>
@@ -43,20 +43,42 @@
 <voice sentence="Engage zze aggrezzor!"/>
 </voices>
 <loot>
-    <item id="5876" chance="1600" /><!-- lizard leather -->
-    <item id="11206" chance="1250" /><!-- red lantern -->
-    <item id="11304" chance="1200" /><!-- zaoan legs -->
-    <item id="11332" chance="1500" /><!-- high guard flag -->
-    <item id="11333" chance="4350" /><!-- high guard shoulderplates -->
-    <item id="11325" chance="7375" /><!-- spiked iron ball -->
-    <item id="11303" chance="1200" /><!-- zaoan shoes -->
-            <item id="2148" countmax="100" chance="34500" /><!-- gold coin -->
-            <item id="2148" countmax="100" chance="34500" /><!-- gold coin -->
-            <item id="2148" countmax="22" chance="34500" /><!-- gold coin -->
-            <item id="11245" chance="1400" /><!-- bunch of ripe rice -->
-            <item id="2149" chance="1225" /><!-- small emerald -->
-            <item id="7591" chance="1800" /><!-- great health potion -->
-            <item id="5881" chance="1450" /><!-- lizard scale -->
-            <item id="11301" chance="600" /><!-- zaoan armor -->
+    <item id="2528" chance="1500" /><!-- tower shield -->
+    <item id="11332" chance="3550" /><!-- high guard flag -->
+    <item id="11303" chance="1275" /><!-- zaoan shoes -->
+    <item id="5876" chance="1525" /><!-- lizard leather -->
+    <item id="11333" chance="8550" /><!-- high guard shoulderplates -->
+    <item id="5881" countmax="3" chance="1475" /><!-- lizard scale -->
+    <item id="11325" chance="7525" /><!-- spiked iron ball -->
+    <item id="2149" countmax="4" chance="2075" /><!-- small emerald -->
+    <item id="7588" chance="12425" /><!-- strong health potion -->
+    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+            <item id="11245" chance="5550" /><!-- bunch of ripe rice -->
+            <item id="7591" chance="7375" /><!-- great health potion -->
+            <item id="2152" countmax="2" chance="4350" /><!-- platinum coin -->
+            <item id="2148" countmax="100" chance="33725" /><!-- gold coin -->
+            <item id="2148" countmax="100" chance="33725" /><!-- gold coin -->
+            <item id="2148" countmax="27" chance="33725" /><!-- gold coin -->
+            <item id="11304" chance="1225" /><!-- zaoan legs -->
+            <item id="11206" chance="1650" /><!-- red lantern -->
+            <item id="11301" chance="575" /><!-- zaoan armor -->
+        </inside>
+    </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

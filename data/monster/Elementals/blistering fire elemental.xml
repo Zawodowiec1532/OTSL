@@ -31,22 +31,45 @@
 		</attack>
 	</attacks>
 	<defenses armor="20" defense="20"/>
+	<elements>
+		<element icePercent="-15"/>
+		<element earthPercent="50"/>
+		<element deathPercent="40"/>
+		<element energyPercent="20"/>
+		<element physicalPercent="25"/>
+	</elements>	
 	<immunities>
 		<immunity fire="1"/>
+		<immunity holy="1"/>
 	</immunities>
-	<elements>
-		<element icePercent="-25"/>
-	</elements>
 	<loot>
-    <item id="2148" countmax="100" chance="28325" /><!-- gold coin -->
-    <item id="2148" countmax="76" chance="28325" /><!-- gold coin -->
-    <item id="2147" countmax="2" chance="4000" /><!-- small ruby -->
-    <item id="10553" chance="9325" /><!-- fiery heart -->
+    <item id="2148" countmax="100" chance="28225" /><!-- gold coin -->
+    <item id="2148" countmax="76" chance="28225" /><!-- gold coin -->
+    <item id="2147" countmax="2" chance="4225" /><!-- small ruby -->
+    <item id="10553" chance="9275" /><!-- fiery heart -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="8299" chance="8400" /><!-- glimmering soil -->
-            <item id="8921" chance="1050" /><!-- wand of draconia -->
+            <item id="8299" chance="8750" /><!-- glimmering soil -->
+            <item id="8921" chance="900" /><!-- wand of draconia -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

@@ -48,7 +48,7 @@
 	<summons maxSummons="4">
 		<summon name="fire elemental" interval="2000" chance="25"/>
 	</summons>
-	<voices interval="1000" chance="10">
-		<voice sentence="NO ONE WILL BEAT ME!"/>
+	<voices interval="2000" chance="10">
+		<voice sentence="NO ONE WILL BEAT ME!" yell="1"/>
 	</voices>
 </monster>

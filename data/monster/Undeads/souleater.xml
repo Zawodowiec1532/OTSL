@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Souleater" nameDescription="a souleater" race="undead" experience="1300" speed="250" manacost="0">
 	<health now="1100" max="1000"/>
-	<look type="355" corpse="12612"/>
+	<look type="355" corpse="12592"/>
 	<targetchange interval="2000" chance="5"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
@@ -39,16 +39,17 @@
 		</defense>	
 	</defenses>
 	<elements>
-		<element earthPercent="100"/>
-		<element deathPercent="100"/>
 		<element holyPercent="-10"/>
 		<element icePercent="50"/>
 		<element firePercent="-10"/>
 		<element energyPercent="-10"/>
+		<element physicalPercent="70"/>		
 	</elements>
 	<immunities>
 		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
+		<immunity death="1"/>
+		<immunity earth="1"/>		
 	</immunities>
 	<voices interval="5000" chance="10">
 		<voice sentence="Life is such a fickle thing!"/>
@@ -57,17 +58,39 @@
 		<voice sentence="I will feed on you."/>
 	</voices>
 	<loot>
-	<item id="2189" chance="970" /><!-- wand of cosmic energy -->
-	<item id="12637" chance="1940" /><!-- ectoplasmic sushi -->
-	<item id="7590" chance="8180" /><!-- great mana potion -->
-	<item id="2148" countmax="100" chance="32850" /><!-- gold coin -->
-    <item id="2148" countmax="100" chance="32850" /><!-- gold coin -->
-    <item id="2152" countmax="6" chance="27785" /><!-- platinum coin -->
-	<item id="8473" chance="8580" /><!-- ultimate health potion -->
-	<item id="12636" chance="15080" /><!-- lizard essence -->
-	<item id="2185" chance="1040" /><!-- necrotic rod -->
-	<item id="12635" chance="100" /><!-- souleater trophy -->
-	<item id="6300" chance="340" /><!-- death ring -->
-	<item id="5884" chance="130" /><!-- spirit container -->
+    <item id="2189" chance="1500" /><!-- wand of cosmic energy -->
+    <item id="12637" chance="2350" /><!-- ectoplasmic sushi -->
+    <item id="7590" chance="8750" /><!-- great mana potion -->
+    <item id="2152" countmax="6" chance="29425" /><!-- platinum coin -->
+    <item id="8473" chance="9700" /><!-- ultimate health potion -->
+    <item id="12636" chance="15250" /><!-- lizard essence -->
+    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+            <item id="2148" countmax="100" chance="33400" /><!-- gold coin -->
+            <item id="2148" countmax="100" chance="33400" /><!-- gold coin -->
+            <item id="2185" chance="1550" /><!-- necrotic rod -->
+            <item id="12635" chance="525" /><!-- souleater trophy -->
+            <item id="6300" chance="800" /><!-- death ring -->
+            <item id="5884" chance="600" /><!-- spirit container -->
+        </inside>
+    </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

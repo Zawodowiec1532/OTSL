@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Troll Champion" nameDescription="a troll champion" race="blood" experience="30" speed="120" manacost="340">
+<monster name="Troll Champion" nameDescription="a troll champion" race="blood" experience="40" speed="120" manacost="350">
 	<health now="75" max="75"/>
 	<look type="281" corpse="7926"/>
 	<targetchange interval="2000" chance="0"/>
@@ -21,10 +21,10 @@
 	</attacks>
 	<defenses armor="6" defense="8"/>
 	<elements>
-		<element energyPercent="22"/>
-		<element holyPercent="11"/>
-		<element earthPercent="-3"/>
-		<element deathPercent="-4"/>
+		<element energyPercent="15"/>
+		<element holyPercent="10"/>
+		<element earthPercent="-10"/>
+		<element deathPercent="-10"/>
 	</elements>
 	<voices interval="5000" chance="10">
 		<voice sentence="Meee maity!"/>
@@ -37,13 +37,32 @@
     <item id="2148" countmax="12" chance="35125" /><!-- gold coin -->
     <item id="2643" chance="11925" /><!-- leather boots -->
     <item id="2666" chance="14625" /><!-- meat -->
+	<item id="12471" chance="1775" /><!-- trollroot -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
             <item id="2512" chance="16425" /><!-- wooden shield -->
             <item id="2544" countmax="5" chance="3875" /><!-- arrow -->
-            <item id="10606" chance="3650" /><!-- bunch of troll hair -->
+            <item id="10605" chance="3650" /><!-- bunch of troll hair -->
             <item id="2448" chance="5875" /><!-- studded club -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

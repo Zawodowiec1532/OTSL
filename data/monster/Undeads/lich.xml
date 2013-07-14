@@ -34,7 +34,6 @@
 		<attack name="lifedrain" interval="2000" chance="6" range="1" min="-200" max="-245">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</attack>
-
 	</attacks>
 	<defenses armor="20" defense="20">
 		<defense name="healing" interval="2000" chance="15" min="60" max="100">
@@ -42,13 +41,13 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element deathPercent="100"/>
-		<element earthPercent="100"/>
 		<element energyPercent="80"/>
 		<element holyPercent="-20"/>
 	</elements>
 	<immunities>
 		<immunity paralyze="1"/>
+		<immunity death="1"/>
+		<immunity earth="1"/>
 		<immunity invisible="1"/>
 	</immunities>
 	<summons maxSummons="4">
@@ -62,23 +61,41 @@
 		<voice sentence="Death and Decay!"/>
 	</voices>
 	<loot>
-    <item id="2237" chance="20325" /><!-- dirty cape -->
-    <item id="2401" chance="61050" /><!-- staff -->
-    <item id="2148" countmax="100" chance="17400" /><!-- gold coin -->
-    <item id="2148" countmax="20" chance="17400" /><!-- gold coin -->
-    <item id="7589" chance="775" /><!-- strong mana potion -->
-    <item id="2175" chance="10275" /><!-- spellbook -->
-    <item id="2214" chance="1600" /><!-- ring of healing -->
-    <item id="2144" chance="5350" /><!-- black pearl -->
-    <item id="2143" chance="3200" /><!-- white pearl -->
+    <item id="2237" chance="20300" /><!-- dirty cape -->
+    <item id="2401" chance="61325" /><!-- staff -->
+    <item id="2148" countmax="100" chance="17350" /><!-- gold coin -->
+    <item id="2148" countmax="20" chance="17350" /><!-- gold coin -->
+    <item id="7589" chance="1225" /><!-- strong mana potion -->
+    <item id="2175" chance="10325" /><!-- spellbook -->
+    <item id="2214" chance="1550" /><!-- ring of healing -->
+    <item id="2144" chance="5500" /><!-- black pearl -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2656" chance="625" /><!-- blue robe -->
-            <item id="2178" chance="950" /><!-- mind stone -->
-            <item id="2479" chance="850" /><!-- strange helmet -->
+            <item id="2143" chance="3275" /><!-- white pearl -->
+            <item id="2656" chance="600" /><!-- blue robe -->
+            <item id="2178" chance="925" /><!-- mind stone -->
+            <item id="2479" chance="825" /><!-- strange helmet -->
             <item id="2535" chance="700" /><!-- castle shield -->
-            <item id="2171" chance="575" /><!-- platinum amulet -->
+            <item id="2171" chance="600" /><!-- platinum amulet -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

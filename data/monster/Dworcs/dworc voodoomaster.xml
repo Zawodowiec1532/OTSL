@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Dworc Voodoomaster" namedescription="a dworc voodoomaster" race="blood" experience="50" speed="240" manacost="0">
+<monster name="Dworc Voodoomaster" namedescription="a dworc voodoomaster" race="blood" experience="55" speed="240" manacost="0">
 	<health now="80" max="80"/>
 	<look type="214" corpse="6055"/>
 	<targetchange interval="5000" chance="8"/>
@@ -49,30 +49,50 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element earthPercent="100"/>
 		<element holyPercent="35"/>
 		<element firePercent="-15"/>
 		<element deathPercent="-10"/>
 		<element icePercent="-10"/>
 	</elements>
+	<immunities>
+		<immunity earth="1"/>
+	</immunities>
 	<voices interval="5000" chance="10">
 		<voice sentence="grak brrretz!"/>
 		<voice sentence="grow truk grrrrr."/>
 		<voice sentence="prek tars, dekklep zurk."/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="17" chance="44475" /><!-- gold coin -->
-    <item id="2230" chance="6850" /><!-- bone -->
-    <item id="2050" chance="5250" /><!-- torch -->
-	<item id="3955" chance="925" /><!-- tribal mask -->
-
-    <item id="2467" chance="11200" /><!-- leather armor -->
+    <item id="2148" countmax="17" chance="40400" /><!-- gold coin -->
+    <item id="2230" chance="6100" /><!-- bone -->
+    <item id="2050" chance="6075" /><!-- torch -->
+    <item id="2467" chance="9975" /><!-- leather armor -->
+    <item id="2231" chance="3700" /><!-- big bone -->
+    <item id="2411" chance="1750" /><!-- poison dagger -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2231" chance="4475" /><!-- big bone -->
-            <item id="2411" chance="1700" /><!-- poison dagger -->
-            <item id="2229" countmax="2" chance="1300" /><!-- skull -->
+            <item id="2229" countmax="3" chance="1925" /><!-- skull -->
+            <item id="2322" chance="650" /><!-- voodoo doll -->
+            <item id="3967" chance="900" /><!-- tribal mask -->
+            <item id="2174" chance="975" /><!-- strange symbol -->
+            <item id="7618" chance="950" /><!-- health potion -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

@@ -2,7 +2,7 @@
 	<monster name="Barbarian Headsplitter" nameDescription="a barbarian headsplitter" race="blood" experience="85" speed="168" manacost="450">
 	<health now="100" max="100"/>
 	<look type="253" head="115" body="105" legs="119" feet="132" corpse="6080"/>
-	<targetchange interval="60000" chance="0"/>
+	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -35,27 +35,47 @@
 	<immunities>
 		<immunity paralyze="1"/>
 	</immunities>
-	<voices interval="2000" chance="5">
+	<voices interval="2000" chance="10">
 		<voice sentence="I will regain my honor with your blood!"/>
 		<voice sentence="Surrender is not option!"/>
 		<voice sentence="Its you or me!"/>
+		<voice sentence="Die! Die! Die!"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="30" chance="39350" /><!-- gold coin -->
-    <item id="2050" chance="61575" /><!-- torch -->
-    <item id="2460" chance="21400" /><!-- brass helmet -->
-    <item id="2483" chance="4800" /><!-- scale armor -->
-    <item id="2473" chance="5125" /><!-- viking helmet -->
-    <item id="2403" chance="15350" /><!-- knife -->
-    <item id="7618" chance="475" /><!-- health potion -->
+    <item id="2148" countmax="30" chance="39275" /><!-- gold coin -->
+    <item id="2050" chance="61100" /><!-- torch -->
+    <item id="2460" chance="20700" /><!-- brass helmet -->
+    <item id="2483" chance="4650" /><!-- scale armor -->
+    <item id="2473" chance="5150" /><!-- viking helmet -->
+    <item id="2403" chance="15450" /><!-- knife -->
+    <item id="7618" chance="1025" /><!-- health potion -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2168" chance="750" /><!-- life ring -->
-            <item id="2229" chance="4050" /><!-- skull -->
+            <item id="2167" chance="775" /><!-- life ring -->
+            <item id="2229" chance="3850" /><!-- skull -->
             <item id="7461" chance="600" /><!-- krimhorn helmet -->
-            <item id="5913" chance="1525" /><!-- brown piece of cloth -->
+            <item id="5913" countmax="3" chance="1450" /><!-- brown piece of cloth -->
             <item id="7457" chance="575" /><!-- fur boots -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

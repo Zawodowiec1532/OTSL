@@ -2,7 +2,7 @@
 <monster name="Necropharus" nameDescription="necropharus" race="blood" experience="1050" speed="240" manacost="0">
 	<health now="750" max="750"/>
 	<look type="209" corpse="6080"/>
-	<targetchange interval="5000" chance="8"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -51,7 +51,7 @@
 		<summon name="ghost" interval="2000" chance="10" max="2"/>
 		<summon name="mummy" interval="2000" chance="10" max="2"/>
 	</summons>
-	<voices interval="5000" chance="10">
+	<voices interval="2000" chance="10">
 		<voice sentence="You will rise as my servant!"/>
 		<voice sentence="Praise to my master Urgith!"/>
 	</voices>
@@ -60,6 +60,7 @@
 		<item id="2032" chance="10000"/><!-- bowl -->
 		<item id="3969" chance="150"/><!-- horseman helmet -->
 		<item id="2392" chance="220"/><!-- fire sword -->
+		<item id="12431" chance="100000"/><!-- necromantic robe -->
 		<item id="2804" countmax="2" chance="20000"/><!-- shadow herb -->
 		<item id="3976" countmax="10" chance="50000"/><!-- worm -->
 		<item id="5809" chance="100000"/><!-- soul stone -->

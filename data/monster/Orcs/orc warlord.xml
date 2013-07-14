@@ -45,14 +45,17 @@
 		<voice sentence="Futchi maruk buta!"/>
 	</voices>
 	<loot>
-    <item id="11113" chance="8700" /><!-- orc tooth -->
+    <item id="11109" chance="8700" /><!-- orc tooth -->
     <item id="2148" countmax="45" chance="10275" /><!-- gold coin -->
     <item id="2667" countmax="2" chance="6225" /><!-- fish -->
     <item id="2647" chance="4375" /><!-- plate legs -->
     <item id="2478" chance="12575" /><!-- brass legs -->
+	<item id="12436" chance="2300" /><!-- skull belt -->
     <item id="2419" chance="12425" /><!-- scimitar -->
     <item id="2399" countmax="18" chance="6500" /><!-- throwing star -->
     <item id="2428" chance="15200" /><!-- orcish axe -->
+	<item id="12409" chance="22100" /><!-- broken helmet -->
+	<item id="12436" chance="7900" /><!-- skull belt -->
     <item id="3965" chance="4825" /><!-- hunting spear -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
@@ -60,6 +63,7 @@
             <item id="2377" chance="2050" /><!-- two handed sword -->
             <item id="7618" chance="600" /><!-- health potion -->
             <item id="2490" chance="2050" /><!-- dark helmet -->
+			<item id="12435" chance="20875" /><!-- orc leather -->
             <item id="2465" chance="1575" /><!-- brass armor -->
             <item id="2200" chance="1575" /><!-- protection amulet -->
             <item id="8614" chance="2500" /><!-- orc tusk -->
@@ -67,4 +71,22 @@
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

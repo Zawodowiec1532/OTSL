@@ -2,7 +2,7 @@
 <monster name="Spirit of Earth" nameDescription="the spirit of earth" race="undead" experience="800" speed="180" manacost="0">
 	<health now="1285" max="1285"/>
 	<look type="67" corpse="7349"/>
-	<targetchange interval="2000" chance="5"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -45,7 +45,7 @@
 		<immunity invisible="1"/>
 		<immunity earth="1"/>
 	</immunities>
-	<voices interval="5000" chance="5">
+	<voices interval="2000" chance="10">
 		<voice sentence="Show your strengh ... or perish."/>
 	</voices>
 </monster>

@@ -46,19 +46,38 @@
 		<voice sentence="I'll bite you! Nyehehehehe!"/>
 	</voices>
 	<loot>
-    <item id="2385" chance="8450" /><!-- sabre -->
-    <item id="2015" chance="9125" /><!-- brown flask -->
-    <item id="2148" countmax="70" chance="29750" /><!-- gold coin -->
-    <item id="2378" chance="3525" /><!-- battle axe -->
-    <item id="2394" chance="5575" /><!-- morning star -->
-    <item id="2510" chance="10525" /><!-- plate shield -->
+    <item id="2385" chance="8500" /><!-- sabre -->
+    <item id="2015" chance="9525" /><!-- brown flask -->
+    <item id="2148" countmax="70" chance="29900" /><!-- gold coin -->
+    <item id="2378" chance="3375" /><!-- battle axe -->
+    <item id="2394" chance="5475" /><!-- morning star -->
+    <item id="2510" chance="10450" /><!-- plate shield -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2423" chance="1100" /><!-- clerical mace -->
-            <item id="2146" chance="900" /><!-- small sapphire -->
+            <item id="2423" chance="1250" /><!-- clerical mace -->
+            <item id="2146" chance="850" /><!-- small sapphire -->
             <item id="2213" chance="650" /><!-- dwarven ring -->
-            <item id="2409" chance="800" /><!-- serpent sword -->
+            <item id="2409" chance="775" /><!-- serpent sword -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

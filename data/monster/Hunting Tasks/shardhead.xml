@@ -30,16 +30,17 @@
 	</attacks>
 	<defenses armor="25" defense="26"/>
 	<elements>
-		<element icePercent="100"/>
-		<element firePercent="100"/>
-		<element deathPercent="100"/>
-		<element holyPercent="100"/>
-		<element physicalPercent="40"/>
+		<element physicalPercent="25"/>
 		<element energyPercent="-20"/>
 	</elements>
 	<immunities>
-		<immunity paralyze="1"/>
+		<immunity holy="1"/>
+		<immunity death="1"/>
+		<immunity fire="1"/>
+		<immunity ice="1"/>
 		<immunity invisible="1"/>
+		<immunity paralyze="1"/>
+		<immunity drunk="1"/>
 	</immunities>
 	<voices interval="2000" chance="5">
 		<voice sentence="Chrr."/>
@@ -50,10 +51,28 @@
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
 				<item id="7588" chance="100000" /><!-- strong health potion -->
-				<item id="10578" chance="40000" /><!-- frosty heart -->
+				<item id="10577" chance="40000" /><!-- frosty heart -->
 				<item id="7441" chance="80000" /><!-- ice cube -->   
 				<item id="7449" chance="30000" /><!-- crystal sword -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

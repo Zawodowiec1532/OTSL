@@ -2,7 +2,7 @@
 <monster name="The Dark Dancer" nameDescription="the dark dancer" race="blood" experience="435" speed="170">
 	<health now="855" max="855"/>
 	<look type="58" corpse="7349"/>
-	<targetchange interval="60000" chance="0"/>
+	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag pushable="0"/>
@@ -44,7 +44,7 @@
 	<summons maxSummons="3">
 		<summon name="Ghoul" interval="2000" chance="20"/>
 	</summons>
-	<voices interval="5000" chance="5">
+	<voices interval="2000" chance="10">
 		<voice sentence="I hope you like my voice!"/>
 	</voices>
 </monster>

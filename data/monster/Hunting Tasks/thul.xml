@@ -35,26 +35,45 @@
 	</attacks>
 	<defenses armor="15" defense="15"/>
 	<elements>
-		<element earthPercent="100"/>
-		<element icePercent="100"/>
 		<element energyPercent="-1"/>
 	</elements>
 	<immunities>
 		<immunity lifedrain="1"/>
 		<immunity paralyze="1"/>
 		<immunity drown="1"/>
+		<immunity ice="1"/>
+		<immunity earth="1"/>
 	</immunities>
 	<voices interval="5000" chance="10">
 		<voice sentence="Gaaahhh!"/>
 	</voices>
 	<loot>
-	<item id="5895" chance="100000" /><!-- fish fin -->
+	<item id="5895" countmax="3" chance="100000" /><!-- fish fin -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-			<item id="2148" countmax="47" chance="20000" /><!-- gold coin -->
-			<item id="2397" chance="20000" /><!-- longsword -->
-			<item id="7590" chance="20000" /><!-- great mana potion -->
+    <item id="2148" countmax="47" chance="20000" /><!-- gold coin -->
+    <item id="2397" chance="20000" /><!-- longsword -->
+	<item id="7590" chance="20000" /><!-- great mana potion -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

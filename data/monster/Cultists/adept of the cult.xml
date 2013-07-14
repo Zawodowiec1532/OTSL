@@ -48,22 +48,43 @@
 		<summon name="Ghoul" interval="2000" chance="10" max="2"/>
 	</summons>
 	<loot>
-    <item id="7426" chance="1000" /><!-- amber staff -->
-    <item id="2169" chance="975" /><!-- time ring -->
+    <item id="2148" countmax="60" chance="22600" /><!-- gold coin -->
+    <item id="12448" chance="11300" /><!-- rope belt -->
     <item id="5810" chance="1950" /><!-- pirate voodoo doll -->
-    <item id="1950" chance="1350" /><!-- book -->
-    <item id="2170" chance="1550" /><!-- silver amulet -->
-    <item id="10556" chance="10575" /><!-- cultish robe -->
-    <item id="2148" countmax="60" chance="22750" /><!-- gold coin -->
-    <item id="2423" chance="1475" /><!-- clerical mace -->
+    <item id="2147" chance="750" /><!-- small ruby -->
+    <item id="10556" chance="10050" /><!-- cultish robe -->
+    <item id="2170" chance="1600" /><!-- silver amulet -->
+    <item id="7426" chance="975" /><!-- amber staff -->
+    <item id="2423" chance="1550" /><!-- clerical mace -->
+    <item id="6089" chance="1200" /><!-- music sheet -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="6089" chance="1000" /><!-- music sheet -->
-            <item id="2183" chance="725" /><!-- hailstorm rod -->
+            <item id="2183" chance="675" /><!-- hailstorm rod -->
+            <item id="6533" chance="1450" /><!-- book -->
+            <item id="2169" chance="950" /><!-- time ring -->
+            <item id="7424" chance="625" /><!-- lunar staff -->
+            <item id="12411" chance="625" /><!-- cultish symbol -->
             <item id="2655" chance="650" /><!-- red robe -->
-            <item id="2147" chance="775" /><!-- small ruby -->
-            <item id="7424" chance="600" /><!-- lunar staff -->
+            <item id="12608" chance="550" /><!-- broken key ring -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

@@ -19,7 +19,7 @@
 		<flag runonhealth="30"/>
 	</flags>
 	<attacks>
-		<attack name="lifedrain" interval="2000" change="15"  max="-7">
+		<attack name="lifedrain" interval="2000" change="15" range="7" max="-7">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
 	</attacks>
@@ -48,6 +48,22 @@
 		<voice sentence="Tsshh"/>
 	</voices>
 	<loot>
-    <item id="10521" chance="600" /><!-- moon backpack -->
+    <item id="10521" chance="575" /><!-- moon backpack -->
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

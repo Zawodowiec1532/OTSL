@@ -22,17 +22,32 @@
 	</attacks>
 	<defenses armor="2" defense="6"/>
 	<elements>
-		<element earthPercent="100"/>
 		<element firePercent="-10"/>
 	</elements>
 	<immunities>
-		<immunity lifedrain="0"/>
-		<immunity paralyze="0"/>
-		<immunity outfit="0"/>
-		<immunity drunk="0"/>
-		<immunity invisible="0"/>
+		<immunity earth="1"/>
 	</immunities>
 	<loot>
-    <item id="2148" countmax="4" chance="16125" /><!-- gold coin -->
+    <item id="2148" countmax="4" chance="16300" /><!-- gold coin -->
+    <item id="12441" chance="1375" /><!-- poison spider shell -->
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

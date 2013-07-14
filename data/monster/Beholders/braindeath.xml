@@ -2,7 +2,7 @@
 <monster name="Braindeath" nameDescription="a braindeath" race="undead" experience="985" speed="270" manacost="0">
 	<health now="1225" max="1225"/>
 	<look type="256" corpse="7256"/>
-	<targetchange interval="5000" chance="8"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -57,30 +57,48 @@
 		<immunity death="1"/>
 		<immunity invisible="1"/>
 	</immunities>
-	<summons maxSummons="3">
+	<summons maxSummons="2">
 		<summon name="Vampire" interval="2000" chance="10" max="3"/>
 	</summons>
-	<voices interval="5000" chance="10">
+	<voices interval="2000" chance="10">
 		<voice sentence="You have disturbed my thoughts!"/>
 		<voice sentence="Let me turn you into something more useful!"/>
 		<voice sentence="Let me taste your brain!"/>
 		<voice sentence="You will be punished!"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="84" chance="46100" /><!-- gold coin -->
-    <item id="2423" chance="3525" /><!-- clerical mace -->
-    <item id="10580" chance="6525" /><!-- piece of dead brain -->
-    <item id="7364" countmax="4" chance="6175" /><!-- sniper arrow -->
-    <item id="2509" chance="4900" /><!-- steel shield -->
-    <item id="5898" chance="4200" /><!-- beholder eye -->
+    <item id="2148" countmax="84" chance="45025" /><!-- gold coin -->
+    <item id="2423" chance="3775" /><!-- clerical mace -->
+    <item id="10579" chance="6325" /><!-- piece of dead brain -->
+    <item id="7364" countmax="4" chance="6000" /><!-- sniper arrow -->
+    <item id="2509" chance="5950" /><!-- steel shield -->
+    <item id="5898" countmax="3" chance="4700" /><!-- beholder eye -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2450" chance="20225" /><!-- bone sword -->
-            <item id="2175" chance="950" /><!-- spellbook -->
-            <item id="2518" chance="725" /><!-- beholder shield -->
-            <item id="7407" chance="2350" /><!-- haunted blade -->
-            <item id="7452" chance="950" /><!-- spiked squelcher -->
+            <item id="2450" chance="20550" /><!-- bone sword -->
+            <item id="2175" chance="1225" /><!-- spellbook -->
+            <item id="2518" chance="675" /><!-- beholder shield -->
+            <item id="7407" chance="2700" /><!-- haunted blade -->
+            <item id="7452" chance="850" /><!-- spiked squelcher -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

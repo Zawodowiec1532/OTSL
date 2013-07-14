@@ -2,7 +2,7 @@
 <monster name="Rocko" nameDescription="Rocko" race="blood" experience="3400" speed="180" manacost="590">
 	<health now="10000" max="10000"/>
 	<look type="67" corpse="6005"/>
-	<targetchange interval="5000" chance="8"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>

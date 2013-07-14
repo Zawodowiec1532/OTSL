@@ -2,7 +2,7 @@
 <monster name="Mad Technomancer" nameDescription="mad technomancer" race="blood" experience="55" speed="200" manacost="0">
 	<health now="1000" max="1000"/>
 	<look type="66" corpse="6015"/>
-	<targetchange interval="500" chance="25"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -42,10 +42,11 @@
 		<immunity fire="1"/>
 		<immunity earth="1"/>
 	</immunities>
-	<voices interval="5000" chance="10">
+	<voices interval="2000" chance="10">
 		<voice sentence="I'm going to make them an offer they can't refuse."/>
 		<voice sentence="My masterplan cannot fail!"/>
 		<voice sentence="Gentlemen, you can't fight here! This is the War Room!"/>
+		<voice sentence="I love the smell of firebombs in the morning."/>
 	</voices>
 	<loot>
 		<item id="7699" chance="1000000"/><!-- beard -->

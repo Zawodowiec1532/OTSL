@@ -49,9 +49,13 @@
 		<voice sentence="Quatu nguraka!"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="25" chance="23975" /><!-- gold coin -->
-    <item id="2667" countmax="3" chance="23025" /><!-- fish -->
-    <item id="2460" chance="4375" /><!-- brass helmet -->
-    <item id="2541" chance="2250" /><!-- bone shield -->
-	</loot>
+    <item id="2148" countmax="25" chance="23625" /><!-- gold coin -->
+    <item id="2667" countmax="3" chance="22825" /><!-- fish -->
+    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+            <item id="2460" chance="4100" /><!-- brass helmet -->
+            <item id="2541" chance="2000" /><!-- bone shield -->
+        </inside>
+    </item>
+</loot>
 </monster>

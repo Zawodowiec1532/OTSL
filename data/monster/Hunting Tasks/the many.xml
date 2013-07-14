@@ -40,7 +40,6 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element earthPercent="100"/>
 		<element icePercent="50"/>
 		<element holyPercent="30"/>
 		<element physicalPercent="-5"/>
@@ -50,20 +49,44 @@
 		<immunity lifedrain="1"/>
 		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
+		<immunity earth="1"/>
 	</immunities>
 	<voices interval="5000" chance="10">
 		<voice sentence="FCHHHHH"/>
 		<voice sentence="HISSSS"/>
 	</voices>
 	<loot>
-	<item id="7589" countmax="2" chance="40000" /><!-- strong mana potion -->
-	<item id="2146" countmax="5" chance="55835" /><!-- small sapphire -->
-	<item id="9971" countmax="3" chance="47250" /><!-- gold ingot -->
-	<item id="2197" chance="100000" /><!-- stone skin amulet -->
-			<item id="10523" chance="100000" /><!-- egg of the many -->
-			<item id="10219" chance="75000" /><!-- sacred tree amulet -->
-		    <item id="2536" chance="75000" /><!-- medusa shield -->	
-			<item id="2498" chance="25000" /><!-- royal helmet -->
-			<item id="2475" chance="75000" /><!-- warrior helmet -->	
+    <item id="7589" countmax="2" chance="100000" /><!-- strong mana potion -->
+    <item id="2146" countmax="5" chance="56325" /><!-- small sapphire -->
+    <item id="9971" countmax="3" chance="47725" /><!-- gold ingot -->
+    <item id="2197" chance="100000" /><!-- stone skin amulet -->
+    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+            <item id="10523" chance="100000" /><!-- egg of the many -->
+            <item id="10219" chance="75500" /><!-- sacred tree amulet -->
+            <item id="2536" chance="75500" /><!-- medusa shield -->
+            <item id="2498" chance="25500" /><!-- royal helmet -->
+            <item id="2475" chance="75500" /><!-- warrior helmet -->
+        </inside>
+    </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

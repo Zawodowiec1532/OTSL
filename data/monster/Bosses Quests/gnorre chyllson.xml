@@ -2,7 +2,7 @@
 	<monster name="Gnorre Chyllson" nameDescription="gnorre chyllson" race="blood" experience="4000" speed="370" manacost="0">
 	<health now="7100" max="7100"/>
 	<look type="251" head="11" body="9" legs="11" feet="85" addons="1" corpse="7349"/>
-	<targetchange interval="60000" chance="0"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -52,7 +52,7 @@
 		<immunity ice="1"/>
 		<immunity invisible="1"/>
 	</immunities>
-	<voices interval="2000" chance="5">
+	<voices interval="2000" chance="10">
 		<voice sentence="I am like the merciless northwind."/>
 		<voice sentence="Snow will be your death shroud."/>
 		<voice sentence="Feel the wrath of father chyll!"/>

@@ -2,7 +2,7 @@
 <monster name="Sibang" nameDescription="a sibang" race="blood" experience="105" speed="214" manacost="0">
 	<health now="225" max="225"/>
 	<look type="118" corpse="6045"/>
-	<targetchange interval="5000" chance="8"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -41,22 +41,22 @@
 		<immunity drunk="1"/>
 		<immunity invisible="1"/>
 	</immunities>
-	<voices interval="5000" chance="10">
+	<voices interval="2000" chance="10">
 		<voice sentence="Eeeeek! Eeeeek"/>
 		<voice sentence="Huh! Huh! Huh!"/>
 		<voice sentence="Ahhuuaaa!"/>
 	</voices>
 	<loot>
-    <item id="2675" countmax="5" chance="12700" /><!-- orange -->
-    <item id="2148" countmax="35" chance="32925" /><!-- gold coin -->
-    <item id="2676" countmax="12" chance="5100" /><!-- banana -->
-    <item id="2678" countmax="5" chance="3700" /><!-- coconut -->
+    <item id="2675" countmax="5" chance="13125" /><!-- orange -->
+    <item id="1294" countmax="3" chance="20825" /><!-- small stone -->
+    <item id="12467" chance="5200" /><!-- banana sash -->
+    <item id="2148" countmax="35" chance="32375" /><!-- gold coin -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="1294" countmax="3" chance="21575" /><!-- small stone -->
-            <item id="2682" chance="3250" /><!-- melon -->
-            <item id="2458" chance="4925" /><!-- chain helmet -->
-            <item id="5883" chance="1625" /><!-- ape fur -->
+            <item id="2676" countmax="11" chance="4925" /><!-- banana -->
+            <item id="5883" countmax="3" chance="1650" /><!-- ape fur -->
+            <item id="2678" countmax="3" chance="1700" /><!-- coconut -->
+            <item id="2682" chance="1375" /><!-- melon -->
         </inside>
     </item>
 </loot>

@@ -41,12 +41,12 @@
 <immunity invisible="1"/>
 </immunities>
 <loot>
-    <item id="11331" chance="11575" /><!-- zaogun shoulderplates -->
+    <item id="11325" chance="11575" /><!-- zaogun shoulderplates -->
     <item id="2148" countmax="100" chance="44600" /><!-- gold coin -->
     <item id="2148" countmax="76" chance="44600" /><!-- gold coin -->
-    <item id="11330" chance="1375" /><!-- zaogun flag -->
-    <item id="11303" chance="675" /><!-- zaoan shoes -->
-    <item id="11304" chance="700" /><!-- zaoan legs -->
-    <item id="11301" chance="550" /><!-- zaoan armor -->
+    <item id="11324" chance="1375" /><!-- zaogun flag -->
+    <item id="11297" chance="675" /><!-- zaoan shoes -->
+    <item id="11298" chance="700" /><!-- zaoan legs -->
+    <item id="11295" chance="550" /><!-- zaoan armor -->
 </loot>
 </monster>

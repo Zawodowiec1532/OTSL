@@ -36,16 +36,36 @@
 		<voice sentence="Gnarrr!"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="42" chance="24250" /><!-- gold coin -->
-    <item id="2226" chance="10150" /><!-- fishbone -->
-    <item id="2387" chance="4300" /><!-- double axe -->
-    <item id="2473" chance="5800" /><!-- viking helmet -->
+    <item id="2145" chance="1450" /><!-- small diamond -->
+    <item id="2483" chance="1800" /><!-- scale armor -->
+    <item id="5895" countmax="3" chance="1275" /><!-- fish fin -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2483" chance="5575" /><!-- scale armor -->
-            <item id="2145" chance="925" /><!-- small diamond -->
-            <item id="5895" chance="925" /><!-- fish fin -->
+            <item id="2148" countmax="100" chance="28825" /><!-- gold coin -->
+            <item id="2148" countmax="10" chance="28825" /><!-- gold coin -->
+            <item id="2387" chance="1400" /><!-- double axe -->
+            <item id="12447" chance="3700" /><!-- quara bone -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

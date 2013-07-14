@@ -2,7 +2,7 @@
 <monster name="The Count" nameDescription="the count" race="undead" experience="450" speed="370" manacost="0">
 	<health now="1250" max="4600"/>
 	<look type="287" corpse="8937"/>
-	<targetchange interval="5000" chance="10"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>

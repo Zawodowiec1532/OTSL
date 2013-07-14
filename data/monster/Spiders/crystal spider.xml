@@ -43,7 +43,6 @@
 		<element energyPercent="-20"/>
 	</elements>
 	<immunities>
-		<immunity lifedrain="0"/>
 		<immunity paralyze="1"/>
 		<immunity outfit="1"/>
 		<immunity drunk="1"/>
@@ -53,26 +52,44 @@
 		<voice sentence="Screeech!"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="98" chance="27500" /><!-- gold coin -->
-    <item id="2463" chance="10600" /><!-- plate armor -->
-    <item id="7441" chance="5450" /><!-- ice cube -->
-    <item id="2457" chance="5375" /><!-- steel helmet -->
-    <item id="7449" chance="1100" /><!-- crystal sword -->
-    <item id="7364" countmax="6" chance="4100" /><!-- sniper arrow -->
-    <item id="2478" chance="8550" /><!-- brass legs -->
-    <item id="2476" chance="875" /><!-- knight armor -->
-    <item id="7290" chance="1300" /><!-- shard -->
+    <item id="2478" chance="8600" /><!-- brass legs -->
+    <item id="7449" chance="1125" /><!-- crystal sword -->
+    <item id="2148" countmax="94" chance="28875" /><!-- gold coin -->
+    <item id="2463" chance="10350" /><!-- plate armor -->
+    <item id="2169" chance="1125" /><!-- time ring -->
+    <item id="5879" countmax="3" chance="2175" /><!-- spider silk -->
+    <item id="7364" countmax="6" chance="3850" /><!-- sniper arrow -->
+    <item id="2457" chance="5550" /><!-- steel helmet -->
+    <item id="7441" chance="6000" /><!-- ice cube -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="7902" chance="800" /><!-- glacier mask -->
-            <item id="7589" chance="550" /><!-- strong mana potion -->
-            <item id="5879" chance="1900" /><!-- spider silk -->
-            <item id="2169" chance="1225" /><!-- time ring -->
-            <item id="2477" chance="825" /><!-- knight legs -->
+            <item id="2476" chance="775" /><!-- knight armor -->
+            <item id="7589" chance="975" /><!-- strong mana potion -->
+            <item id="2477" chance="800" /><!-- knight legs -->
             <item id="7437" chance="600" /><!-- sapphire hammer -->
-            <item id="2171" chance="600" /><!-- platinum amulet -->
-            <item id="5801" chance="1350" /><!-- jewelled backpack -->
+            <item id="2171" chance="625" /><!-- platinum amulet -->
+            <item id="7290" chance="1350" /><!-- shard -->
+            <item id="7902" chance="775" /><!-- glacier mask -->
+            <item id="5801" chance="575" /><!-- jewelled backpack -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

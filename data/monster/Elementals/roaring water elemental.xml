@@ -55,7 +55,27 @@
     <item id="2148" countmax="100" chance="32375" /><!-- gold coin -->
     <item id="2148" countmax="66" chance="32375" /><!-- gold coin -->
     <item id="7632" chance="3875" /><!-- giant shimmering pearl -->
-    <item id="8302" chance="10600" /><!-- iced soil -->
-    <item id="2146" countmax="2" chance="4425" /><!-- small sapphire -->
+    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+            <item id="8302" chance="10600" /><!-- iced soil -->
+            <item id="2146" countmax="2" chance="4425" /><!-- small sapphire -->
+        </inside>
+    </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Worker Golem" nameDescription="a worker golem" race="energy" experience="1250" speed="270" manacost="0">
-	<health now="1400" max="1400"/>
+	<health now="1470" max="1470"/>
 	<look type="304" corpse="9801"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
@@ -49,27 +49,46 @@
 	</voices>
 	<loot>
     <item id="9690" chance="1500" /><!-- gear wheel -->
-    <item id="2148" countmax="100" chance="31675" /><!-- gold coin -->
-    <item id="2148" countmax="39" chance="31675" /><!-- gold coin -->
-    <item id="8309" countmax="5" chance="3625" /><!-- nail -->
-    <item id="10571" chance="2500" /><!-- gear crystal -->
-    <item id="2391" chance="1500" /><!-- war hammer -->
-    <item id="2145" countmax="2" chance="1200" /><!-- small diamond -->
-    <item id="7591" chance="1950" /><!-- great health potion -->
-    <item id="5880" chance="1650" /><!-- iron ore -->
+    <item id="2148" countmax="100" chance="31500" /><!-- gold coin -->
+    <item id="2148" countmax="40" chance="31500" /><!-- gold coin -->
+    <item id="8309" countmax="5" chance="3750" /><!-- nail -->
+    <item id="10572" chance="2550" /><!-- gear crystal -->
+    <item id="2391" chance="1450" /><!-- war hammer -->
+    <item id="2145" countmax="2" chance="1225" /><!-- small diamond -->
+    <item id="7591" chance="2350" /><!-- great health potion -->
+    <item id="5880" countmax="3" chance="1675" /><!-- iron ore -->
     <item id="2177" chance="1450" /><!-- life crystal -->
     <item id="9976" chance="650" /><!-- crystal pedestal -->
-    <item id="7439" chance="875" /><!-- berserk potion -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="9808" chance="1825" /><!-- rusty armor -->
-            <item id="8472" chance="875" /><!-- great spirit potion -->
-            <item id="9811" chance="1550" /><!-- rusty legs -->
-            <item id="7590" chance="1450" /><!-- great mana potion -->
+            <item id="7439" chance="1400" /><!-- berserk potion -->
+            <item id="9808" chance="1900" /><!-- rusty armor -->
+            <item id="8472" chance="1325" /><!-- great spirit potion -->
+            <item id="9812" chance="1575" /><!-- rusty legs -->
+            <item id="7590" chance="1900" /><!-- great mana potion -->
             <item id="2164" chance="950" /><!-- might ring -->
-            <item id="7428" chance="550" /><!-- bonebreaker -->
-            <item id="7452" chance="1200" /><!-- spiked squelcher -->
+            <item id="7428" chance="575" /><!-- bonebreaker -->
+            <item id="7452" chance="1250" /><!-- spiked squelcher -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

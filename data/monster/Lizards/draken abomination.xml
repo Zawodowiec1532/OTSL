@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Draken Abomination" nameDescription="a draken abomination" race="blood" experience="3800" speed="220" manacost="0">
 <health now="6250" max="6250"/>
-<look type="357" corpse="12623"/>
+<look type="357" corpse="12584"/>
 <targetchange interval="2000" chance="5"/>
 <strategy attack="100" defense="0"/>
 <flags>
@@ -23,7 +23,7 @@
 <attribute key="shootEffect" value="explosion"/>
 <attribute key="areaEffect" value="explosion"/>
 		</attack>
-	<attack name="death" interval="2000" chance="15" radius="3">
+	<attack name="death" interval="2000" chance="15" length="8" spread="3" min="-240" max="-370">
 			<attribute key="areaEffect" value="mortarea"/>
 		</attack>
 	<attack name="drunk" interval="2000" chance="10" target="0" radius="5">
@@ -46,7 +46,7 @@
 <immunity fire="1"/>
 <immunity earth="1"/>
 <immunity death="1"/>
-<immunity invisible="1"/>
+<immunity invisibility="1"/>
 </immunities>
 	<summons maxSummons="2">
 		<summon name="Death Blob" interval="2000" chance="10" max="2"/>
@@ -55,22 +55,43 @@
 		<voice sentence="Ugggh!"/>
 	</voices>
 <loot>
-    <item id="2152" countmax="8" chance="28950" /><!-- platinum coin -->
-    <item id="2148" countmax="100" chance="40000" /><!-- gold coin -->
-    <item id="2148" countmax="100" chance="40000" /><!-- gold coin -->
-	<item id="2666" chance="50160" /><!-- meat -->
-	<item id="12627" chance="11830" /><!-- eye of corruption -->
-	<item id="12628" chance="5630" /><!-- tail of corruption -->
-	<item id="7590" chance="7000" countmax="3" /><!-- great mana potion -->	
-	<item id="9970" chance="6500" /><!-- small toppaz -->
-	<item id="8472" chance="5000" countmax="3" /><!-- great spitit potion -->
-	<item id="7903" chance="7600" /><!-- terra hood -->
-	<item id="12629" chance="11900" /><!-- scale of corruption -->
-	<item id="11304" chance="700" /><!-- zaoan legs -->	
-	<item id="11302" chance="1000" /><!-- zaoan helmet -->	
-	<item id="11301" chance="820" /><!-- zaoan armor -->	
-    <item id="8922" chance="440" /><!-- wand of voodoo -->	
-	<item id="2852" chance="320" /><!-- draken boots -->	
-	<item id="12644" chance="60" /><!-- shield of corruption -->
+    <item id="2148" countmax="100" chance="40825" /><!-- gold coin -->
+    <item id="2148" countmax="100" chance="40825" /><!-- gold coin -->
+    <item id="2666" countmax="4" chance="50450" /><!-- meat -->
+    <item id="8473" countmax="3" chance="6700" /><!-- ultimate health potion -->
+    <item id="2152" countmax="8" chance="28900" /><!-- platinum coin -->
+    <item id="7590" countmax="3" chance="6750" /><!-- great mana potion -->
+    <item id="12627" chance="12250" /><!-- eye of corruption -->
+    <item id="12628" chance="6400" /><!-- tail of corruption -->
+    <item id="9970" countmax="4" chance="2500" /><!-- small topaz -->
+    <item id="8472" countmax="3" chance="3775" /><!-- great spirit potion -->
+    <item id="7903" chance="8150" /><!-- terra hood -->
+    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+            <item id="12629" chance="11675" /><!-- scale of corruption -->
+            <item id="11304" chance="1475" /><!-- zaoan legs -->
+            <item id="11302" chance="1200" /><!-- zaoan helmet -->
+            <item id="11301" chance="1400" /><!-- zaoan armor -->
+            <item id="8922" chance="1450" /><!-- wand of voodoo -->
+            <item id="12646" chance="1025" /><!-- draken boots -->
+            <item id="12644" chance="525" /><!-- shield of corruption -->
+            <item id="12647" chance="525" /><!-- snake god's wristguard -->
+        </inside>
+    </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

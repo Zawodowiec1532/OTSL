@@ -2,7 +2,7 @@
 <monster name="Dire Penguin" nameDescription="dire penguin" race="blood" experience="119" speed="156" manacost="0">
 	<health now="173" max="173"/>
 	<look type="250" corpse="7334"/>
-	<targetchange interval="2000" chance="0"/>
+	<targetchange interval="2000" chance="5"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -35,6 +35,9 @@
 		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
 	</immunities>
+	<voices interval="2000" chance="10">
+		<voice sentence="Grrrrrr"/>
+	</voices>
 	<loot>
 		<item id="2148" countmax="10" chance="18000"/><!-- gold coin -->
 		<item id="2667" countmax="4" chance="8000"/><!-- fish -->

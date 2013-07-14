@@ -25,17 +25,35 @@
 	</attacks>
 	<defenses armor="1" defense="4"/>
 	<elements>
-		<element earthPercent="100"/>
 		<element firePercent="-10"/>
 	</elements>
 	<immunities>
 		<immunity drunk="1"/>
+		<immunity earth="1"/>
 	</immunities>
 	<voices interval="5000" chance="10">
 		<voice sentence="Zzzzzz"/>
 		<voice sentence="Fsssss"/>
 	</voices>
 	<loot>
-    <item id="10551" chance="5225" /><!-- cobra tongue -->
+    <item id="10551" chance="5150" /><!-- cobra tongue -->
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

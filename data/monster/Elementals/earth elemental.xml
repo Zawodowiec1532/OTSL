@@ -58,18 +58,36 @@
 		<immunity energy="1"/>
 	</immunities>
 	<loot>
-    <item id="11222" chance="20025" /><!-- lump of earth -->
-    <item id="2148" countmax="100" chance="37000" /><!-- gold coin -->
-    <item id="2148" countmax="30" chance="37000" /><!-- gold coin -->
-    <item id="7850" countmax="30" chance="9375" /><!-- earth arrow -->
-    <item id="2260" chance="9900" /><!-- blank rune -->
-    <item id="7589" chance="2150" /><!-- strong mana potion -->
+    <item id="11222" chance="20275" /><!-- lump of earth -->
+    <item id="2148" countmax="100" chance="36850" /><!-- gold coin -->
+    <item id="2148" countmax="30" chance="36850" /><!-- gold coin -->
+    <item id="7850" countmax="30" chance="10100" /><!-- earth arrow -->
+    <item id="2260" chance="10100" /><!-- blank rune -->
+    <item id="7589" chance="2500" /><!-- strong mana potion -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="9808" chance="5300" /><!-- rusty armor -->
-            <item id="1294" countmax="10" chance="5825" /><!-- small stone -->
-            <item id="9970" chance="900" /><!-- small topaz -->
+            <item id="9808" chance="5400" /><!-- rusty armor -->
+            <item id="1294" countmax="10" chance="5950" /><!-- small stone -->
+            <item id="9970" chance="1050" /><!-- small topaz -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

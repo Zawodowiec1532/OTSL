@@ -2,7 +2,7 @@
 <monster name="Morguthis" nameDescription="a morguthis" race="undead" experience="3000" speed="430" manacost="0">
 	<health now="4800" max="4800"/>
 	<look type="90" corpse="6025"/>
-	<targetchange interval="5000" chance="8"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -55,7 +55,7 @@
 	<summons maxSummons="3">
 		<summon name="Hero" interval="2000" chance="1000" max="3"/>
 	</summons>
-	<voices interval="5000" chance="10">
+	<voices interval="2000" chance="10">
 		<voice sentence="Vengeance!"/>
 		<voice sentence="You will make a fine trophy."/>
 		<voice sentence="Come and fight me, cowards!"/>
@@ -64,17 +64,35 @@
 		<voice sentence="Anotherone to bite the dust!"/>
 	</voices>
 	<loot>
-    <item id="7591" chance="15625" /><!-- great health potion -->
+    <item id="7591" chance="16125" /><!-- great health potion -->
     <item id="2148" countmax="100" chance="39400" /><!-- gold coin -->
     <item id="2148" countmax="62" chance="39400" /><!-- gold coin -->
-    <item id="2350" chance="100500" /><!-- sword hilt -->
-    <item id="7368" countmax="3" chance="11950" /><!-- assassin star -->
+    <item id="2350" chance="100000" /><!-- sword hilt -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
+            <item id="7368" countmax="3" chance="11950" /><!-- assassin star -->
             <item id="2430" chance="3625" /><!-- knight axe -->
             <item id="2144" chance="9875" /><!-- black pearl -->
             <item id="2197" chance="9875" /><!-- stone skin amulet -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

@@ -2,7 +2,7 @@
 <monster name="The Handmaiden" nameDescription="the handmaiden" race="blood" experience="10000" speed="450" manacost="0">
 	<health now="14500" max="14500"/>
 	<look type="230" corpse="6312"/>
-	<targetchange interval="5000" chance="8"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -59,14 +59,14 @@
     <item id="2645" chance="26600" /><!-- steel boots -->
     <item id="2176" chance="9200" /><!-- orb -->
     <item id="2165" chance="13550" /><!-- stealth ring -->
-    <item id="6539" chance="100500" /><!-- the handmaiden's protector -->
+    <item id="6539" chance="100000" /><!-- the handmaiden's protector -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
             <item id="5944" chance="91800" /><!-- soul orb -->
             <item id="2146" countmax="3" chance="6300" /><!-- small sapphire -->
             <item id="2166" chance="17900" /><!-- power ring -->
             <item id="2231" chance="61375" /><!-- big bone -->
-            <item id="6500" chance="100500" /><!-- demonic essence -->
+            <item id="6500" chance="100000" /><!-- demonic essence -->
             <item id="2148" countmax="100" chance="46200" /><!-- gold coin -->
             <item id="2148" countmax="43" chance="46200" /><!-- gold coin -->
             <item id="2167" chance="9200" /><!-- energy ring -->

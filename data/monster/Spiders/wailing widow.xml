@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Wailing Widow" nameDescription="a wailing widow" race="venom" experience="450" speed="280" manacost="0">
 	<health now="850" max="850"/>
-	<look type="347" corpse="11311"/>
+	<look type="347" corpse="11305"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
@@ -53,18 +53,36 @@
 		<voice sentence="I WILL FEAST ON YOUR SOUL!" yell="1"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="100" chance="24375" /><!-- gold coin -->
-    <item id="2148" countmax="39" chance="24375" /><!-- gold coin -->
-    <item id="7618" chance="4800" /><!-- health potion -->
-    <item id="7620" chance="1925" /><!-- mana potion -->
-    <item id="11328" chance="6850" /><!-- widow's mandibles -->
-    <item id="2510" chance="2800" /><!-- plate shield -->
+    <item id="2148" countmax="100" chance="24850" /><!-- gold coin -->
+    <item id="2148" countmax="39" chance="24850" /><!-- gold coin -->
+    <item id="7618" chance="5000" /><!-- health potion -->
+    <item id="7620" chance="2400" /><!-- mana potion -->
+    <item id="11322" chance="6300" /><!-- widow's mandibles -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2796" chance="1650" /><!-- green mushroom -->
-            <item id="11323" chance="1450" /><!-- zaoan halberd -->
-            <item id="11329" chance="1175" /><!-- wailing widow's necklace -->
+            <item id="2510" chance="3400" /><!-- plate shield -->
+            <item id="2796" chance="1825" /><!-- green mushroom -->
+            <item id="11323" chance="1825" /><!-- zaoan halberd -->
+            <item id="11323" chance="1100" /><!-- wailing widow's necklace -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

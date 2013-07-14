@@ -43,7 +43,7 @@
 	<immunities>
 		<immunity invisible="1"/>
 	</immunities>
-	<voices interval="2000" chance="5">
+	<voices interval="2000" chance="10">
 		<voice sentence="I'LL GET YOU ALL!" yell="1"/>
 		<voice sentence="I won't let you escape!"/>
 		<voice sentence="I'll crush you beneath my feet!"/>

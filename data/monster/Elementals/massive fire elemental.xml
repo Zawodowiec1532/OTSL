@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Massive Fire Elemental" nameDescription="a massive fire elemental" race="fire" experience="950" speed="260" manacost="0">
-	<health now="1800" max="1800"/>
+	<health now="1200" max="1200"/>
 	<look type="242" corpse="8964"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
@@ -30,9 +30,9 @@
 	<defenses armor="25" defense="25"/>
 	<elements>
 		<element icePercent="-15"/>
-		<element physicalPercent="-40"/>
-		<element energyPercent="-30"/>
-		<element deathPercent="-20"/>
+		<element physicalPercent="40"/>
+		<element energyPercent="30"/>
+		<element deathPercent="20"/>
 	</elements>
 	<immunities>
 		<immunity fire="1"/>

@@ -42,7 +42,7 @@
 	<summons maxSummons="2">
 		<summon name="green djinn" interval="2000" chance="100" max="2"/>
 	</summons>
-	<voices interval="5000" chance="5">
+	<voices interval="2000" chance="10">
 		<voice sentence="I bet you wish you weren't here."/>
 	</voices>
 </monster>

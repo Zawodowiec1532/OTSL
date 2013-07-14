@@ -2,7 +2,7 @@
 <monster name="Incineron" nameDescription="Incineron" race="fire" experience="3500" speed="260" manacost="0">
 	<health now="7000" max="7000"/>
 	<look type="243" corpse="6324"/>
-	<targetchange interval="5000" chance="8"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>

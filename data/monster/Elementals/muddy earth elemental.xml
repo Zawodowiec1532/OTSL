@@ -56,15 +56,31 @@
 		<immunity holy="1"/>
 	</immunities>
 	<loot>
-    <item id="2148" countmax="100" chance="23225" /><!-- gold coin -->
-    <item id="2148" countmax="28" chance="23225" /><!-- gold coin -->
-    <item id="1294" countmax="5" chance="24425" /><!-- small stone -->
-    <item id="11222" chance="21800" /><!-- lump of earth -->
+    <item id="8298" chance="4450" /><!-- natural soil -->
+    <item id="11222" chance="20600" /><!-- lump of earth -->
+    <item id="1294" countmax="5" chance="24625" /><!-- small stone -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2244" chance="23075" /><!-- some leaves -->
-            <item id="8298" chance="4050" /><!-- natural soil -->
+            <item id="2148" countmax="100" chance="24775" /><!-- gold coin -->
+            <item id="2148" countmax="30" chance="24775" /><!-- gold coin -->
+            <item id="2244" chance="20100" /><!-- some leaves -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

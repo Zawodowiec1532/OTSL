@@ -54,27 +54,40 @@
 		<voice sentence="Are you tired or why are you moving thhat sslow"/>
 	</voices>
 	<loot>
-    <item id="2143" chance="625" /><!-- white pearl -->
-    <item id="2152" countmax="2" chance="57675" /><!-- platinum coin -->
-    <item id="2148" countmax="100" chance="38200" /><!-- gold coin -->
-    <item id="2148" countmax="84" chance="38200" /><!-- gold coin -->
-    <item id="8473" chance="7860" /><!-- ultimate health potion -->
-    <item id="8473" chance="3930" /><!-- ultimate health potion -->
-    <item id="2149" countmax="3" chance="2925" /><!-- small emerald -->
-    <item id="2476" chance="2800" /><!-- knight armor -->
-    <item id="7590" chance="6300" /><!-- great mana potion -->
-    <item id="7590" chance="3150" /><!-- great mana potion -->
-    <item id="7413" chance="1800" /><!-- titan axe -->
+    <item id="2149" countmax="4" chance="2925" /><!-- small emerald -->
+    <item id="7887" chance="4350" /><!-- terra amulet -->
+    <item id="8473" countmax="2" chance="7975" /><!-- ultimate health potion -->
+    <item id="2536" chance="3550" /><!-- medusa shield -->
+    <item id="7590" countmax="2" chance="8000" /><!-- great mana potion -->
+    <item id="11226" chance="10200" /><!-- strand of medusa hair -->
+    <item id="2152" countmax="6" chance="43150" /><!-- platinum coin -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="11226" chance="11250" /><!-- strand of medusa hair -->
-            <item id="7887" chance="4350" /><!-- terra amulet -->
-            <item id="10219" chance="2150" /><!-- sacred tree amulet -->
-            <item id="7884" chance="1200" /><!-- terra mantle -->
-            <item id="9808" chance="850" /><!-- rusty armor -->
-            <item id="2536" chance="2275" /><!-- medusa shield -->
-            <item id="7885" chance="750" /><!-- terra legs -->
+            <item id="2148" countmax="100" chance="46950" /><!-- gold coin -->
+            <item id="2148" countmax="90" chance="46950" /><!-- gold coin -->
+            <item id="7885" chance="1025" /><!-- terra legs -->
+            <item id="7413" chance="1800" /><!-- titan axe -->
+            <item id="7884" chance="1325" /><!-- terra mantle -->
+            <item id="10219" chance="1500" /><!-- sacred tree amulet -->
+            <item id="2476" chance="2550" /><!-- knight armor -->
+            <item id="9810" chance="750" /><!-- rusty armor -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

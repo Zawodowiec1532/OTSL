@@ -2,7 +2,7 @@
 <monster name="Dracola" nameDescription="a dracola" race="undead" experience="11000" speed="410" manacost="0">
 	<health now="16200" max="16200"/>
 	<look type="231" corpse="6307"/>
-	<targetchange interval="2000" chance="5"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -62,25 +62,44 @@
 	</immunities>
 	<voices interval="2000" chance="5">
 		<voice sentence="DEATH CAN'T STOP MY HUNGER!" yell="1"/>
+		<voice sentence="Your new name is breakfast"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="100" chance="50350" /><!-- gold coin -->
-    <item id="2148" countmax="53" chance="50350" /><!-- gold coin -->
-    <item id="6546" chance="100500" /><!-- dracola's eye -->
-    <item id="6500" chance="94950" /><!-- demonic essence -->
-    <item id="2177" chance="56050" /><!-- life crystal -->
-    <item id="7420" chance="22725" /><!-- reaper's axe -->
-    <item id="5944" chance="94950" /><!-- soul orb -->
-    <item id="2152" countmax="4" chance="35225" /><!-- platinum coin -->
+    <item id="2148" countmax="100" chance="52750" /><!-- gold coin -->
+    <item id="2148" countmax="53" chance="52750" /><!-- gold coin -->
+    <item id="6546" chance="100000" /><!-- dracola's eye -->
+    <item id="6500" chance="95500" /><!-- demonic essence -->
+    <item id="2177" chance="55500" /><!-- life crystal -->
+    <item id="7420" chance="25500" /><!-- reaper's axe -->
+    <item id="5944" chance="95500" /><!-- soul orb -->
+    <item id="2152" countmax="4" chance="36750" /><!-- platinum coin -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2489" chance="33825" /><!-- dark armor -->
-            <item id="2146" countmax="2" chance="6050" /><!-- small sapphire -->
-            <item id="5925" chance="33825" /><!-- hardened bone -->
-            <item id="7590" chance="22200" /><!-- great mana potion -->
-            <item id="5741" chance="17175" /><!-- skull helmet -->
-            <item id="7591" chance="5550" /><!-- great health potion -->
+            <item id="2489" chance="30500" /><!-- dark armor -->
+            <item id="2146" countmax="2" chance="10500" /><!-- small sapphire -->
+            <item id="5925" chance="30500" /><!-- hardened bone -->
+            <item id="7590" chance="20500" /><!-- great mana potion -->
+            <item id="5741" chance="15500" /><!-- skull helmet -->
+            <item id="7591" chance="5500" /><!-- great health potion -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

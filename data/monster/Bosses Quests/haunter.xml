@@ -2,7 +2,7 @@
 <monster name="Haunter" nameDescription="Haunter" race="blood" experience="4000" speed="270" manacost="0">
 	<health now="8500" max="8500"/>
 	<look type="320" corpse="9915"/>
-	<targetchange interval="5000" chance="8"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -41,7 +41,7 @@
 	<immunities>
 		<immunity invisible="1"/>
 	</immunities>
-	<voices interval="5000" chance="10">
+	<voices interval="2000" chance="10">
 		<voice sentence="Surrender and I'll end it quick!"/>
 	</voices>
 </monster>

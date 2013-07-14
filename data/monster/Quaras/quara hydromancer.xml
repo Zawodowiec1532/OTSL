@@ -40,8 +40,6 @@
 		</defense>	
 	</defenses>
 	<elements>
-		<element firePercent="100"/>
-		<element icePercent="100"/>
 		<element earthPercent="-10"/>
 		<element energyPercent="-25"/>
 	</elements>
@@ -50,6 +48,8 @@
 		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
 		<immunity drown="1"/>
+		<immunity fire="1"/>
+		<immunity ice="1"/>
 	</immunities>
 	<voices interval="5000" chance="10">
 		<voice sentence="Qua hah tsh!"/>
@@ -60,21 +60,39 @@
 		<voice sentence="Blup."/>
 	</voices>
 	<loot>
-    <item id="2401" chance="10675" /><!-- staff -->
-    <item id="2670" chance="5450" /><!-- shrimp -->
-    <item id="2148" countmax="88" chance="24175" /><!-- gold coin -->
-    <item id="2144" chance="2400" /><!-- black pearl -->
-    <item id="2240" chance="5125" /><!-- remains of a fish -->
-    <item id="2149" chance="1475" /><!-- small emerald -->
-    <item id="2214" chance="950" /><!-- ring of healing -->
+    <item id="2144" chance="2300" /><!-- black pearl -->
+    <item id="2149" countmax="2" chance="1200" /><!-- small emerald -->
+    <item id="2143" chance="2175" /><!-- white pearl -->
+    <item id="2148" countmax="89" chance="24000" /><!-- gold coin -->
+    <item id="12444" chance="10825" /><!-- quara eye -->
+    <item id="2670" chance="5350" /><!-- shrimp -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2189" chance="1450" /><!-- wand of cosmic energy -->
-            <item id="2143" chance="2450" /><!-- white pearl -->
-            <item id="2476" chance="875" /><!-- knight armor -->
-            <item id="7590" chance="875" /><!-- great mana potion -->
-            <item id="5895" chance="1575" /><!-- fish fin -->
+            <item id="2476" chance="775" /><!-- knight armor -->
+            <item id="5895" countmax="3" chance="1525" /><!-- fish fin -->
+            <item id="2189" chance="1550" /><!-- wand of cosmic energy -->
+            <item id="2214" chance="975" /><!-- ring of healing -->
+            <item id="7590" chance="1550" /><!-- great mana potion -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

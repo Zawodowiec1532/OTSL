@@ -47,32 +47,52 @@
 		<voice sentence="FCHHHHH" yell="1"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="100" chance="32800" /><!-- gold coin -->
-    <item id="2148" countmax="5" chance="32800" /><!-- gold coin -->
-    <item id="2434" chance="1050" /><!-- dragon hammer -->
-    <item id="2457" chance="3800" /><!-- steel helmet -->
-    <item id="2672" chance="57025" /><!-- dragon ham -->
-    <item id="2509" chance="15525" /><!-- steel shield -->
-    <item id="2406" chance="25650" /><!-- short sword -->
-    <item id="2398" chance="21000" /><!-- mace -->
-    <item id="2455" chance="10400" /><!-- crossbow -->
-    <item id="2546" countmax="10" chance="4900" /><!-- burst arrow -->
-    <item id="2397" chance="4375" /><!-- longsword -->
-    <item id="2647" chance="2425" /><!-- plate legs -->
-    <item id="2409" chance="1050" /><!-- serpent sword -->
-    <item id="2387" chance="1600" /><!-- double axe -->
+    <item id="2397" chance="4775" /><!-- longsword -->
+    <item id="2546" countmax="10" chance="4850" /><!-- burst arrow -->
+    <item id="7430" chance="600" /><!-- dragonbone staff -->
+    <item id="2457" chance="3750" /><!-- steel helmet -->
+    <item id="5920" chance="1650" /><!-- green dragon scale -->
+    <item id="2148" countmax="100" chance="32350" /><!-- gold coin -->
+    <item id="2148" countmax="5" chance="32350" /><!-- gold coin -->
+    <item id="2672" countmax="3" chance="65400" /><!-- dragon ham -->
+    <item id="2509" chance="15150" /><!-- steel shield -->
+    <item id="7588" chance="1425" /><!-- strong health potion -->
+    <item id="5877" chance="1525" /><!-- green dragon leather -->
+    <item id="12374" chance="10350" /><!-- dragon's tail -->
+    <item id="2455" chance="10500" /><!-- crossbow -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2413" chance="2400" /><!-- broadsword -->
-            <item id="5920" chance="1550" /><!-- green dragon scale -->
-            <item id="2145" chance="925" /><!-- small diamond -->
-            <item id="7588" chance="1000" /><!-- strong health potion -->
+            <item id="2413" chance="2375" /><!-- broadsword -->
+            <item id="2409" chance="1025" /><!-- serpent sword -->
+            <item id="2647" chance="2550" /><!-- plate legs -->
             <item id="2187" chance="1500" /><!-- wand of inferno -->
-            <item id="2177" chance="600" /><!-- life crystal -->
+            <item id="2387" chance="1575" /><!-- double axe -->
+            <item id="2145" chance="950" /><!-- small diamond -->
+            <item id="2434" chance="950" /><!-- dragon hammer -->
             <item id="2516" chance="800" /><!-- dragon shield -->
-            <item id="5877" chance="1450" /><!-- green dragon leather -->
-            <item id="7430" chance="600" /><!-- dragonbone staff -->
+            <item id="2177" chance="575" /><!-- life crystal -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

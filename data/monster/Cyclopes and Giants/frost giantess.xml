@@ -46,18 +46,37 @@
 		<voice sentence="Come kiss the cook!"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="38" chance="29650" /><!-- gold coin -->
-    <item id="1294" countmax="3" chance="7025" /><!-- small stone -->
-    <item id="2671" chance="22400" /><!-- ham -->
-    <item id="10575" chance="7050" /><!-- frost giant pelt -->
-    <item id="7441" chance="1475" /><!-- ice cube -->
+    <item id="2148" countmax="40" chance="29350" /><!-- gold coin -->
+    <item id="1294" countmax="3" chance="7175" /><!-- small stone -->
+    <item id="2671" countmax="2" chance="20100" /><!-- ham -->
+    <item id="10575" chance="5550" /><!-- frost giant pelt -->
+    <item id="7441" chance="2350" /><!-- ice cube -->
+    <item id="2513" chance="2300" /><!-- battle shield -->
+    <item id="7620" chance="1425" /><!-- mana potion -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2513" chance="2450" /><!-- battle shield -->
-            <item id="7620" chance="1300" /><!-- mana potion -->
-            <item id="2406" chance="6375" /><!-- short sword -->
-            <item id="7460" chance="825" /><!-- norse shield -->
+            <item id="2406" chance="8475" /><!-- short sword -->
+            <item id="7460" chance="750" /><!-- norse shield -->
+            <item id="7290" chance="600" /><!-- shard -->
+            <item id="2490" chance="725" /><!-- dark helmet -->
+            <item id="2209" chance="600" /><!-- club ring -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

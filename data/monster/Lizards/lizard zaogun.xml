@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Lizard Zaogun" nameDescription="a lizard zaogun" race="blood" experience="1700" speed="420" manacost="0">
 <health now="2955" max="2955"/>
-<look type="343" corpse="11281"/>
+<look type="343" corpse="11278"/>
 <targetchange interval="5000" chance="8"/>
 <strategy attack="100" defense="0"/>
 <flags>
@@ -41,22 +41,40 @@
 <immunity invisible="1"/>
 </immunities>
 <loot>
-    <item id="11331" chance="11575" /><!-- zaogun shoulderplates -->
-    <item id="2148" countmax="100" chance="44600" /><!-- gold coin -->
-    <item id="2148" countmax="76" chance="44600" /><!-- gold coin -->
-    <item id="7588" chance="1950" /><!-- strong health potion -->
-    <item id="2149" chance="1750" /><!-- small emerald -->
-    <item id="11330" chance="1375" /><!-- zaogun flag -->
-    <item id="5881" chance="1375" /><!-- lizard scale -->
-    <item id="11206" chance="1425" /><!-- red lantern -->
+    <item id="7591" countmax="3" chance="4775" /><!-- great health potion -->
+    <item id="2148" countmax="100" chance="42375" /><!-- gold coin -->
+    <item id="2148" countmax="100" chance="42375" /><!-- gold coin -->
+    <item id="2148" countmax="89" chance="42375" /><!-- gold coin -->
+    <item id="11330" chance="6150" /><!-- zaogun flag -->
+    <item id="5881" countmax="3" chance="7475" /><!-- lizard scale -->
+    <item id="11303" chance="1500" /><!-- zaoan shoes -->
+    <item id="11206" chance="2625" /><!-- red lantern -->
+    <item id="2152" countmax="2" chance="4225" /><!-- platinum coin -->
+    <item id="2149" countmax="5" chance="2000" /><!-- small emerald -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="7591" chance="900" /><!-- great health potion -->
             <item id="5876" chance="1375" /><!-- lizard leather -->
-            <item id="11303" chance="675" /><!-- zaoan shoes -->
-            <item id="11304" chance="700" /><!-- zaoan legs -->
-            <item id="11301" chance="550" /><!-- zaoan armor -->
+            <item id="7588" chance="2550" /><!-- strong health potion -->
+            <item id="2528" chance="1425" /><!-- tower shield -->
+            <item id="11304" chance="1125" /><!-- zaoan legs -->
+            <item id="11301" chance="1075" /><!-- zaoan armor -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

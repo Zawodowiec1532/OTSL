@@ -26,9 +26,13 @@
 		<element icePercent="-10"/>
 		<elemetn deathPercent="-5"/>
 	</elements>
+	<voices interval="2000" chance="10">
+		<voice sentence="Yoooohhuuuu!"/>
+		<voice sentence="Grrrrrrr"/>
+	</voices>
 	<loot>
-    <item id="2666" chance="63925" /><!-- meat -->
-    <item id="5897" chance="1650" /><!-- wolf paw -->
+    <item id="2666" chance="67325" /><!-- meat -->
+    <item id="5897" countmax="3" chance="1550" /><!-- wolf paw -->
 </loot>
 
 

@@ -32,8 +32,8 @@
 		<immunity earth="1"/>
 	</immunities>
 	<elements>
-		<element firePercent="-5"/>
-		<element icePercent="8"/>
+		<element firePercent="-10"/>
+		<element icePercent="20"/>
 		<element energyPercent="-10"/>
 	</elements>
 	<summons maxSummons="3">
@@ -41,6 +41,26 @@
 	</summons>
 	<voices interval="5000" chance="10"/>
 	<loot>
-    <item id="9967" chance="18550" /><!-- glob of acid slime -->
+    <item id="9967" chance="17875" /><!-- glob of acid slime -->
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

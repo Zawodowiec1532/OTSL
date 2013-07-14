@@ -33,14 +33,12 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element earthPercent="100"/>
 		<element energyPercent="20"/>
 		<element icePercent="20"/>
 		<element firePercent="-10"/>
 	</elements>
 	<immunities>
-		<immunity lifedrain="0"/>
-		<immunity paralyze="0"/>
+		<immunity earth="1"/>
 		<immunity outfit="1"/>
 		<immunity drunk="1"/>
 		<immunity invisible="1"/>
@@ -49,23 +47,32 @@
 		<summon name="Poison Spider" interval="2000" chance="10" max="2"/>
 	</summons>
 	<loot>
-    <item id="2148" countmax="98" chance="27775" /><!-- gold coin -->
-    <item id="2545" countmax="12" chance="6975" /><!-- poison arrow -->
-    <item id="2457" chance="5650" /><!-- steel helmet -->
-    <item id="2463" chance="10775" /><!-- plate armor -->
+    <item id="2148" countmax="98" chance="27750" /><!-- gold coin -->
+    <item id="2545" countmax="12" chance="7075" /><!-- poison arrow -->
+    <item id="2457" chance="5825" /><!-- steel helmet -->
+    <item id="2463" chance="10800" /><!-- plate armor -->
     <item id="2169" chance="1250" /><!-- time ring -->
-    <item id="2478" chance="8700" /><!-- brass legs -->
-    <item id="5879" chance="2525" /><!-- spider silk -->
+    <item id="2478" chance="8925" /><!-- brass legs -->
+    <item id="5879" countmax="3" chance="2700" /><!-- spider silk -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="7588" chance="925" /><!-- strong health potion -->
+            <item id="7588" chance="1450" /><!-- strong health potion -->
             <item id="2477" chance="775" /><!-- knight legs -->
-            <item id="2476" chance="700" /><!-- knight armor -->
-            <item id="2171" chance="625" /><!-- platinum amulet -->
-            <item id="7901" chance="600" /><!-- lightning headband -->
+            <item id="2476" chance="725" /><!-- knight armor -->
+            <item id="2171" chance="650" /><!-- platinum amulet -->
+            <item id="7901" chance="625" /><!-- lightning headband -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
 
 
 

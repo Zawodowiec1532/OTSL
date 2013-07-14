@@ -29,18 +29,39 @@
 		</defense>		
 	</defenses>
 	<elements>
-		<element earthPercent="100"/>
-	    <element deathPercent="100"/>
 		<element firePercent="-10"/>
 		<element physicalPercent="20"/>
 		<element holyPercent="-10"/>
 		<element icePercent="10"/>
 		<element energyPercent="-10"/>
 	</elements>
+	<immunities>
+		<immunity death="1"/>
+		<immunity earth="1"/>
+	</immunities>
 	<summons maxSummons="3">
 		<summon name="Death Blob" interval="2000" chance="5" max="3"/>
 	</summons>
 	<loot>
-    <item id="9968" chance="14650" /><!-- glob of tar -->
+    <item id="9968" chance="13350" /><!-- glob of tar -->
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

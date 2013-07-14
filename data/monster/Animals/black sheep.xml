@@ -25,21 +25,7 @@
 		<voice sentence="Maeh"/>
 	</voices>
 	<loot>
-    <item id="2666" chance="68175" /><!-- meat -->
+    <item id="2666" countmax="5" chance="68175" /><!-- meat -->
+	<item id="12404" chance="1500" /><!-- black whool -->
 </loot>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </monster>

@@ -36,24 +36,44 @@
 	</immunities>
 	<elements>
 		<element energyPercent="-10"/>
-		<element physicalPercent="10"/>
+		<element earthPercent="-10"/>
 	</elements>
 	<voices interval="5000" chance="10">
 		<voice sentence="Clank clank!"/>
 		<voice sentence="Clap!"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="50" chance="26025" /><!-- gold coin -->
-    <item id="2463" chance="7375" /><!-- plate armor -->
-    <item id="2394" chance="1350" /><!-- morning star -->
-    <item id="2147" chance="3075" /><!-- small ruby -->
+    <item id="2463" chance="5325" /><!-- plate armor -->
+    <item id="2381" chance="2775" /><!-- halberd -->
+    <item id="12407" chance="9700" /><!-- quara pincers -->
+    <item id="2148" countmax="100" chance="35975" /><!-- gold coin -->
+    <item id="2148" countmax="49" chance="35975" /><!-- gold coin -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2381" chance="4450" /><!-- halberd -->
-            <item id="2398" chance="9600" /><!-- mace -->
-            <item id="2177" chance="1025" /><!-- life crystal -->
-            <item id="5895" chance="1025" /><!-- fish fin -->
+            <item id="5895" countmax="3" chance="1275" /><!-- fish fin -->
+            <item id="2147" countmax="2" chance="2175" /><!-- small ruby -->
+            <item id="2177" chance="1450" /><!-- life crystal -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

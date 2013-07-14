@@ -2,7 +2,7 @@
 <monster name="Toad" nameDescription="a toad" race="blood" experience="60" speed="210" manacost="400">
 	<health now="135" max="135"/>
 	<look type="222" corpse="6077"/>
-	<targetchange interval="5000" chance="8"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="1"/>
@@ -29,18 +29,18 @@
 		<element icePercent="20"/>
 		<element firePercent="-10"/>
 	</elements>
-	<voices interval="5000" chance="30">
-		<voice sentence="Ribbit, ribbit!"/>
+	<voices interval="2000" chance="10">
+		<voice sentence="Ribbit! ribbit!"/>
 		<voice sentence="Ribbit!"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="20" chance="25625" /><!-- gold coin -->
-    <item id="10557" chance="3600" /><!-- poisonous slime -->
-    <item id="2667" chance="21850" /><!-- fish -->
+    <item id="2148" countmax="20" chance="25150" /><!-- gold coin -->
+    <item id="10557" chance="4350" /><!-- poisonous slime -->
+    <item id="2667" chance="20425" /><!-- fish -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2391" chance="775" /><!-- war hammer -->
-            <item id="2398" chance="2325" /><!-- mace -->
+            <item id="2391" chance="725" /><!-- war hammer -->
+            <item id="2398" chance="3375" /><!-- mace -->
         </inside>
     </item>
 </loot>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Lizard Chosen" nameDescription="a lizard chosen" race="blood" experience="2200" speed="240" manacost="0">
 <health now="3050" max="3050"/>
-<look type="344" corpse="11285"/>
+<look type="344" corpse="11279"/>
 <targetchange interval="5000" chance="8"/>
 <strategy attack="100" defense="0"/>
 <flags>
@@ -47,16 +47,42 @@
 <voice sentence="Grzzzzzzz!"/>
 </voices>
 <loot>
-    <item id="5881" chance="1725" /><!-- lizard scale -->
-    <item id="11303" chance="1350" /><!-- zaoan shoes -->
-    <item id="7591" chance="2025" /><!-- great health potion -->
-    <item id="11325" chance="10250" /><!-- spiked iron ball -->
-    <item id="11327" chance="4800" /><!-- cursed shoulder spikes -->
-            <item id="2148" countmax="100" chance="36450" /><!-- gold coin -->
-            <item id="2148" countmax="100" chance="36450" /><!-- gold coin -->
-            <item id="2148" countmax="32" chance="36450" /><!-- gold coin -->
-            <item id="11326" chance="1550" /><!-- corrupted flag -->
-            <item id="11302" chance="750" /><!-- zaoan helmet -->
-            <item id="5876" chance="1500" /><!-- lizard leather -->
+    <item id="2148" countmax="100" chance="36450" /><!-- gold coin -->
+    <item id="2148" countmax="100" chance="36450" /><!-- gold coin -->
+    <item id="2148" countmax="32" chance="36450" /><!-- gold coin -->
+    <item id="5876" chance="2525" /><!-- lizard leather -->
+    <item id="11325" chance="9825" /><!-- spiked iron ball -->
+    <item id="12629" chance="3675" /><!-- scale of corruption -->
+    <item id="2152" countmax="5" chance="2450" /><!-- platinum coin -->
+    <item id="11327" chance="5800" /><!-- cursed shoulder spikes -->
+    <item id="7591" countmax="3" chance="5350" /><!-- great health potion -->
+    <item id="11303" chance="1225" /><!-- zaoan shoes -->
+    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+            <item id="2145" countmax="5" chance="2150" /><!-- small diamond -->
+            <item id="11326" chance="3350" /><!-- corrupted flag -->
+            <item id="5881" countmax="3" chance="1475" /><!-- lizard scale -->
+            <item id="11301" chance="1725" /><!-- zaoan armor -->
+            <item id="11302" chance="550" /><!-- zaoan helmet -->
+            <item id="11304" chance="1050" /><!-- zaoan legs -->
+            <item id="2528" chance="1450" /><!-- tower shield -->
+        </inside>
+    </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

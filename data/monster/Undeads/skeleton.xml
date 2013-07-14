@@ -23,21 +23,43 @@
 	</attacks>
 	<defenses armor="2" defense="9"/>
 	<elements>
-		<element deathPercent="100"/>
 		<element holyPercent="-25"/>
 	</elements>
+		<immunities>
+			<immunity death="1"/>
+	</immunities>
 	<loot>
-    <item id="2473" chance="8950" /><!-- viking helmet -->
-    <item id="2398" chance="20650" /><!-- mace -->
-    <item id="2376" chance="2550" /><!-- sword -->
-    <item id="2230" chance="49750" /><!-- bone -->
+    <item id="2388" chance="6000" /><!-- hatchet -->
+    <item id="2148" countmax="10" chance="24425" /><!-- gold coin -->
+    <item id="2473" chance="7550" /><!-- viking helmet -->
+    <item id="2230" chance="49975" /><!-- bone -->
+    <item id="2398" chance="5525" /><!-- mace -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2511" chance="11825" /><!-- brass shield -->
-            <item id="2388" chance="24550" /><!-- hatchet -->
-            <item id="2050" chance="49075" /><!-- torch -->
-            <item id="2148" countmax="10" chance="25175" /><!-- gold coin -->
+            <item id="2376" chance="2475" /><!-- sword -->
+            <item id="12437" chance="9975" /><!-- pelvis bone -->
+            <item id="2050" chance="8600" /><!-- torch -->
+            <item id="2511" chance="4100" /><!-- brass shield -->
         </inside>
     </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>

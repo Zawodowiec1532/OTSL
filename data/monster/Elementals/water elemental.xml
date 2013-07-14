@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Water Elemental" nameDescription="a water elemental" race="undead" experience="450" speed="260" manacost="0">
+<monster name="Water Elemental" nameDescription="a water elemental" race="undead" experience="650" speed="260" manacost="0">
 	<health now="550" max="550"/>
 	<look type="286" corpse="10499" corpseAid="101"/>
 	<targetchange interval="5000" chance="8"/>
@@ -40,9 +40,6 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element firePercent="100"/>
-		<element earthPercent="100"/>
-		<element icePercent="100"/>
 		<element physicalPercent="30"/>
 		<element holyPercent="50"/>
 		<element deathPercent="50"/>
@@ -52,5 +49,8 @@
 		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
 		<immunity drown="1"/>
+		<immunity earth="1"/>
+		<immunity fire="1"/>
+		<immunity ice="1"/>
 	</immunities>
 </monster>

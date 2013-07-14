@@ -2,7 +2,7 @@
 <monster name="Doomhowl" nameDescription="Doomhowl" experience="3750" speed="320" race="blood" manacost="0">
 	<health now="8500" max="8500"/>
 	<strategy attack="100" defense="0"/>
-	<targetchange speed="0" chance="8"/>
+	<targetchange speed="2000" chance="10"/>
 	<look type="308" corpse="6080"/>
 	<flags>
 		<flag summonable="0"/>

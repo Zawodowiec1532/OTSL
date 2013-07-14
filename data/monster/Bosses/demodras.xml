@@ -2,7 +2,7 @@
 <monster name="Demodras" nameDescription="demodras" race="blood" experience="6000" speed="230" manacost="0">
 	<health now="4500" max="4500"/>
 	<look type="204" corpse="5984"/>
-	<targetchange interval="5000" chance="8"/>
+	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -45,23 +45,28 @@
 	<summons maxSummons="2">
 		<summon name="Dragon" interval="2000" chance="20" max="2"/>
 	</summons>
-	<voices interval="5000" chance="10">
-		<voice sentence="I WILL SET THE WORLD IN FIRE!" yell="1"/>
+	<voices interval="2000" chance="10">
+		<voice sentence="I WILL SET THE WORLD ON FIRE!" yell="1"/>
 		<voice sentence="I WILL PROTECT MY BROOD!" yell="1"/>
 	</voices>
 	<loot>
-    <item id="2152" countmax="10" chance="50500" /><!-- platinum coin -->
-    <item id="7591" chance="28550" /><!-- great health potion -->
-    <item id="5919" chance="100500" /><!-- dragon claw -->
-    <item id="2547" countmax="8" chance="26400" /><!-- power bolt -->
+    <item id="2152" countmax="10" chance="55225" /><!-- platinum coin -->
+    <item id="7591" chance="26825" /><!-- great health potion -->
+    <item id="5919" chance="100000" /><!-- dragon claw -->
+    <item id="2547" countmax="8" chance="20225" /><!-- power bolt -->
+    <item id="2672" chance="53125" /><!-- dragon ham -->
+    <item id="1950" chance="21550" /><!-- book -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2672" chance="50500" /><!-- dragon ham -->
-            <item id="1950" chance="21925" /><!-- book -->
-            <item id="2167" chance="7650" /><!-- energy ring -->
-            <item id="5948" chance="7650" /><!-- red dragon leather -->
-            <item id="2796" countmax="7" chance="10700" /><!-- green mushroom -->
+            <item id="2167" chance="5750" /><!-- energy ring -->
+            <item id="5948" chance="5750" /><!-- red dragon leather -->
+            <item id="2796" countmax="7" chance="14775" /><!-- green mushroom -->
+            <item id="2146" chance="5750" /><!-- small sapphire -->
+            <item id="2033" chance="11025" /><!-- golden mug -->
+            <item id="7590" chance="5750" /><!-- great mana potion -->
         </inside>
     </item>
 </loot>
+
+
 </monster>

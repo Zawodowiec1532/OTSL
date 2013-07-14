@@ -2,7 +2,7 @@
 <monster name="Ron the Ripper" nameDescription="Ron the Ripper" race="blood" experience="500" speed="240" manacost="0">
 	<health now="1500" max="1500"/>
 	<look type="151" head="95" body="94" legs="117" feet="97" addons="1" corpse="6080"/>
-	<targetchange interval="60000" chance="0"/>
+	<targetchange interval="2000" chance="5"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -32,6 +32,9 @@
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
+	<voices interval="2000" chance="10">
+		<voice sentence="Muahaha!"/>
+	</voices>
 	<loot>
 		<item id="6101" chance="100000"/><!-- ron the ripper's sabre -->
 		<item id="2148" countmax="50" chance="100000"/><!-- gold coin -->

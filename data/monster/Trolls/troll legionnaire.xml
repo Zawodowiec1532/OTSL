@@ -8,7 +8,7 @@
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="0"/>
+		<flag illusionable="1"/>
 		<flag convinceable="0"/>
 		<flag pushable="1"/>
 		<flag canpushitems="0"/>
@@ -31,20 +31,38 @@
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
-	<elements>
-		<element firePercent="40"/>
-		<element holyPercent="10"/>
-		<element earthPercent="-10"/>
-		<element energyPercent="-15"/>
-		<element deathPercent="-10"/>
-	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+	</immunities>
 	<voices interval="5000" chance="10">
 		<voice sentence="Attack"/>
 		<voice sentence="Graaaaar!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="156" chance="35000" /><!-- gold coin -->
-        <item id="10565" chance="3550" /><!-- frosty ear of a troll -->
-		<item id="2399" countmax="10" chance="16450" /><!-- throwing star -->
+    <item id="2148" countmax="100" chance="36000" /><!-- gold coin -->
+    <item id="2148" countmax="56" chance="36000" /><!-- gold coin -->
+    <item id="2399" countmax="10" chance="16950" /><!-- throwing star -->
+    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+            <item id="10564" chance="4050" /><!-- frosty ear of a troll -->
+        </inside>
+    </item>
 </loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </monster>
